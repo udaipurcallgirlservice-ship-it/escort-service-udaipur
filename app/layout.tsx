@@ -20,10 +20,7 @@ const siteUrl = 'https://escortserviceudaipur.com';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: {
-    default: 'Escort Service Udaipur | Premium Companionship',
-    template: '%s | Escort Service Udaipur',
-  },
+  title: 'Escort Service Udaipur | Premium Companionship',
   description:
     'Escort Service Udaipur offers premium companionship, verified profiles, private booking support, and discreet adult services in Udaipur. Contact us today.',
   keywords: [

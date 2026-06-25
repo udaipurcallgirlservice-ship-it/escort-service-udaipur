@@ -6,6 +6,8 @@ const OptimizedImage = ({
   className,
   priority = false,
   fallbackSrc = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
+  width,
+  height,
   ...props
 }) => {
   const [imgSrc, setImgSrc] = useState(src || fallbackSrc);
@@ -32,6 +34,8 @@ const OptimizedImage = ({
       loading={priority ? undefined : 'lazy'}
       fetchpriority={priority ? 'high' : undefined}
       decoding="async"
+      width={width || 800}
+      height={height || 533}
       {...props}
     />
   );

@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const title = `${post.title} | Escort Service Udaipur Blog`;
+  const title = post.title;
   const description = post.description;
 
   return {

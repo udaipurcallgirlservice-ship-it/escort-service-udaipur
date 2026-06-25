@@ -31,7 +31,7 @@ import React from 'react';
               <div className="prose lg:prose-lg max-w-none">
                 <p className="text-gray-500 text-sm">Last Updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
                 
-                <h1 className="flex items-center text-3xl font-bold mb-4">Terms of Service for Escort Service Udaipur</h1>
+                <h2 className="flex items-center text-3xl font-bold mb-4">Terms of Service for Escort Service Udaipur</h2>
 
                 <h2 className="flex items-center mt-8"><FileText className="mr-2" /> 1. Agreement to Terms</h2>
                 <p>This document constitutes a legally binding agreement governing the services provided by Escort Service Udaipur ("Agency," "we," "our," "us"). By accessing our website, communicating with us, or booking our services, you ("Client," "you") acknowledge that you have read, understood, and agree to be bound by these Terms of Service. If you disagree with any part of these terms, you must immediately cease using our services. Our services are intended for adult companionship and entertainment for consenting adults only.</p>

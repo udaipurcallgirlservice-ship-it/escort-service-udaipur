@@ -33,8 +33,8 @@ import React from 'react';
       ];
 
       const socialLinks = [
-        { icon: Facebook, href: 'https://facebook.com/escortserviceudaipur', label: 'Facebook' },
-        { icon: Instagram, href: 'https://instagram.com/escortserviceudaipur', label: 'Instagram' },
+        { icon: Facebook, href: 'https://facebook.com', label: 'Facebook' },
+        { icon: Instagram, href: 'https://instagram.com', label: 'Instagram' },
       ];
 
       return (
@@ -59,11 +59,13 @@ import React from 'react';
                           src="/assets/df35c36717dc1b1000ac06911bfe1a65.webp"
                           alt="Escort Service Udaipur Logo"
                           className="h-16 w-auto"
+                          width={150}
+                          height={64}
                         />
                     </div>
                   </Link>
                   <p className="text-gray-300 leading-relaxed text-sm">
-                    Escort Service Udaipur offers top-tier companionship with professional call girls. We ensure 100% discretion, safety, and satisfaction for all our clients seeking elite escort services in Udaipur.
+                    <Link to="/escort-service-in-udaipur" className="hover:underline hover:text-pink-400 font-semibold">Escort Service Udaipur</Link> offers top-tier companionship with professional call girls. We ensure 100% discretion, safety, and satisfaction for all our clients seeking elite escort services in Udaipur.
                   </p>
                   <div className="flex space-x-3">
                     {socialLinks.map((social, index) => {
@@ -73,7 +75,7 @@ import React from 'react';
                           key={index}
                           href={social.href}
                           target="_blank"
-                          rel="noopener noreferrer"
+                          rel="nofollow noopener noreferrer"
                           whileHover={{ scale: 1.1, y: -2 }}
                           whileTap={{ scale: 0.95 }}
                           className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-pink-500/80 transition-all duration-300 group"
@@ -206,8 +208,8 @@ import React from 'react';
                       <Link to="/terms-of-service" className="hover:text-pink-400 transition-colors"> Terms of Service</Link>
                     </p>
                     <div className="mt-4 flex justify-center md:justify-start">
-                      <a href="//www.dmca.com/Protection/Status.aspx?ID=09e0b491-e5cc-4c6e-a0b3-ad020e5bed4b" title="DMCA.com Protection Status" className="dmca-badge">
-                        <img src="https://images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=09e0b491-e5cc-4c6e-a0b3-ad020e5bed4b" alt="DMCA.com Protection Status" />
+                      <a href="https://www.dmca.com/Protection/Status.aspx?ID=09e0b491-e5cc-4c6e-a0b3-ad020e5bed4b" title="DMCA.com Protection Status" className="dmca-badge" rel="nofollow noopener noreferrer" target="_blank">
+                        <img src="https://images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=09e0b491-e5cc-4c6e-a0b3-ad020e5bed4b" alt="DMCA.com Protection Status" width={135} height={28} />
                       </a>
                     </div>
                   </div>

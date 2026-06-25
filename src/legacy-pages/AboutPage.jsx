@@ -41,9 +41,9 @@ const AboutPage = ({ siteUrl }) => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h1 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
               About <span className="gradient-text">Udaipur's Premier Escort Service</span>
-            </h1>
+            </h2>
             <p className="text-lg text-gray-600 mt-4 max-w-4xl mx-auto leading-relaxed">
               Established as Udaipur's most trusted and professional escort agency, we have been providing exceptional companionship services to discerning clients for over four years. Our commitment to excellence, discretion, and client satisfaction has made us the preferred choice for those seeking premium escort services in the City of Lakes. We specialize in connecting sophisticated gentlemen with beautiful, intelligent, and cultured call girls who embody elegance and charm.
             </p>

@@ -7,9 +7,14 @@ const PageHero = ({ title, subtitle, imageSrc, breadcrumbs }) => {
 
   return (
     <section 
-      className="relative py-20 md:py-32 bg-cover bg-center"
-      style={{ backgroundImage: `url('${imageSrc || defaultImage}')` }}
+      className="relative py-20 md:py-32 overflow-hidden"
     >
+      <OptimizedImage
+        src={imageSrc || defaultImage}
+        alt={typeof title === 'string' ? title : "Hero Background"}
+        priority={true}
+        className="absolute inset-0 w-full h-full object-cover"
+      />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
         {breadcrumbs && (

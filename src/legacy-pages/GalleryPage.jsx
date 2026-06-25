@@ -76,9 +76,9 @@ const GalleryPage = ({ siteUrl }) => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h1 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
               Exclusive <span className="gradient-text">Escort Gallery</span> - Real Photos, Verified Profiles
-            </h1>
+            </h2>
             <p className="text-lg text-gray-600 mt-4 max-w-4xl mx-auto leading-relaxed">
               Welcome to our comprehensive photo gallery featuring authentic, unedited images of our elite escort companions in Udaipur. Every photo in our collection represents a real, verified call girl who is currently available for bookings. We pride ourselves on transparency and authenticity, ensuring that what you see is exactly what you can expect when you book our services.
             </p>

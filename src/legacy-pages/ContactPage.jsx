@@ -53,9 +53,9 @@ const ContactPage = ({ siteUrl }) => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h1 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
               Contact <span className="gradient-text">Udaipur's Premier Escort Service</span>
-            </h1>
+            </h2>
             <p className="text-lg text-gray-600 mt-4 max-w-4xl mx-auto leading-relaxed">
               We're available 24/7 to assist you with booking the perfect escort companion in Udaipur. Our professional team is dedicated to providing exceptional customer service and ensuring your complete satisfaction. Whether you have questions about our services, need assistance with booking, or require special arrangements, we're here to help make your experience unforgettable.
             </p>

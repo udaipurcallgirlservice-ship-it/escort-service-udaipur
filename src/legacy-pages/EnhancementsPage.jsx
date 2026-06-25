@@ -69,9 +69,9 @@ const EnhancementsPage = ({ siteUrl }) => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h1 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
               The <span className="gradient-text">Udaipur Escort</span> Experience, Redefined
-            </h1>
+            </h2>
             <p className="text-lg text-gray-600 mt-4 max-w-4xl mx-auto leading-relaxed">
               We believe that a true premium escort service is defined by the details. It's about more than just companionship; it's about creating a seamless, luxurious, and unforgettable experience. Explore the enhancements that make us the preferred choice for elite gentlemen in Udaipur.
             </p>

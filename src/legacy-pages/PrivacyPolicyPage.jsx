@@ -31,7 +31,7 @@ import React from 'react';
               <div className="prose lg:prose-lg max-w-none">
                 <p className="text-gray-500 text-sm">Last Updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
                 
-                <h1 className="flex items-center text-3xl font-bold mb-4">Privacy Policy for Escort Service Udaipur</h1>
+                <h2 className="flex items-center text-3xl font-bold mb-4">Privacy Policy for Escort Service Udaipur</h2>
                 
                 <h2 className="flex items-center mt-8"><FileText className="mr-2" /> Introduction</h2>
                 <p>Welcome to Escort Service Udaipur ("we," "our," or "us"). This Privacy Policy outlines our steadfast commitment to protecting the privacy and personal data of our clients ("you"). It details our practices concerning the collection, use, protection, and disclosure of your information when you visit our website, book our escort or call girl services, or communicate with our team. By engaging with our services, you consent to the data practices described in this statement.</p>
