@@ -3,7 +3,7 @@ export const createOrganizationSchema = (siteUrl, pageDescription) => ({
     "@type": "Organization",
     "name": "Escort Service Udaipur",
     "url": siteUrl,
-    "logo": `${siteUrl}/logo.png`,
+    "logo": `${siteUrl}/logo.webp`,
     "description": pageDescription,
     "address": {
       "@type": "PostalAddress",

@@ -12,15 +12,15 @@ const FeaturedEscortsSection = () => {
   const callLink = `tel:${whatsappNumber}`;
 
   const escorts = [
-    { name: 'Aisha Sharma', age: 22, image: "/assets/e3dddcd8688f722667464a77821e16b6.jpg", description: "Aisha is a top-rated choice within our Udaipur escort services, known for her captivating charm and dedication to client satisfaction.", rating: "4.9" },
-    { name: 'Priya Singh', age: 24, image: "/assets/45188e517813de1ca113b665ed99bd2d.jpg", description: "As a leading independent escort in Udaipur, Priya offers a personalized and unforgettable companionship experience.", rating: "5.0" },
-    { name: 'Neha Verma', age: 21, image: "/assets/8e3087176fce921df3ad0bee2676c5d2.jpg", description: "Young and vibrant, Neha brings a fresh energy to the Udaipur escort scene, promising a delightful and engaging encounter.", rating: "4.8" },
-    { name: 'Riya Patel', age: 23, image: "/assets/b5f23c6fbf8ce0d8400a90d582a08190.jpg", description: "Riya is an enchanting companion whose warm personality makes her a sought-after provider of escort services in Udaipur.", rating: "4.7" },
-    { name: 'Sonia Mehra', age: 25, image: "/assets/8acafb7c53d21d13196a7ec71d851be5.jpg", description: "Sonia offers sophisticated, high-class Udaipur escort services, perfect for gentlemen attending dinners, events, or seeking refined company.", rating: "4.9" },
-    { name: 'Anjali Gupta', age: 20, image: "/assets/bbe7066d771050a49d9053fec6842636.jpg", description: "Anjali is a youthful and energetic escort in Udaipur, offering a fun-filled and memorable experience for her clients.", rating: "4.6" },
-    { name: 'Kavita Reddy', age: 26, image: "/assets/3a68fde96c4e521b54758e6cb966a2bc.jpg", description: "With her experience, Kavita provides a relaxing and deeply pleasurable experience, setting a high standard for Udaipur escort services.", rating: "5.0" },
-    { name: 'Mira Joshi', age: 22, image: "/assets/a98099e2f64a96da870cca70d497e9ef.jpg", description: "Mira is a charming and intelligent companion, ideal for engaging conversations and delightful company during your time in Udaipur.", rating: "4.8" },
-    { name: 'Laxmi Das', age: 24, image: "/assets/164c8eaf7dd6c47d742e0890b15d1f5e.jpg", description: "A professional known for her grace, Laxmi delivers an exceptional and memorable encounter, embodying the best of our escort services.", rating: "4.9" },
+    { name: 'Aisha Sharma', age: 22, image: "/assets/e3dddcd8688f722667464a77821e16b6.webp", description: "Aisha is a top-rated choice within our Udaipur escort services, known for her captivating charm and dedication to client satisfaction.", rating: "4.9" },
+    { name: 'Priya Singh', age: 24, image: "/assets/45188e517813de1ca113b665ed99bd2d.webp", description: "As a leading independent escort in Udaipur, Priya offers a personalized and unforgettable companionship experience.", rating: "5.0" },
+    { name: 'Neha Verma', age: 21, image: "/assets/8e3087176fce921df3ad0bee2676c5d2.webp", description: "Young and vibrant, Neha brings a fresh energy to the Udaipur escort scene, promising a delightful and engaging encounter.", rating: "4.8" },
+    { name: 'Riya Patel', age: 23, image: "/assets/b5f23c6fbf8ce0d8400a90d582a08190.webp", description: "Riya is an enchanting companion whose warm personality makes her a sought-after provider of escort services in Udaipur.", rating: "4.7" },
+    { name: 'Sonia Mehra', age: 25, image: "/assets/8acafb7c53d21d13196a7ec71d851be5.webp", description: "Sonia offers sophisticated, high-class Udaipur escort services, perfect for gentlemen attending dinners, events, or seeking refined company.", rating: "4.9" },
+    { name: 'Anjali Gupta', age: 20, image: "/assets/bbe7066d771050a49d9053fec6842636.webp", description: "Anjali is a youthful and energetic escort in Udaipur, offering a fun-filled and memorable experience for her clients.", rating: "4.6" },
+    { name: 'Kavita Reddy', age: 26, image: "/assets/3a68fde96c4e521b54758e6cb966a2bc.webp", description: "With her experience, Kavita provides a relaxing and deeply pleasurable experience, setting a high standard for Udaipur escort services.", rating: "5.0" },
+    { name: 'Mira Joshi', age: 22, image: "/assets/a98099e2f64a96da870cca70d497e9ef.webp", description: "Mira is a charming and intelligent companion, ideal for engaging conversations and delightful company during your time in Udaipur.", rating: "4.8" },
+    { name: 'Laxmi Das', age: 24, image: "/assets/164c8eaf7dd6c47d742e0890b15d1f5e.webp", description: "A professional known for her grace, Laxmi delivers an exceptional and memorable encounter, embodying the best of our escort services.", rating: "4.9" },
   ];
 
   return (

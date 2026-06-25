@@ -65,7 +65,7 @@ import React, { useState, useEffect } from 'react';
             <div className="flex justify-between items-center h-20">
               <Link to="/" className="flex items-center">
                 <img 
-                  src="https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/df35c36717dc1b1000ac06911bfe1a65.png" 
+                  src="/assets/df35c36717dc1b1000ac06911bfe1a65.webp" 
                   alt="Escort Service Udaipur Logo" 
                   className="h-16 w-auto"
                 />

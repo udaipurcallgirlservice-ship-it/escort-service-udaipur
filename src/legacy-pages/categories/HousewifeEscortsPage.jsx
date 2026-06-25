@@ -12,7 +12,7 @@ const HousewifeEscortsPage = ({ siteUrl }) => {
   const pageTitle = "Udaipur Housewife Escorts | Mature & Caring Call Girls";
   const pageDescription = "Discover genuine warmth with our housewife escorts in Udaipur. Our caring and experienced call girls offer a comforting and intimate experience. Book discreetly.";
   const keywords = "housewife escorts udaipur, mature call girls udaipur, udaipur housewife escorts, experienced escorts, comforting call girls, discreet housewife escorts, Escort Service Udaipur, udaipur escorts, call girls udaipur";
-  const heroImage = "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/a1b2c3d4e5f6g7h8i9j0.jpg";
+  const heroImage = "/assets/a1b2c3d4e5f6g7h8i9j0.webp";
 
   const siteName = "Escort Service Udaipur";
   const whatsappNumber = "+919549032117";
@@ -21,9 +21,9 @@ const HousewifeEscortsPage = ({ siteUrl }) => {
   const callLink = `tel:${whatsappNumber}`;
 
   const escortsData = [
-    { name: 'Sunita', age: 32, image: "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/a1b2c3d4e5f6g7h8i9j0.jpg", description: "Sunita, a mature and caring housewife escort in Udaipur, offers a warm and genuine companionship experience." },
-    { name: 'Rani', age: 29, image: "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/0a9b8c7d6e5f4g3h2i1j.jpg", description: "Rani provides a comforting and discreet escort service in Udaipur. Perfect for those seeking an understanding call girl." },
-    { name: 'Geeta', age: 35, image: "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/1a2b3c4d5e6f7g8h9i0.jpg", description: "Geeta is an experienced housewife escort in Udaipur, known for her friendly nature and ability to create a relaxed atmosphere." },
+    { name: 'Sunita', age: 32, image: "/assets/a1b2c3d4e5f6g7h8i9j0.webp", description: "Sunita, a mature and caring housewife escort in Udaipur, offers a warm and genuine companionship experience." },
+    { name: 'Rani', age: 29, image: "/assets/0a9b8c7d6e5f4g3h2i1j.webp", description: "Rani provides a comforting and discreet escort service in Udaipur. Perfect for those seeking an understanding call girl." },
+    { name: 'Geeta', age: 35, image: "/assets/1a2b3c4d5e6f7g8h9i0.webp", description: "Geeta is an experienced housewife escort in Udaipur, known for her friendly nature and ability to create a relaxed atmosphere." },
   ];
 
   const schemaData = {
@@ -34,7 +34,7 @@ const HousewifeEscortsPage = ({ siteUrl }) => {
       "@type": "Organization",
       "name": "Escort Service Udaipur",
       "url": "https://escortserviceudaipur.com/housewife-escorts-udaipur",
-      "logo": "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/df35c36717dc1b1000ac06911bfe1a65.png",
+      "logo": "/assets/df35c36717dc1b1000ac06911bfe1a65.webp",
       "telephone": whatsappNumber
     },
     "areaServed": {
@@ -62,7 +62,7 @@ const HousewifeEscortsPage = ({ siteUrl }) => {
       />
       <section 
         className="relative py-20 md:py-32 bg-cover bg-center"
-        style={{ backgroundImage: "url('https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/837d685b3920ff9f05e118439810a423.jpg')" }}
+        style={{ backgroundImage: "url('/assets/837d685b3920ff9f05e118439810a423.webp')" }}
       >
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
@@ -168,7 +168,7 @@ const HousewifeEscortsPage = ({ siteUrl }) => {
           </div>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <OptimizedImage src="https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/0j9i8h7g6f5e4d3c2b1a.jpg" alt="Comforting housewife escort in Udaipur" className="rounded-2xl shadow-xl w-full h-auto object-cover aspect-video" />
+              <OptimizedImage src="/assets/0j9i8h7g6f5e4d3c2b1a.webp" alt="Comforting housewife escort in Udaipur" className="rounded-2xl shadow-xl w-full h-auto object-cover aspect-video" />
             </div>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">

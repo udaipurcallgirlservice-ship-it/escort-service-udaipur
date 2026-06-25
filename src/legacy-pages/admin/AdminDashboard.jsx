@@ -57,7 +57,7 @@ const AdminDashboard = () => {
         <div className="flex items-center justify-between h-16 px-6 border-b border-gray-200 lg:h-20">
           <div className="flex items-center space-x-3">
             <img 
-              src="https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/bc9934476a091e4e30b0a0219690642a.png" 
+              src="/assets/bc9934476a091e4e30b0a0219690642a.webp" 
               alt="Admin Logo" 
               className="h-8 w-8 rounded-full"
             />

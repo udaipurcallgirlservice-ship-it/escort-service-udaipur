@@ -8,6 +8,7 @@ import OptimizedImage from '@/components/ui/OptimizedImage.jsx';
 import PageHero from '@/components/layout/PageHero';
 import MetaUpdater from '@/components/seo/MetaUpdater';
 import { createBreadcrumbSchema } from '@/lib/schemas';
+import { blogPosts } from '../data/blogPosts';
 
 const BlogPage = ({ siteUrl }) => {
   const location = useLocation();
@@ -15,16 +16,23 @@ const BlogPage = ({ siteUrl }) => {
   const pageTitle = "Udaipur Escort & Call Girl Blog | Service Tips & News";
   const pageDescription = "Our Udaipur escort blog offers expert advice, news, and tips. Elevate your adult entertainment experience with insights on our premium call girl services.";
   const keywords = "escort service blog, Udaipur escorts tips, call girl news, adult entertainment news, escort insights, premium escort advice, Escort Service Udaipur, call girl, escort";
-  const heroImage = "/assets/0c75ce28964755affc6ce60a0e2de02c.jpg";
+  const heroImage = "/assets/0c75ce28964755affc6ce60a0e2de02c.webp";
 
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
 
-  const initialBlogPosts = [
-    { id: 1, title: 'Choosing Your Ideal Call Girl in Udaipur: A Discerning Gentleman\'s Guide', slug: 'choosing-ideal-call-girl-udaipur-guide', excerpt: 'Navigate the vibrant world of Udaipur call girls with our expert tips. Find an escort who truly complements your desires for an unforgettable companionship experience. Our escort service helps you choose wisely.', category: 'companionship-tips', author: 'Escort Service Udaipur Experts', date: '2025-06-12', readTime: '6 min read', image: '/assets/3b3abdbaea31f920296dbda63e7cf4ed.jpg', featured: true },
-    { id: 2, title: 'The Ultimate Guide to Incall vs. Outcall Escort Services in Udaipur', slug: 'incall-vs-outcall-escort-services-udaipur', excerpt: 'Understand the differences between incall and outcall escort services in Udaipur. We break down the benefits of each to help you decide which call girl experience is right for you.', category: 'service-explained', author: 'Udaipur Escort Advisor', date: '2025-06-08', readTime: '5 min read', image: '/assets/a6734e0fee785af7b3a7ce543c520d37.jpg', featured: false },
-    { id: 3, title: 'Maximizing Your Escort Experience: Communication and Etiquette with Udaipur Call Girls', slug: 'maximizing-escort-experience-udaipur-call-girls', excerpt: 'Learn the art of respectful communication and proper etiquette to ensure a delightful and memorable time with your chosen Udaipur call girl. Enhance your escort service encounter with these tips.', category: 'luxury-lifestyle', author: 'Elite Companionship Guru', date: '2025-06-02', readTime: '7 min read', image: '/assets/b75bae9fc5a7f1fc577aa197d79fd3c5.jpg', featured: false }
-  ];
+  const todayStr = new Date().toISOString().split('T')[0];
+  const legacyBlogPosts = blogPosts.map((post, idx) => ({
+    ...post,
+    id: idx + 1,
+    date: post.datePublished,
+    readTime: `${post.readingTime} min read`,
+    author: typeof post.author === 'object' && post.author ? post.author.name : post.author,
+    featured: post.slug === 'choosing-ideal-call-girl-udaipur-guide',
+  }));
+
+  const initialBlogPosts = legacyBlogPosts.filter(post => post.datePublished <= todayStr);
+
 
   const categories = [
     { id: 'all', name: 'All Escort Posts', count: initialBlogPosts.length },
@@ -58,7 +66,7 @@ const BlogPage = ({ siteUrl }) => {
       "name": "Escort Service Udaipur",
       "logo": {
         "@type": "ImageObject",
-        "url": `${siteUrl}/logo.png`
+        "url": `${siteUrl}/logo.webp`
       }
     },
     "blogPost": initialBlogPosts.map(post => ({
@@ -76,7 +84,7 @@ const BlogPage = ({ siteUrl }) => {
          "name": "Escort Service Udaipur",
          "logo": {
            "@type": "ImageObject",
-           "url": `${siteUrl}/logo.png`
+           "url": `${siteUrl}/logo.webp`
          }
       }
     }))

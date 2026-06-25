@@ -26,7 +26,7 @@ const HomePage = ({ siteUrl }) => {
   const pageTitle = "Udaipur Escort Services | 100% COD Luxury Escort service in Udaipur";
   const pageDescription = "Enjoy Udaipur Escort Services with 100% COD. Reliable escort service in Udaipur for safe, private, and memorable companionship.";
   const keywords = "udaipur escort services, escort services in udaipur, udaipur escorts, call girls in udaipur, genuine escorts udaipur, high profile escorts udaipur, vip escorts udaipur, discreet escort service udaipur";
-  const imageUrl = "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/f043e3b400596ff61ff6607eae19097f.png";
+  const imageUrl = "/assets/f043e3b400596ff61ff6607eae19097f.webp";
 
   const faqSchema = createFaqPageSchema(faqsData);
   const schemas = [...getHomePageSchemas(siteUrl, pageDescription, keywords, imageUrl), faqSchema];

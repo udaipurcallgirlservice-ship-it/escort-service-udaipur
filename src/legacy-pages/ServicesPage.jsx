@@ -15,7 +15,7 @@ const ServicesPage = ({ siteUrl }) => {
   const pageTitle = "Udaipur Escort Services | Premium Call Girl Experiences";
   const pageDescription = "Explore our premium escort services in Udaipur. From dinner dates to travel companions, our elite call girls provide unforgettable experiences. Book today.";
   const keywords = "Udaipur escort services list, call girl services, dinner date escorts, travel companions Udaipur, event escorts Udaipur, premium escort packages, Escort Service Udaipur, call girl, escort";
-  const heroImage = "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/9129f3d63b2949746750be20ebf51262.png";
+  const heroImage = "/assets/9129f3d63b2949746750be20ebf51262.webp";
 
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
@@ -24,12 +24,12 @@ const ServicesPage = ({ siteUrl }) => {
   const callLink = `tel:${whatsappNumber}`;
 
   const services = [
-    { id: 1, name: 'Dinner Companion', category: 'premium', duration: '4 hours', rating: 4.9, image: 'https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/7c8890d44dd145278008b75375c0e2a7.jpg', description: 'Perfect companion for business dinners, social events, or romantic evenings.', features: ['Fine dining experience', 'Intelligent conversation', 'Elegant presentation'] },
-    { id: 2, name: 'Travel Companion', category: 'vip', duration: '24 hours', rating: 4.8, image: 'https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/3b3abdbaea31f920296dbda63e7cf4ed.jpg', description: 'Sophisticated travel companion for business trips or leisure vacations.', features: ['Travel arrangements', 'Cultural knowledge', 'Professional demeanor'] },
-    { id: 3, name: 'Event Escort', category: 'premium', duration: '6 hours', rating: 4.9, image: 'https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/a6734e0fee785af7b3a7ce543c520d37.jpg', description: 'Stunning companion for corporate events, galas, and social gatherings.', features: ['Event expertise', 'Social skills', 'Professional networking'] },
-    { id: 4, name: 'VIP Experience', category: 'vip', duration: '8 hours', rating: 5.0, image: 'https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/b75bae9fc5a7f1fc577aa197d79fd3c5.jpg', description: 'Exclusive VIP experience with premium amenities and personalized service.', features: ['Luxury venues', 'Premium service', 'Exclusive access'] },
-    { id: 5, name: 'Elite Companion', category: 'elite', duration: '12 hours', rating: 5.0, image: 'https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/1d2c3b4a5e6f7g8h9i0j.jpg', description: 'Elite-level companionship for the most discerning clients.', features: ['Highest caliber', 'Multilingual', 'International experience'] },
-    { id: 6, name: 'Weekend Getaway', category: 'elite', duration: '48 hours', rating: 5.0, image: 'https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/a1b2c3d4e5f6g7h8i9j0.jpg', description: 'Complete weekend experience at luxury resorts and destinations.', features: ['Resort bookings', 'Activity planning', 'Complete package'] }
+    { id: 1, name: 'Dinner Companion', category: 'premium', duration: '4 hours', rating: 4.9, image: '/assets/7c8890d44dd145278008b75375c0e2a7.webp', description: 'Perfect companion for business dinners, social events, or romantic evenings.', features: ['Fine dining experience', 'Intelligent conversation', 'Elegant presentation'] },
+    { id: 2, name: 'Travel Companion', category: 'vip', duration: '24 hours', rating: 4.8, image: '/assets/3b3abdbaea31f920296dbda63e7cf4ed.webp', description: 'Sophisticated travel companion for business trips or leisure vacations.', features: ['Travel arrangements', 'Cultural knowledge', 'Professional demeanor'] },
+    { id: 3, name: 'Event Escort', category: 'premium', duration: '6 hours', rating: 4.9, image: '/assets/a6734e0fee785af7b3a7ce543c520d37.webp', description: 'Stunning companion for corporate events, galas, and social gatherings.', features: ['Event expertise', 'Social skills', 'Professional networking'] },
+    { id: 4, name: 'VIP Experience', category: 'vip', duration: '8 hours', rating: 5.0, image: '/assets/b75bae9fc5a7f1fc577aa197d79fd3c5.webp', description: 'Exclusive VIP experience with premium amenities and personalized service.', features: ['Luxury venues', 'Premium service', 'Exclusive access'] },
+    { id: 5, name: 'Elite Companion', category: 'elite', duration: '12 hours', rating: 5.0, image: '/assets/1d2c3b4a5e6f7g8h9i0j.webp', description: 'Elite-level companionship for the most discerning clients.', features: ['Highest caliber', 'Multilingual', 'International experience'] },
+    { id: 6, name: 'Weekend Getaway', category: 'elite', duration: '48 hours', rating: 5.0, image: '/assets/a1b2c3d4e5f6g7h8i9j0.webp', description: 'Complete weekend experience at luxury resorts and destinations.', features: ['Resort bookings', 'Activity planning', 'Complete package'] }
   ];
 
   const categories = [

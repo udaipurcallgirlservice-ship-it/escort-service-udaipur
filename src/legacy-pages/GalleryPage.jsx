@@ -13,24 +13,24 @@ const GalleryPage = ({ siteUrl }) => {
     const pageTitle = "Udaipur Escorts Gallery | Real Photos of Our Call Girls";
     const pageDescription = "View our gallery of beautiful Udaipur escorts. See real, verified photos of our sophisticated call girls and elite companions available for discreet booking now.";
     const keywords = "Udaipur escorts gallery, call girls photos, escort images Udaipur, real escort photos, VIP companions gallery, Escort Service Udaipur, call girl, escort";
-    const heroImage = "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/8e3087176fce921df3ad0bee2676c5d2.jpg";
+    const heroImage = "/assets/8e3087176fce921df3ad0bee2676c5d2.webp";
 
     const images = [
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/e3dddcd8688f722667464a77821e16b6.jpg",
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/45188e517813de1ca113b665ed99bd2d.jpg",
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/8e3087176fce921df3ad0bee2676c5d2.jpg",
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/b5f23c6fbf8ce0d8400a90d582a08190.jpg",
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/8acafb7c53d21d13196a7ec71d851be5.jpg",
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/bbe7066d771050a49d9053fec6842636.jpg",
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/3a68fde96c4e521b54758e6cb966a2bc.jpg",
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/a98099e2f64a96da870cca70d497e9ef.jpg",
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/164c8eaf7dd6c47d742e0890b15d1f5e.jpg",
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/070d0fd04d47fb001ee593c07df7bb3b.jpg",
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/6fe3d8e95d9010835e25534bc498bedf.jpg",
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/7f7861ea499bff9c6e006a1e31dd7c03.jpg",
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/e20b5460434200f0dc3b9ff6ac1abfd6.jpg",
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/6b3e692b9069eeafd99d41bd8406c705.jpg",
-        "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/d4f2714ce771733034a260fd645270c9.jpg",
+        "/assets/e3dddcd8688f722667464a77821e16b6.webp",
+        "/assets/45188e517813de1ca113b665ed99bd2d.webp",
+        "/assets/8e3087176fce921df3ad0bee2676c5d2.webp",
+        "/assets/b5f23c6fbf8ce0d8400a90d582a08190.webp",
+        "/assets/8acafb7c53d21d13196a7ec71d851be5.webp",
+        "/assets/bbe7066d771050a49d9053fec6842636.webp",
+        "/assets/3a68fde96c4e521b54758e6cb966a2bc.webp",
+        "/assets/a98099e2f64a96da870cca70d497e9ef.webp",
+        "/assets/164c8eaf7dd6c47d742e0890b15d1f5e.webp",
+        "/assets/070d0fd04d47fb001ee593c07df7bb3b.webp",
+        "/assets/6fe3d8e95d9010835e25534bc498bedf.webp",
+        "/assets/7f7861ea499bff9c6e006a1e31dd7c03.webp",
+        "/assets/e20b5460434200f0dc3b9ff6ac1abfd6.webp",
+        "/assets/6b3e692b9069eeafd99d41bd8406c705.webp",
+        "/assets/d4f2714ce771733034a260fd645270c9.webp",
     ];
 
     const [selectedImg, setSelectedImg] = useState(null);

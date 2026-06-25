@@ -12,7 +12,7 @@ const ModelEscortsPage = ({ siteUrl }) => {
   const pageTitle = "Udaipur Model Escorts | Stunning & Glamorous Call Girls";
   const pageDescription = "Meet breathtaking model escorts in Udaipur. Our call girls combine beauty, elegance, and sophistication, perfect for high-class events and unforgettable companionship.";
   const keywords = "model escorts udaipur, model call girls udaipur, udaipur model escorts, fashion escorts, glamorous call girls, Escort Service Udaipur";
-  const heroImage = "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/7f80a896f8c1edb01f1f062e1aff5b25.jpg";
+  const heroImage = "/assets/7f80a896f8c1edb01f1f062e1aff5b25.webp";
 
   const siteName = "Escort Service Udaipur";
   const whatsappNumber = "+919549032117";
@@ -21,9 +21,9 @@ const ModelEscortsPage = ({ siteUrl }) => {
   const callLink = `tel:${whatsappNumber}`;
 
   const escortsData = [
-    { name: 'Ananya', age: 22, image: "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/7f80a896f8c1edb01f1f062e1aff5b25.jpg", description: "Ananya, a stunning model escort in Udaipur, brings glamour and sophistication to every encounter." },
-    { name: 'Zara', age: 25, image: "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/8cb334f6de6d4f1b8c3ad1e60441b5a9.jpg", description: "Zara is a high-fashion model call girl in Udaipur, perfect for upscale events and elite companionship." },
-    { name: 'Tara', age: 21, image: "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/c92f7a669fbdfa70727357c83c94fd9d.jpg", description: "Tara, a charismatic model escort in Udaipur, guarantees a memorable and glamorous call girl experience." },
+    { name: 'Ananya', age: 22, image: "/assets/7f80a896f8c1edb01f1f062e1aff5b25.webp", description: "Ananya, a stunning model escort in Udaipur, brings glamour and sophistication to every encounter." },
+    { name: 'Zara', age: 25, image: "/assets/8cb334f6de6d4f1b8c3ad1e60441b5a9.webp", description: "Zara is a high-fashion model call girl in Udaipur, perfect for upscale events and elite companionship." },
+    { name: 'Tara', age: 21, image: "/assets/c92f7a669fbdfa70727357c83c94fd9d.webp", description: "Tara, a charismatic model escort in Udaipur, guarantees a memorable and glamorous call girl experience." },
   ];
 
   const schemaData = {
@@ -34,7 +34,7 @@ const ModelEscortsPage = ({ siteUrl }) => {
       "@type": "Organization",
       "name": "Escort Service Udaipur",
       "url": "https://escortserviceudaipur.com/model-escorts-udaipur",
-      "logo": "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/df35c36717dc1b1000ac06911bfe1a65.png",
+      "logo": "/assets/df35c36717dc1b1000ac06911bfe1a65.webp",
       "telephone": whatsappNumber
     },
     "areaServed": {
@@ -63,7 +63,7 @@ const ModelEscortsPage = ({ siteUrl }) => {
       />
       <section 
         className="relative py-20 md:py-32 bg-cover bg-center"
-        style={{ backgroundImage: "url('https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/837d685b3920ff9f05e118439810a423.jpg')" }}
+        style={{ backgroundImage: "url('/assets/837d685b3920ff9f05e118439810a423.webp')" }}
       >
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
@@ -169,7 +169,7 @@ const ModelEscortsPage = ({ siteUrl }) => {
           </div>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-               <OptimizedImage src="https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/eb90df07579e0f07108d25f5d70afb19.jpg" alt="Glamorous model escort in Udaipur" className="rounded-2xl shadow-xl w-full h-auto object-cover aspect-video" />
+               <OptimizedImage src="/assets/eb90df07579e0f07108d25f5d70afb19.webp" alt="Glamorous model escort in Udaipur" className="rounded-2xl shadow-xl w-full h-auto object-cover aspect-video" />
             </div>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">

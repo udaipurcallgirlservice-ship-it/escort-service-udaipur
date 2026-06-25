@@ -7,8 +7,8 @@ export const createProfessionalServiceSchema = (siteUrl, pageDescription, keywor
   "slogan": "100% Genuine Call Girls with Cash on Delivery",
   "image": [
     imageUrl,
-    "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/df35c36717dc1b1000ac06911bfe1a65.png",
-    "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/6b3e692b9069eeafd99d41bd8406c705.jpg"
+    "/assets/df35c36717dc1b1000ac06911bfe1a65.webp",
+    "/assets/6b3e692b9069eeafd99d41bd8406c705.webp"
   ],
   "logo": {
     "@type": "ImageObject",

@@ -103,7 +103,7 @@ import React from 'react';
                 </div>
                 <div className="rounded-lg overflow-hidden shadow-xl">
                   <OptimizedImage 
-                    src="https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/e20b5460434200f0dc3b9ff6ac1abfd6.jpg" 
+                    src="/assets/e20b5460434200f0dc3b9ff6ac1abfd6.webp" 
                     alt="Professional escort service in Udaipur" 
                     className="w-full h-auto object-cover"
                   />

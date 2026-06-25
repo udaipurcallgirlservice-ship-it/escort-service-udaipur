@@ -62,7 +62,7 @@ import React, { useState } from 'react';
             <div>
               <OptimizedImage
                 className="mx-auto h-16 w-auto"
-                src="https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/df35c36717dc1b1000ac06911bfe1a65.png"
+                src="/assets/df35c36717dc1b1000ac06911bfe1a65.webp"
                 alt="Site Logo"
               />
               <h1 className="mt-6 text-center text-3xl font-extrabold font-display text-gray-900">

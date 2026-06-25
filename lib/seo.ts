@@ -11,7 +11,7 @@ export function pageMetadata({
   title,
   description,
   path,
-  image = '/assets/df35c36717dc1b1000ac06911bfe1a65.png',
+  image = '/assets/df35c36717dc1b1000ac06911bfe1a65.webp',
   keywords = [],
 }: {
   title: string;

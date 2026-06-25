@@ -15,7 +15,7 @@ const HomeContentSection = () => {
     hero: {
       title: "Your Premier Choice for Udaipur Escort Services",
       text: "Welcome to the most trusted and discreet provider of <strong>Udaipur escort services</strong>. We specialize in connecting you with genuinely professional, captivating, and verified companions for truly sensational experiences. If you're seeking pleasure, companionship, or an exciting escape from the ordinary, you've found the perfect destination. Our hand-picked escorts in Udaipur are ready to provide unparalleled service, ensuring every desire is met with class and confidentiality.",
-      image: "/assets/a1b2c3d4e5f6g7h8i9j0.jpg",
+      image: "/assets/a1b2c3d4e5f6g7h8i9j0.webp",
       alt: "A sophisticated companion offering premier Udaipur escort services."
     },
     whyBest: {
@@ -28,7 +28,7 @@ const HomeContentSection = () => {
         "<strong>24/7 Availability:</strong> We are always ready to cater to your desires, day or night.",
         "<strong>Transparent & Fair Service:</strong> No hidden fees. We believe in clear communication and honest service."
       ],
-      image: "/assets/1d2c3b4a5e6f7g8h9i0j.jpg",
+      image: "/assets/1d2c3b4a5e6f7g8h9i0j.webp",
       alt: "A client enjoying the best Udaipur escort services."
     },
     serviceVarieties: {
@@ -40,7 +40,7 @@ const HomeContentSection = () => {
         { title: "Incall & Outcall Flexibility", text: "Enjoy our services in the comfort of your hotel or residence (outcall), or visit one of our discreet and luxurious locations (incall)." },
         { title: "Travel & Tour Companions", text: "Explore the beauty of Udaipur with a knowledgeable and fun-loving guide by your side." }
       ],
-      image: "/assets/0a9b8c7d6e5f4g3h2i1j.jpg",
+      image: "/assets/0a9b8c7d6e5f4g3h2i1j.webp",
       alt: "A variety of Udaipur escort services are offered."
     },
     bookingProcess: {
@@ -53,13 +53,13 @@ const HomeContentSection = () => {
         "<strong>Finalize the Details:</strong> Confirm the time, duration, and location for your meeting.",
         "<strong>Enjoy Your Experience:</strong> Relax and anticipate a memorable time with your chosen companion."
       ],
-      image: "/assets/q1w2e3r4t5y6u7i8o9p0.jpg",
+      image: "/assets/q1w2e3r4t5y6u7i8o9p0.webp",
       alt: "Easy booking process for Udaipur escort services."
     },
     secureConfidential: {
         title: "Your Safety & Confidentiality is Our Promise",
         text: "We have built our reputation on trust and integrity. Every interaction with our agency is protected by strict confidentiality protocols. We ensure that your personal information is handled with the highest level of security, allowing you to relax and enjoy our <strong>Udaipur escort services</strong> with complete peace of mind. Your satisfaction and safety are the cornerstones of our business.",
-        image: "/assets/z1x2c3v4b5n6m7l8k9j0.jpg",
+        image: "/assets/z1x2c3v4b5n6m7l8k9j0.webp",
         alt: "A symbol of security for our confidential Udaipur escort services."
     }
   };

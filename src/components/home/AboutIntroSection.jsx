@@ -45,7 +45,7 @@ const AboutIntroSection = () => {
               <OptimizedImage 
                   className="w-full h-auto object-cover" 
                   alt="Beautiful escort posing elegantly in a luxury setting in Udaipur"
-               src="/assets/164c8eaf7dd6c47d742e0890b15d1f5e.jpg" />
+               src="/assets/164c8eaf7dd6c47d742e0890b15d1f5e.webp" />
             </div>
             <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-r from-pink-500 to-red-500 rounded-full opacity-20 animate-pulse"></div>
             <div className="absolute -top-6 -left-6 w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full opacity-20 animate-pulse" style={{ animationDelay: '1s' }}></div>

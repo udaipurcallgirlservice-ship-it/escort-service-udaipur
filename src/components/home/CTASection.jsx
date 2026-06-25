@@ -13,7 +13,7 @@ const CTASection = () => {
   return (
     <section className="py-20 relative overflow-hidden">
       <OptimizedImage 
-        src="/assets/070d0fd04d47fb001ee593c07df7bb3b.jpg"
+        src="/assets/070d0fd04d47fb001ee593c07df7bb3b.webp"
         alt="Glamorous escort inviting contact"
         className="absolute inset-0 w-full h-full object-cover"
       />

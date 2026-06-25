@@ -12,7 +12,7 @@ const IndependentEscortsPage = ({ siteUrl }) => {
   const pageTitle = "Independent Escorts in Udaipur | Verified & Authentic Call Girls";
   const pageDescription = "Connect with genuine independent escorts in Udaipur for an authentic, personal experience. Our verified independent call girls offer flexibility, discretion, and unique encounters.";
   const keywords = "independent escorts udaipur, independent call girls udaipur, udaipur independent escorts, verified escorts, personal call girls, authentic escorts udaipur, Escort Service Udaipur, udaipur escorts, call girls udaipur";
-  const heroImage = "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/86ade700ff0674ae95f86cc8d5032942.jpg";
+  const heroImage = "/assets/86ade700ff0674ae95f86cc8d5032942.webp";
 
   const siteName = "Escort Service Udaipur";
   const whatsappNumber = "+919549032117";
@@ -21,9 +21,9 @@ const IndependentEscortsPage = ({ siteUrl }) => {
   const callLink = `tel:${whatsappNumber}`;
 
   const escortsData = [
-    { name: 'Meera', age: 27, image: "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/86ade700ff0674ae95f86cc8d5032942.jpg", description: "Meera is a charming independent escort in Udaipur, offering a personalized and genuine call girl experience." },
-    { name: 'Riya', age: 24, image: "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/ab7eab0bd6a6603ded07e950a9d72284.jpg", description: "Riya, a professional independent call girl in Udaipur, provides flexible and delightful escort services." },
-    { name: 'Pooja', age: 30, image: "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/795405319253d54420da95eee2810317.jpg", description: "Pooja is a verified independent escort in Udaipur, known for her warm personality and professional approach." },
+    { name: 'Meera', age: 27, image: "/assets/86ade700ff0674ae95f86cc8d5032942.webp", description: "Meera is a charming independent escort in Udaipur, offering a personalized and genuine call girl experience." },
+    { name: 'Riya', age: 24, image: "/assets/ab7eab0bd6a6603ded07e950a9d72284.webp", description: "Riya, a professional independent call girl in Udaipur, provides flexible and delightful escort services." },
+    { name: 'Pooja', age: 30, image: "/assets/795405319253d54420da95eee2810317.webp", description: "Pooja is a verified independent escort in Udaipur, known for her warm personality and professional approach." },
   ];
 
   const schemaData = {
@@ -34,7 +34,7 @@ const IndependentEscortsPage = ({ siteUrl }) => {
       "@type": "Organization",
       "name": "Escort Service Udaipur",
       "url": "https://escortserviceudaipur.com/independent-escorts-udaipur",
-      "logo": "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/df35c36717dc1b1000ac06911bfe1a65.png",
+      "logo": "/assets/df35c36717dc1b1000ac06911bfe1a65.webp",
       "telephone": whatsappNumber
     },
     "areaServed": {
@@ -62,7 +62,7 @@ const IndependentEscortsPage = ({ siteUrl }) => {
       />
       <section 
         className="relative py-20 md:py-32 bg-cover bg-center"
-        style={{ backgroundImage: "url('https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/837d685b3920ff9f05e118439810a423.jpg')" }}
+        style={{ backgroundImage: "url('/assets/837d685b3920ff9f05e118439810a423.webp')" }}
       >
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
@@ -168,7 +168,7 @@ const IndependentEscortsPage = ({ siteUrl }) => {
           </div>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-               <OptimizedImage src="https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/c92f7a669fbdfa70727357c83c94fd9d.jpg" alt="Professional independent escort in Udaipur" className="rounded-2xl shadow-xl w-full h-auto object-cover aspect-video" />
+               <OptimizedImage src="/assets/c92f7a669fbdfa70727357c83c94fd9d.webp" alt="Professional independent escort in Udaipur" className="rounded-2xl shadow-xl w-full h-auto object-cover aspect-video" />
             </div>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">

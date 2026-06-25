@@ -14,7 +14,7 @@ const BlogHighlightSection = () => {
       excerpt: 'Navigate the vibrant world of Udaipur call girls with our expert tips for an unforgettable escort experience.',
       author: 'Escort Service Udaipur Experts',
       date: '2025-06-12',
-      image: '/assets/8cb334f6de6d4f1b8c3ad1e60441b5a9.jpg',
+      image: '/assets/8cb334f6de6d4f1b8c3ad1e60441b5a9.webp',
       category: 'Companionship Tips'
     },
     {
@@ -24,7 +24,7 @@ const BlogHighlightSection = () => {
       excerpt: 'Understand incall vs. outcall escort services in Udaipur to choose the perfect call girl experience.',
       author: 'Udaipur Escort Advisor',
       date: '2025-06-08',
-      image: '/assets/c92f7a669fbdfa70727357c83c94fd9d.jpg',
+      image: '/assets/c92f7a669fbdfa70727357c83c94fd9d.webp',
       category: 'Service Explained'
     },
     {
@@ -34,7 +34,7 @@ const BlogHighlightSection = () => {
       excerpt: 'Learn respectful communication and etiquette for a delightful time with your Udaipur call girl.',
       author: 'Elite Companionship Guru',
       date: '2025-06-02',
-      image: '/assets/7c8890d44dd145278008b75375c0e2a7.jpg',
+      image: '/assets/7c8890d44dd145278008b75375c0e2a7.webp',
       category: 'Luxury Lifestyle'
     }
   ];

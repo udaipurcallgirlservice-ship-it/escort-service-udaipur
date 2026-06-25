@@ -9,8 +9,8 @@ const AdminSettings = () => {
   const [settings, setSettings] = useState({
     id: 1,
     site_name: 'Escort Service Udaipur',
-    logo_url: 'https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/bc9934476a091e4e30b0a0219690642a.png',
-    favicon_url: 'https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/bc9934476a091e4e30b0a0219690642a.png',
+    logo_url: '/assets/bc9934476a091e4e30b0a0219690642a.webp',
+    favicon_url: '/assets/bc9934476a091e4e30b0a0219690642a.webp',
     default_seo_title: 'Top Escort Services in Udaipur – VIP Call Girls Available 24/7',
     default_seo_description: 'Experience unmatched escort services in Udaipur with our elite VIP call girls. Available 24/7 for your pleasure. Privacy guaranteed.',
     default_seo_keywords: 'Udaipur escorts, call girls Udaipur, VIP escorts, escort service Udaipur',

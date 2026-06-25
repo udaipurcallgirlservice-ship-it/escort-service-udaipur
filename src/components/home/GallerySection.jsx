@@ -7,14 +7,14 @@ import OptimizedImage from '@/components/ui/OptimizedImage.jsx';
 
 const GallerySection = () => {
   const galleryImages = [
-    "/assets/e3dddcd8688f722667464a77821e16b6.jpg",
-    "/assets/45188e517813de1ca113b665ed99bd2d.jpg",
-    "/assets/8e3087176fce921df3ad0bee2676c5d2.jpg",
-    "/assets/b5f23c6fbf8ce0d8400a90d582a08190.jpg",
-    "/assets/8acafb7c53d21d13196a7ec71d851be5.jpg",
-    "/assets/bbe7066d771050a49d9053fec6842636.jpg",
-    "/assets/3a68fde96c4e521b54758e6cb966a2bc.jpg",
-    "/assets/a98099e2f64a96da870cca70d497e9ef.jpg",
+    "/assets/e3dddcd8688f722667464a77821e16b6.webp",
+    "/assets/45188e517813de1ca113b665ed99bd2d.webp",
+    "/assets/8e3087176fce921df3ad0bee2676c5d2.webp",
+    "/assets/b5f23c6fbf8ce0d8400a90d582a08190.webp",
+    "/assets/8acafb7c53d21d13196a7ec71d851be5.webp",
+    "/assets/bbe7066d771050a49d9053fec6842636.webp",
+    "/assets/3a68fde96c4e521b54758e6cb966a2bc.webp",
+    "/assets/a98099e2f64a96da870cca70d497e9ef.webp",
   ];
 
   return (

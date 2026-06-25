@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import OptimizedImage from '@/components/ui/OptimizedImage';
 
 const PageHero = ({ title, subtitle, imageSrc, breadcrumbs }) => {
-  const defaultImage = "https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/f8441e649912a570483966ddd70b37de.jpg";
+  const defaultImage = "/assets/f8441e649912a570483966ddd70b37de.webp";
 
   return (
     <section 

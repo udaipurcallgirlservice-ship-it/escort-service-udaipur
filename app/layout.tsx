@@ -48,7 +48,7 @@ export const metadata: Metadata = {
       'Premium, discreet companionship services in Udaipur with verified profiles, quick WhatsApp support, and privacy-first booking assistance.',
     images: [
       {
-        url: '/assets/df35c36717dc1b1000ac06911bfe1a65.png',
+        url: '/assets/df35c36717dc1b1000ac06911bfe1a65.webp',
         width: 1200,
         height: 630,
         alt: 'Escort Service Udaipur premium companionship logo',
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Escort Service Udaipur | Premium Companionship',
     description: 'Private, verified and premium companionship services in Udaipur.',
-    images: ['/assets/df35c36717dc1b1000ac06911bfe1a65.png'],
+    images: ['/assets/df35c36717dc1b1000ac06911bfe1a65.webp'],
   },
   verification: {
     google: 'GOOGLE_SEARCH_CONSOLE_CODE',
@@ -91,7 +91,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="manifest" href="/manifest.webmanifest" />
-        <link rel="apple-touch-icon" href="/assets/df35c36717dc1b1000ac06911bfe1a65.png" />
+        <link rel="apple-touch-icon" href="/assets/df35c36717dc1b1000ac06911bfe1a65.webp" />
       </head>
       <body>
         <JsonLd data={[organizationSchema, websiteSchema, localBusinessSchema]} />

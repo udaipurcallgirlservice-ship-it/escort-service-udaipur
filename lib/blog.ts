@@ -1,64 +1,37 @@
-import { del, list, put } from '@vercel/blob';
+import { blogPosts, BlogPost } from '../src/data/blogPosts';
 
-export interface BlogPost {
-  slug: string;
-  title: string;
-  description: string;
-  content: string;
-  keywords: string[];
-  author: {
-    name: string;
-    bio: string;
-    avatar: string;
-    twitter?: string;
-    linkedin?: string;
-  };
-  datePublished: string;
-  dateModified: string;
-  category: string;
-  tags: string[];
-  image: string;
-  readingTime: number;
-  faqs?: Array<{ question: string; answer: string }>;
-  rating?: { value: number; count: number };
-}
+export type { BlogPost };
 
 export async function getBlogPost(slug: string): Promise<BlogPost | null> {
-  try {
-    const { blobs } = await list({ prefix: `blog/${slug}` });
-    if (!blobs.length) return null;
-    const response = await fetch(blobs[0].url, { next: { revalidate: 3600 } });
-    return response.json();
-  } catch {
-    return null;
-  }
+  const post = blogPosts.find((p) => p.slug === slug);
+  return post || null;
 }
 
 export async function getAllBlogPosts(): Promise<BlogPost[]> {
-  try {
-    const { blobs } = await list({ prefix: 'blog/' });
-    const posts = await Promise.all(
-      blobs.map(async (blob) => {
-        const response = await fetch(blob.url, { next: { revalidate: 3600 } });
-        return response.json() as Promise<BlogPost>;
-      }),
-    );
-    return posts.sort((a, b) => new Date(b.datePublished).getTime() - new Date(a.datePublished).getTime());
-  } catch {
-    return [];
-  }
+  // Sort posts by datePublished in descending order
+  return [...blogPosts].sort(
+    (a, b) => new Date(b.datePublished).getTime() - new Date(a.datePublished).getTime()
+  );
 }
 
 export async function saveBlogPost(post: BlogPost) {
-  return put(`blog/${post.slug}.json`, JSON.stringify(post), {
-    access: 'public',
-    contentType: 'application/json',
-  });
+  // Since this is a static build, client updates are simulated or not persisted.
+  // We keep the signature so admin compilation won't break if referenced.
+  const index = blogPosts.findIndex((p) => p.slug === post.slug);
+  if (index !== -1) {
+    blogPosts[index] = post;
+  } else {
+    blogPosts.push(post);
+  }
+  return { url: `/blog/${post.slug}` };
 }
 
 export async function deleteBlogPost(slug: string) {
-  const { blobs } = await list({ prefix: `blog/${slug}` });
-  await Promise.all(blobs.map((blob) => del(blob.url)));
+  // Simulator for admin panels
+  const index = blogPosts.findIndex((p) => p.slug === slug);
+  if (index !== -1) {
+    blogPosts.splice(index, 1);
+  }
 }
 
 export function calculateReadingTime(content: string): number {

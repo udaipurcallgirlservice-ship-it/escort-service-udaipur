@@ -1,6 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
-const OptimizedImage = ({ src, alt, className, fallbackSrc = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7", ...props }) => {
+const OptimizedImage = ({
+  src,
+  alt,
+  className,
+  priority = false,
+  fallbackSrc = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
+  ...props
+}) => {
   const [imgSrc, setImgSrc] = useState(src || fallbackSrc);
   const [error, setError] = useState(false);
 
@@ -22,6 +29,9 @@ const OptimizedImage = ({ src, alt, className, fallbackSrc = "data:image/gif;bas
       alt={alt}
       className={className}
       onError={handleError}
+      loading={priority ? undefined : 'lazy'}
+      fetchpriority={priority ? 'high' : undefined}
+      decoding="async"
       {...props}
     />
   );

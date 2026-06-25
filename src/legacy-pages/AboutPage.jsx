@@ -13,7 +13,7 @@ const AboutPage = ({ siteUrl }) => {
   const pageTitle = "About Our Udaipur Escort Agency | Trusted & Elite Escorts";
   const pageDescription = "Learn about Udaipur's top escort agency. We offer verified, high-profile call girls for luxury, passion, and complete discretion. Your trusted choice.";
   const keywords = "Udaipur escort agency, trusted escorts Udaipur, verified call girls, high-profile escorts, luxury escorts Udaipur, Escort Service Udaipur, call girl, escort";
-  const heroImage = "/assets/b472ad1f73438be3ebb980c06efeebfe.png";
+  const heroImage = "/assets/b472ad1f73438be3ebb980c06efeebfe.webp";
 
   const organizationSchema = createOrganizationSchema(siteUrl, pageDescription);
   const aboutPageSchema = createAboutPageSchema(pageUrl, pageTitle, pageDescription, organizationSchema);
@@ -79,7 +79,7 @@ const AboutPage = ({ siteUrl }) => {
             </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <OptimizedImage 
-                src="/assets/7f7861ea499bff9c6e006a1e31dd7c03.jpg" 
+                src="/assets/7f7861ea499bff9c6e006a1e31dd7c03.webp" 
                 alt="Professional escort service team in Udaipur" 
                 className="w-full h-auto object-cover"
               />
@@ -143,7 +143,7 @@ const AboutPage = ({ siteUrl }) => {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <OptimizedImage  
                   className="w-full h-96 object-cover" 
-                  alt="Elegant escort in Udaipur overlooking Lake Pichola" src="/assets/9129f3d63b2949746750be20ebf51262.png" />
+                  alt="Elegant escort in Udaipur overlooking Lake Pichola" src="/assets/9129f3d63b2949746750be20ebf51262.webp" />
               </div>
               <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-r from-pink-500 to-red-500 rounded-full opacity-20 animate-pulse"></div>
               <div className="absolute -top-6 -left-6 w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full opacity-20 animate-pulse" style={{ animationDelay: '1s' }}></div>
@@ -298,7 +298,7 @@ const AboutPage = ({ siteUrl }) => {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <OptimizedImage  
                   className="w-full h-96 object-cover" 
-                  alt="Beautiful escort in a luxurious Udaipur hotel room" src="/assets/eb90df07579e0f07108d25f5d70afb19.jpg" />
+                  alt="Beautiful escort in a luxurious Udaipur hotel room" src="/assets/eb90df07579e0f07108d25f5d70afb19.webp" />
               </div>
               <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full opacity-20 animate-pulse"></div>
               <div className="absolute -top-6 -right-6 w-16 h-16 bg-gradient-to-r from-pink-500 to-red-500 rounded-full opacity-20 animate-pulse" style={{ animationDelay: '1s' }}></div>

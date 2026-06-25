@@ -23,7 +23,7 @@ import React from 'react';
           <PageHero
             title={<>Terms of <span className="gradient-text">Service</span></>}
             subtitle="Please read our terms carefully before using our escort services."
-            imageSrc="https://storage.googleapis.com/hostinger-horizons-assets-prod/7523fedc-18a7-4fbc-8997-24999273a431/a98099e2f64a96da870cca70d497e9ef.jpg"
+            imageSrc="/assets/a98099e2f64a96da870cca70d497e9ef.webp"
           />
 
           <section className="py-16 bg-white">

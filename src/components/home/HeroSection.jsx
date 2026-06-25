@@ -9,7 +9,7 @@ const HeroSection = () => {
   const whatsappMessage = "Hello, this message is from escortserviceudaipur.com";
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
   const callLink = `tel:${whatsappNumber}`;
-  const heroBackgroundImage = "/assets/e3dddcd8688f722667464a77821e16b6.jpg";
+  const heroBackgroundImage = "/assets/e3dddcd8688f722667464a77821e16b6.webp";
 
   return (
     <section 
