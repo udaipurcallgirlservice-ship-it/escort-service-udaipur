@@ -11,6 +11,7 @@ import TestimonialsSection from '@/components/home/TestimonialsSection';
 import CTASection from '@/components/home/CTASection';
 import HomeContentSection from '@/components/home/HomeContentSection.jsx';
 import FAQSection, { faqsData } from '@/components/home/FAQSection.jsx';
+import RatesTableSection from '@/components/home/RatesTableSection.jsx';
 import BlogHighlightSection from '@/components/home/BlogHighlightSection.jsx';
 import { getHomePageSchemas } from '@/lib/homePageSchemas.js';
 import { createFaqPageSchema } from '@/lib/schemas';
@@ -49,6 +50,7 @@ const HomePage = ({ siteUrl }) => {
       <WhyChooseUsSection />
       <GallerySection />
       <TestimonialsSection />
+      <RatesTableSection />
       <FAQSection />
       <BlogHighlightSection />
       <CTASection />

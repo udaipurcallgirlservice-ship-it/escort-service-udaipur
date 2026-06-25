@@ -23,6 +23,68 @@ export const createProfessionalServiceSchema = (siteUrl, pageDescription, keywor
   "priceRange": "₹2500 - ₹60000",
   "currenciesAccepted": "INR",
   "paymentAccepted": ["Cash", "Cash on Delivery", "Online Payment", "UPI", "PayTM", "Google Pay"],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Udaipur Escort Service Tariff",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "VIP Escort Service",
+          "description": "High-profile models, luxury companions for social dinners and travel."
+        },
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "7000",
+          "priceCurrency": "INR",
+          "unitText": "hour"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Russian Escort Service",
+          "description": "Exotic European companions for premium dates and ultimate luxury companionship."
+        },
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "12000",
+          "priceCurrency": "INR",
+          "unitText": "hour"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Model Escort Service",
+          "description": "Fashion models and elite companions for events, parties, or dates."
+        },
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "8000",
+          "priceCurrency": "INR",
+          "unitText": "hour"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Housewife Escort Service",
+          "description": "Mature housewives and discreet companions for quiet private dates."
+        },
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "5000",
+          "priceCurrency": "INR",
+          "unitText": "hour"
+        }
+      }
+    ]
+  },
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "City Palace Road, Near Jagdish Temple",
