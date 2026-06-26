@@ -15,7 +15,7 @@ const HomeContentSection = () => {
     hero: {
       title: "Premium Escort Services in Udaipur | Call Girls Available from ₹2999",
       text: "Welcome to the premier <strong>Escort Service in Udaipur</strong> offering verified <strong>Call Girls Udaipur</strong> starting at just ₹2999. We connect discerning clients with professional <strong>Udaipur Escorts</strong> including <strong>Independent Call Girls</strong>, premium <strong>VIP Escorts</strong>, exotic <strong>Russian Escorts</strong>, charming <strong>College Girls</strong>, and mature <strong>Housewife Escorts</strong>. Enjoy convenient <strong>Cash on Delivery</strong> payment, <strong>24x7 Service</strong> availability, and instant <strong>WhatsApp Booking</strong> at +91-9549032117. Our hand-picked escorts provide genuinely professional, captivating companionship with absolute discretion guaranteed. Whether seeking pleasure, companionship, or an exciting escape, experience unparalleled service where every desire is met with class and confidentiality.",
-      image: "/assets/a1b2c3d4e5f6g7h8i9j0.webp",
+      image: "/assets/premium-escort-service-udaipur.jpg",
       alt: "Premium Call Girls Udaipur - Escort Service in Udaipur from ₹2999"
     },
     whyBest: {
@@ -28,7 +28,7 @@ const HomeContentSection = () => {
         "<strong>24/7 Availability:</strong> We are always ready to cater to your desires, day or night.",
         "<strong>Transparent & Fair Service:</strong> No hidden fees. We believe in clear communication and honest service."
       ],
-      image: "/assets/1d2c3b4a5e6f7g8h9i0j.webp",
+      image: "/assets/professional-udaipur-escorts.jpg",
       alt: "A client enjoying the best Udaipur escort services."
     },
     serviceVarieties: {
@@ -40,7 +40,7 @@ const HomeContentSection = () => {
         { title: "Incall & Outcall Flexibility", text: "Enjoy our services in the comfort of your hotel or residence (outcall), or visit one of our discreet and luxurious locations (incall)." },
         { title: "Travel & Tour Companions", text: "Explore the beauty of Udaipur with a knowledgeable and fun-loving guide by your side." }
       ],
-      image: "/assets/0a9b8c7d6e5f4g3h2i1j.webp",
+      image: "/assets/exclusive-escort-service-udaipur.jpg",
       alt: "A variety of Udaipur escort services are offered."
     },
     bookingProcess: {
@@ -53,13 +53,13 @@ const HomeContentSection = () => {
         "<strong>Finalize the Details:</strong> Confirm the time, duration, and location for your meeting.",
         "<strong>Enjoy Your Experience:</strong> Relax and anticipate a memorable time with your chosen companion."
       ],
-      image: "/assets/q1w2e3r4t5y6u7i8o9p0.webp",
+      image: "/assets/classy-escort-service-udaipur.jpg",
       alt: "Easy booking process for Udaipur escort services."
     },
     secureConfidential: {
         title: "Your Safety & Confidentiality is Our Promise",
         text: "We have built our reputation on trust and integrity. Every interaction with our agency is protected by strict confidentiality protocols. We ensure that your personal information is handled with the highest level of security, allowing you to relax and enjoy our <strong>Udaipur escort services</strong> with complete peace of mind. Your satisfaction and safety are the cornerstones of our business.",
-        image: "/assets/z1x2c3v4b5n6m7l8k9j0.webp",
+        image: "/assets/elegant-udaipur-escorts.jpg",
         alt: "A symbol of security for our confidential Udaipur escort services."
     }
   };
