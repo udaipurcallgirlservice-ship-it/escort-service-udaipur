@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useEffect } from 'react';
 
 const OptimizedImage = ({
@@ -5,7 +7,7 @@ const OptimizedImage = ({
   alt,
   className,
   priority = false,
-  fallbackSrc = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
+  fallbackSrc = '/assets/df35c36717dc1b1000ac06911bfe1a65.webp',
   width,
   height,
   ...props
@@ -20,22 +22,23 @@ const OptimizedImage = ({
 
   const handleError = () => {
     if (!error) {
+      console.error(`Image failed to load: ${imgSrc}`);
       setError(true);
       setImgSrc(fallbackSrc);
     }
   };
 
+  // Use regular img tag for faster build
   return (
     <img
       src={imgSrc}
-      alt={alt}
+      alt={alt || 'Escort Service Udaipur'}
       className={className}
       onError={handleError}
-      loading={priority ? undefined : 'lazy'}
-      fetchpriority={priority ? 'high' : undefined}
+      loading={priority ? 'eager' : 'lazy'}
       decoding="async"
       width={width || 800}
-      height={height || 533}
+      height={height || 600}
       {...props}
     />
   );
