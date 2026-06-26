@@ -56,7 +56,7 @@ import React from 'react';
                   <Link to="/" aria-label="Escort Service Udaipur Homepage">
                     <div className="flex items-center">
                        <img 
-                          src="/assets/df35c36717dc1b1000ac06911bfe1a65.webp"
+                          src="/logo.svg"
                           alt="Escort Service Udaipur Logo"
                           className="h-16 w-auto"
                           width={150}

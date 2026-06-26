@@ -24,7 +24,7 @@ export interface BlogPost {
 const defaultAuthor = {
   name: "Escort Service Udaipur Experts",
   bio: "Experienced relationship and adult leisure lifestyle consultants in Udaipur, providing professional companionship booking guidance and advice.",
-  avatar: "/assets/df35c36717dc1b1000ac06911bfe1a65.webp"
+  avatar: "/logo.svg"
 };
 
 export const blogPosts: BlogPost[] = [

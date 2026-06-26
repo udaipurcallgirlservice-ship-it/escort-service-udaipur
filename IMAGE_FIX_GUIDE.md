@@ -15,7 +15,7 @@ Images नहीं दिख रही थीं website पर।
 
 **Changes:**
 - Regular `<img>` tag का use (faster और simpler)
-- Proper fallback image path: `/assets/df35c36717dc1b1000ac06911bfe1a65.webp`
+- Proper fallback image path: `/logo.svg`
 - Error handling के साथ console logging
 - Lazy loading support
 - Width/Height defaults

@@ -54,7 +54,7 @@ export const metadata: Metadata = {
       'Call Girls Udaipur from ₹2999 | 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking. Premium Udaipur Escorts, VIP, Russian, Independent Call Girls Available Now.',
     images: [
       {
-        url: '/assets/df35c36717dc1b1000ac06911bfe1a65.webp',
+        url: '/logo.svg',
         width: 1200,
         height: 630,
         alt: 'Escort Service Udaipur - Premium Call Girls from ₹2999',
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Premium Escort Services in Udaipur | Call Girls from ₹2999',
     description: 'Call Girls Udaipur from ₹2999 | 24x7 Service, Cash on Delivery, WhatsApp Booking Available.',
-    images: ['/assets/df35c36717dc1b1000ac06911bfe1a65.webp'],
+    images: ['/logo.svg'],
     creator: '@escortudaipur',
   },
   verification: {

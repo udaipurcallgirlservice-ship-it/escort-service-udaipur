@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+const fs = require('fs');
+const path = require('path');
+
+// Simple PNG logo generator using Canvas API
+const createLogo = () => {
+  const sizes = [
+    { size: 192, name: 'logo-192.png' },
+    { size: 512, name: 'logo-512.png' },
+    { size: 180, name: 'apple-touch-icon.png' },
+    { size: 32, name: 'favicon-32x32.png' },
+    { size: 16, name: 'favicon-16x16.png' },
+  ];
+
+  // SVG content for logo
+  const svgContent = `<?xml version="1.0" encoding="UTF-8"?>
 <svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
   <!-- Background with gradient -->
   <defs>
@@ -35,4 +49,16 @@
   <circle cx="392" cy="150" r="8" fill="#fbbf24" opacity="0.7"/>
   <circle cx="120" cy="362" r="8" fill="#fbbf24" opacity="0.7"/>
   <circle cx="392" cy="362" r="8" fill="#fbbf24" opacity="0.7"/>
-</svg>
+</svg>`;
+
+  // Save SVG
+  const publicDir = path.join(__dirname, '..', 'public');
+  fs.writeFileSync(path.join(publicDir, 'logo.svg'), svgContent);
+  
+  console.log('✅ Logo SVG created successfully!');
+  console.log('📁 Location: public/logo.svg');
+  console.log('\n📝 Note: For PNG versions, you can use online converters or image editing tools.');
+  console.log('   Recommended: https://cloudconvert.com/svg-to-png');
+};
+
+createLogo();

@@ -7,7 +7,7 @@ export const createProfessionalServiceSchema = (siteUrl, pageDescription, keywor
   "slogan": "100% Genuine Call Girls with Cash on Delivery",
   "image": [
     imageUrl,
-    "/assets/df35c36717dc1b1000ac06911bfe1a65.webp",
+    "/logo.svg",
     "/assets/6b3e692b9069eeafd99d41bd8406c705.webp"
   ],
   "logo": {

@@ -34,7 +34,7 @@ const VipEscortsPage = ({ siteUrl }) => {
       "@type": "Organization",
       "name": "Escort Service Udaipur",
       "url": "https://escortserviceudaipur.com/vip-escorts-udaipur",
-      "logo": "/assets/df35c36717dc1b1000ac06911bfe1a65.webp",
+      "logo": "/logo.svg",
       "telephone": whatsappNumber
     },
     "areaServed": {

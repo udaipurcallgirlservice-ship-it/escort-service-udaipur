@@ -36,7 +36,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            Udaipur Escort Services | 100% COD Luxury Escort service in Udaipur
+            Premium Udaipur Escorts | VIP Call Girls & Elite Escort Service in Udaipur
           </motion.h1>
           
           <motion.p 
@@ -45,7 +45,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Enjoy Udaipur Escort Services with 100% COD. Reliable escort service in Udaipur for safe, private, and memorable companionship.
+            Experience the finest Udaipur Escort Services with 100% COD. We provide reliable, high-profile independent escorts, Russian models, and VIP call girls in Udaipur for a safe, private, and unforgettable companionship.
           </motion.p>
 
           <motion.div 

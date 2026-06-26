@@ -15,7 +15,7 @@ const EscortServiceInUdaipurPage = ({ siteUrl }) => {
   const pageTitle = "Escort Service in Udaipur | #1 Local Call Girls Agency";
   const pageDescription = "The definitive guide to escort services in Udaipur. We cover all local areas, offering premium, verified call girls for incall & outcall. Book the best local escorts.";
   const keywords = "escort service in udaipur, local call girls udaipur, udaipur escort agency, udaipur incall service, udaipur outcall service, best escorts in udaipur";
-  const heroImage = "/assets/df35c36717dc1b1000ac06911bfe1a65.webp";
+  const heroImage = "/logo.svg";
 
   const breadcrumbSchema = createBreadcrumbSchema([
     { name: "Home", item: siteUrl },

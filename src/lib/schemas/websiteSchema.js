@@ -24,7 +24,7 @@ export const createWebsiteSchema = (siteUrl, pageDescription) => ({
     "name": "Escort Service Udaipur",
     "logo": {
         "@type": "ImageObject",
-        "url": "/assets/df35c36717dc1b1000ac06911bfe1a65.webp",
+        "url": "/logo.svg",
         "width": 300,
         "height": 300
     },
