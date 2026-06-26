@@ -13,10 +13,10 @@ const HomeContentSection = () => {
 
   const contentData = {
     hero: {
-      title: "Your Premier Choice for Udaipur Escort Services",
-      text: "Welcome to the most trusted and discreet provider of <strong>Udaipur escort services</strong>. We specialize in connecting you with genuinely professional, captivating, and verified companions for truly sensational experiences. If you're seeking pleasure, companionship, or an exciting escape from the ordinary, you've found the perfect destination. Our hand-picked escorts in Udaipur are ready to provide unparalleled service, ensuring every desire is met with class and confidentiality.",
+      title: "Premium Escort Services in Udaipur | Call Girls Available from ₹2999",
+      text: "Welcome to the premier <strong>Escort Service in Udaipur</strong> offering verified <strong>Call Girls Udaipur</strong> starting at just ₹2999. We connect discerning clients with professional <strong>Udaipur Escorts</strong> including <strong>Independent Call Girls</strong>, premium <strong>VIP Escorts</strong>, exotic <strong>Russian Escorts</strong>, charming <strong>College Girls</strong>, and mature <strong>Housewife Escorts</strong>. Enjoy convenient <strong>Cash on Delivery</strong> payment, <strong>24x7 Service</strong> availability, and instant <strong>WhatsApp Booking</strong> at +91-9549032117. Our hand-picked escorts provide genuinely professional, captivating companionship with absolute discretion guaranteed. Whether seeking pleasure, companionship, or an exciting escape, experience unparalleled service where every desire is met with class and confidentiality.",
       image: "/assets/a1b2c3d4e5f6g7h8i9j0.webp",
-      alt: "A sophisticated companion offering premier Udaipur escort services."
+      alt: "Premium Call Girls Udaipur - Escort Service in Udaipur from ₹2999"
     },
     whyBest: {
       title: "Why Our Udaipur Escort Services Are Unmatched",

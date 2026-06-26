@@ -20,43 +20,53 @@ const siteUrl = 'https://escortserviceudaipur.com';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: 'Escort Service Udaipur | Premium Companionship',
+  title: {
+    default: 'Premium Escort Services in Udaipur | Call Girls Udaipur Available Just ₹2999',
+    template: '%s | Escort Service Udaipur',
+  },
   description:
-    'Escort Service Udaipur offers premium companionship, verified profiles, private booking support, and discreet adult services in Udaipur. Contact us today.',
+    'Call Girls Udaipur from ₹2999 | 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking. Premium Udaipur Escorts, VIP, Russian, Independent Call Girls Available Now.',
   keywords: [
-    'escort service udaipur',
-    'udaipur escort service',
     'call girls udaipur',
+    'escort service in udaipur',
+    'udaipur escorts',
+    'independent call girls udaipur',
     'vip escorts udaipur',
-    'independent escorts udaipur',
+    'russian escorts udaipur',
+    'model escorts udaipur',
+    'housewife escorts udaipur',
+    'udaipur call girls service',
+    'escort agency udaipur',
   ],
   applicationName: 'Escort Service Udaipur',
-  authors: [{ name: 'Escort Service Udaipur Editorial Team', url: `${siteUrl}/about` }],
+  authors: [{ name: 'Escort Service Udaipur', url: `${siteUrl}/about` }],
   creator: 'Escort Service Udaipur',
   publisher: 'Escort Service Udaipur',
+  category: 'Adult Entertainment Services',
   alternates: { canonical: siteUrl },
   openGraph: {
     type: 'website',
     locale: 'en_IN',
     url: siteUrl,
     siteName: 'Escort Service Udaipur',
-    title: 'Escort Service Udaipur | Premium Companionship',
+    title: 'Premium Escort Services in Udaipur | Call Girls Udaipur Available Just ₹2999',
     description:
-      'Premium, discreet companionship services in Udaipur with verified profiles, quick WhatsApp support, and privacy-first booking assistance.',
+      'Call Girls Udaipur from ₹2999 | 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking. Premium Udaipur Escorts, VIP, Russian, Independent Call Girls Available Now.',
     images: [
       {
         url: '/assets/df35c36717dc1b1000ac06911bfe1a65.webp',
         width: 1200,
         height: 630,
-        alt: 'Escort Service Udaipur premium companionship logo',
+        alt: 'Escort Service Udaipur - Premium Call Girls from ₹2999',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Escort Service Udaipur | Premium Companionship',
-    description: 'Private, verified and premium companionship services in Udaipur.',
+    title: 'Premium Escort Services in Udaipur | Call Girls from ₹2999',
+    description: 'Call Girls Udaipur from ₹2999 | 24x7 Service, Cash on Delivery, WhatsApp Booking Available.',
     images: ['/assets/df35c36717dc1b1000ac06911bfe1a65.webp'],
+    creator: '@escortudaipur',
   },
   verification: {
     google: 'GOOGLE_SEARCH_CONSOLE_CODE',
@@ -72,6 +82,10 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  icons: {
+    icon: '/assets/df35c36717dc1b1000ac06911bfe1a65.webp',
+    apple: '/assets/df35c36717dc1b1000ac06911bfe1a65.webp',
+  },
 };
 
 export const viewport: Viewport = {
@@ -84,11 +98,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-IN" className={`${dmSans.variable} ${playfair.variable}`}>
       <head>
+        <link rel="preconnect" href="https://res.cloudinary.com" />
         <link rel="preconnect" href="https://storage.googleapis.com" />
-        <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="manifest" href="/manifest.webmanifest" />
-        <link rel="apple-touch-icon" href="/assets/df35c36717dc1b1000ac06911bfe1a65.webp" />
+        <link rel="apple-touch-icon" sizes="512x512" href="/assets/df35c36717dc1b1000ac06911bfe1a65.webp" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="format-detection" content="telephone=yes" />
       </head>
       <body>
         <JsonLd data={[organizationSchema, websiteSchema, localBusinessSchema]} />

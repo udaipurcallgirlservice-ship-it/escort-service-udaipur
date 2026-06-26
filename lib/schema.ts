@@ -99,6 +99,40 @@ export function faqSchema(faqs: Array<{ question: string; answer: string }>) {
   };
 }
 
+export function serviceSchema(service: {
+  name: string;
+  description: string;
+  url: string;
+  price?: string;
+  availability?: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: service.name,
+    description: service.description,
+    provider: {
+      '@type': 'Organization',
+      name: 'Escort Service Udaipur',
+      url: siteUrl,
+    },
+    url: service.url,
+    areaServed: {
+      '@type': 'City',
+      name: 'Udaipur',
+      '@id': 'https://en.wikipedia.org/wiki/Udaipur',
+    },
+    ...(service.price && {
+      offers: {
+        '@type': 'Offer',
+        price: service.price,
+        priceCurrency: 'INR',
+        availability: service.availability || 'https://schema.org/InStock',
+      },
+    }),
+  };
+}
+
 export function ratingSchema(data: { itemName: string; ratingValue: number; bestRating: number; ratingCount: number }) {
   return {
     '@context': 'https://schema.org',

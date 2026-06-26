@@ -1,33 +1,9 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown, HelpCircle } from 'lucide-react';
+import { homeFAQs } from '../../../lib/faqs';
 
-export const faqsData = [
-  {
-    question: "What types of call girls are available through your Udaipur escort service?",
-    answer: "Our Udaipur escort service offers a diverse range of call girls, including college girls, professional models, experienced housewives, and exotic Russian escorts. Each call girl is verified and aims to provide a unique and satisfying experience."
-  },
-  {
-    question: "How do I book an escort or call girl in Udaipur?",
-    answer: "Booking a call girl or escort in Udaipur is simple. You can contact us via phone or WhatsApp. Browse our gallery, choose your preferred companion, and let us know your requirements. Our team will handle the arrangements discreetly."
-  },
-  {
-    question: "Are your Udaipur escort services discreet and confidential?",
-    answer: "Absolutely. Discretion and confidentiality are paramount for our escort service. All interactions, bookings, and personal information related to our call girls and clients are kept strictly private."
-  },
-  {
-    question: "What are the rates for hiring a call girl in Udaipur?",
-    answer: "Rates for our Udaipur call girls vary depending on the escort selected, duration of service, and specific requests. Please contact us directly for detailed pricing information about our escort services."
-  },
-  {
-    question: "Do you offer incall and outcall escort services in Udaipur?",
-    answer: "Yes, our escort service provides both incall and outcall options in Udaipur. Incall services are at discreet, high-quality locations. For outcall, our call girls can visit your hotel or residence."
-  },
-  {
-    question: "Is the safety of clients and call girls ensured?",
-    answer: "Client and call girl safety is our top priority. We have strict verification processes for all escorts and ensure all meetings are conducted in a safe and respectful manner. Our escort service adheres to high safety standards."
-  }
-];
+export const faqsData = homeFAQs;
 
 const FAQSection = () => {
   const [openIndex, setOpenIndex] = useState(null);
