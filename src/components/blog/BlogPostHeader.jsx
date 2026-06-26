@@ -45,11 +45,11 @@ const BlogPostHeader = ({ title, category, date, readTime, author, image }) => {
                 <span className="text-gray-600">{author}</span>
               </div>
               <div className="flex items-center space-x-4">
-                <Button variant="outline" size="sm" className="rounded-full" onClick={() => alert("🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀")}>
+                <Button variant="outline" size="sm" className="rounded-full" onClick={() => console.log('clicked')}>
                   <Share2 className="w-4 h-4 mr-2" />
                   Share
                 </Button>
-                <Button variant="outline" size="sm" className="rounded-full" onClick={() => alert("🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀")}>
+                <Button variant="outline" size="sm" className="rounded-full" onClick={() => console.log('clicked')}>
                   <Heart className="w-4 h-4 mr-2" />
                   Save
                 </Button>

@@ -20,6 +20,7 @@ const HeroSection = () => {
         alt="A beautiful companion providing elite Udaipur escort services." 
         className="absolute inset-0 w-full h-full object-cover"
         priority={true}
+        sizes="100vw"
       />
       <div className="absolute inset-0 bg-black/60"></div>
       

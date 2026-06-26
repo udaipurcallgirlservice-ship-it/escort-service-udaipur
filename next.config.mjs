@@ -27,45 +27,7 @@ const nextConfig = {
   webpack(config, { isServer }) {
     config.resolve.alias['react-router-dom'] = path.resolve(__dirname, 'src/lib/nextRouterShim.jsx');
     
-    // Optimize bundle size
-    if (!isServer) {
-      config.optimization = {
-        ...config.optimization,
-        splitChunks: {
-          chunks: 'all',
-          cacheGroups: {
-            default: false,
-            vendors: false,
-            framework: {
-              name: 'framework',
-              chunks: 'all',
-              test: /[\\/]node_modules[\\/](react|react-dom|scheduler|prop-types|use-subscription)[\\/]/,
-              priority: 40,
-              enforce: true,
-            },
-            lib: {
-              test: /[\\/]node_modules[\\/]/,
-              name(module) {
-                if (!module.context) return 'npm.vendor';
-                const match = module.context.match(/[\\/]node_modules[\\/](.*?)([\\/]|$)/);
-                if (!match || !match[1]) return 'npm.vendor';
-                const packageName = match[1];
-                return `npm.${packageName.replace('@', '')}`;
-              },
-              priority: 30,
-              minChunks: 1,
-              reuseExistingChunk: true,
-            },
-            commons: {
-              name: 'commons',
-              minChunks: 2,
-              priority: 20,
-            },
-          },
-        },
-      };
-    }
-    
+    // Let Next.js handle chunking natively
     return config;
   },
   experimental: {

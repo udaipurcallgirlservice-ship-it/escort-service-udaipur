@@ -296,7 +296,7 @@ const BlogPage = ({ siteUrl }) => {
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               Subscribe to our newsletter for the latest escort tips, call girl news, and exclusive content on Udaipur companionship.
             </p>
-            <form onSubmit={(e) => {e.preventDefault(); alert("🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀")}} className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-md mx-auto">
+            <form onSubmit={(e) => {e.preventDefault(); console.log('subscribed');}} className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-md mx-auto">
               <input
                 type="email"
                 placeholder="Enter email for escort news"

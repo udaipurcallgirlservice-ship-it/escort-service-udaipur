@@ -163,7 +163,7 @@ const ContactPage = ({ siteUrl }) => {
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Interactive Map</h3>
                 <p className="text-gray-600">City Palace Road, Udaipur, Rajasthan 313001</p>
                 <Button 
-                  onClick={() => alert("🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀")}
+                  onClick={() => console.log("Get Directions clicked")}
                   className="mt-4 bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600"
                 >
                   Get Directions

@@ -203,7 +203,7 @@ const ServicesPage = ({ siteUrl }) => {
                       variant="outline" 
                       size="icon"
                       className="rounded-full border-pink-200 hover:bg-pink-50"
-                      onClick={() => alert("🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀")}
+                      onClick={() => console.log('clicked')}
                     >
                       <Heart className="w-4 h-4" />
                     </Button>

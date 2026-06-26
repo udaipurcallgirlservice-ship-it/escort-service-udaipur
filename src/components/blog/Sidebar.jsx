@@ -15,7 +15,7 @@ const Sidebar = () => {
         <p className="text-gray-300 text-sm mb-4">
           Get the latest escort articles and insights for Udaipur.
         </p>
-        <form onSubmit={(e) => {e.preventDefault(); alert("🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀")}} className="space-y-3">
+        <form onSubmit={(e) => {e.preventDefault(); console.log('subscribed');}} className="space-y-3">
           <input
             type="email"
             placeholder="Your email for escort updates"
