@@ -66,7 +66,7 @@ const EscortServiceInUdaipurPage = ({ siteUrl }) => {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="rounded-lg overflow-hidden shadow-xl">
               <OptimizedImage
-                src="/assets/6b3e692b9069eeafd99d41bd8406c705.webp"
+                src="/assets/udaipur-escort-service.jpg"
                 alt="Map of Udaipur highlighting service areas for escorts"
                 className="w-full h-auto object-cover"
               />
@@ -191,7 +191,7 @@ const EscortServiceInUdaipurPage = ({ siteUrl }) => {
             Don't settle for less. Contact the local experts for a truly premium and hassle-free companionship experience. Our team is available 24/7 to assist you.
           </p>
           <div className="flex justify-center items-center space-x-4">
-            <a href="tel:+919549032117">
+            <a href="tel:+918000253680">
               <Button size="lg" className="bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 text-white">
                 <Phone className="mr-2" /> Call Now
               </Button>

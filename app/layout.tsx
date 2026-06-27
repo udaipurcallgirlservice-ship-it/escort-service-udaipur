@@ -21,11 +21,11 @@ const siteUrl = 'https://escortserviceudaipur.com';
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Premium Escort Services in Udaipur | Call Girls Udaipur Available Just ₹2999',
+    default: 'Premium Escort Services Udaipur | Call Girls Udaipur ₹2999',
     template: '%s | Escort Service Udaipur',
   },
   description:
-    'Call Girls Udaipur from ₹2999 | 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking. Premium Udaipur Escorts, VIP, Russian, Independent Call Girls Available Now.',
+    'Book Call Girls Udaipur & Udaipur Escorts from ₹2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.',
   keywords: [
     'call girls udaipur',
     'escort service in udaipur',
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: siteUrl,
     siteName: 'Escort Service Udaipur',
-    title: 'Premium Escort Services in Udaipur | Call Girls Udaipur Available Just ₹2999',
+    title: 'Premium Escort Services Udaipur | Call Girls Udaipur ₹2999',
     description:
-      'Call Girls Udaipur from ₹2999 | 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking. Premium Udaipur Escorts, VIP, Russian, Independent Call Girls Available Now.',
+      'Book Call Girls Udaipur & Udaipur Escorts from ₹2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.',
     images: [
       {
         url: '/logo.svg',
@@ -63,8 +63,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Premium Escort Services in Udaipur | Call Girls from ₹2999',
-    description: 'Call Girls Udaipur from ₹2999 | 24x7 Service, Cash on Delivery, WhatsApp Booking Available.',
+    title: 'Premium Escort Services Udaipur | Call Girls Udaipur ₹2999',
+    description: 'Book Call Girls Udaipur and Udaipur Escorts from ₹2999 with 24x7 Cash on Delivery and WhatsApp Booking.',
     images: ['/logo.svg'],
     creator: '@escortudaipur',
   },

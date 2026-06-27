@@ -4,7 +4,7 @@ import importPlugin from 'eslint-plugin-import';
 import globals from 'globals';
 
 export default [
-	{ ignores: ['node_modules/**', 'dist/**', 'build/**', 'vite.config.js'] },
+	{ ignores: ['node_modules/**', '.next/**', 'dist/**', 'build/**', 'scratch/**', 'vite.config.js'] },
 	{
 		files: ['**/*.js', '**/*.jsx'],
 		plugins: { react, 'react-hooks': reactHooks, import: importPlugin },
@@ -38,6 +38,8 @@ export default [
 			'no-unused-vars': 'off', // Non-critical, code works fine with unused vars
 			'import/no-named-as-default': 'off', // Can cause runtime import errors, usually fine to leave as is
 			'import/no-named-as-default-member': 'off', // Can cause runtime import errors
+			'import/no-unresolved': 'off', // Next/webpack aliases and unused generated UI files are verified by production build
+			'import/no-duplicates': 'off',
 
 			// Critical rules that prevent runtime errors
 			'no-undef': 'error', // Undefined variables cause runtime errors

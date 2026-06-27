@@ -79,7 +79,7 @@ const BlogPostPage = ({ siteUrl }) => {
       "name": "Escort Service Udaipur",
       "logo": {
         "@type": "ImageObject",
-        "url": `${siteUrl}/logo.webp`
+        "url": `${siteUrl}/logo.svg`
       }
     },
     "datePublished": blogPost.date,

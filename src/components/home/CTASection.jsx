@@ -5,7 +5,7 @@ import { Phone, MessageCircle } from 'lucide-react';
 import OptimizedImage from '@/components/ui/OptimizedImage';
 
 const CTASection = () => {
-  const whatsappNumber = "+919549032117";
+  const whatsappNumber = "+918000253680";
   const whatsappMessage = "Hello, this message is from escortserviceudaipur.com";
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
   const callLink = `tel:${whatsappNumber}`;
@@ -13,7 +13,7 @@ const CTASection = () => {
   return (
     <section className="py-20 relative overflow-hidden">
       <OptimizedImage 
-        src="/assets/070d0fd04d47fb001ee593c07df7bb3b.webp"
+        src="/assets/luxury-escort-service-udaipur.jpg"
         alt="Glamorous escort inviting contact"
         className="absolute inset-0 w-full h-full object-cover"
       />

@@ -12,18 +12,18 @@ const VipEscortsPage = ({ siteUrl }) => {
   const pageTitle = "VIP Escorts in Udaipur | Exclusive High-Class Call Girls";
   const pageDescription = "Indulge in luxury with our exclusive VIP escorts in Udaipur. Our high-class call girls offer sophistication and premium companionship for discerning clients. Book your VIP experience.";
   const keywords = "vip escorts udaipur, vip call girls udaipur, udaipur vip escorts, exclusive escorts, luxury call girls, high-class escorts udaipur, premium escorts, Escort Service Udaipur, udaipur escorts, call girls udaipur";
-  const heroImage = "/assets/q1w2e3r4t5y6u7i8o9p0.webp";
+  const heroImage = "/assets/vip-escort-in-udaipur.jpg";
 
   const siteName = "Escort Service Udaipur";
-  const whatsappNumber = "+919549032117";
+  const whatsappNumber = "+918000253680";
   const whatsappMessage = `Hello ${siteName}, I'm interested in your VIP escorts in Udaipur.`;
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
   const callLink = `tel:${whatsappNumber}`;
 
   const escortsData = [
-    { name: 'Isabelle', age: 26, image: "/assets/q1w2e3r4t5y6u7i8o9p0.webp", description: "Isabelle, a top-tier VIP escort in Udaipur, offers luxury companionship for discerning gentlemen." },
-    { name: 'Sophia', age: 23, image: "/assets/z1x2c3v4b5n6m7l8k9j0.webp", description: "Sophia is an elite VIP call girl in Udaipur, known for her sophistication, beauty, and engaging personality." },
-    { name: 'Chloe', age: 28, image: "/assets/78f05d0ea1287e2187bddab4bf36da05.webp", description: "Chloe provides an exclusive VIP escort experience in Udaipur, perfect for high-profile events and private meetings." },
+    { name: 'Isabelle', age: 26, image: "/assets/vip-escort-in-udaipur.jpg", description: "Isabelle, a top-tier VIP escort in Udaipur, offers luxury companionship for discerning gentlemen." },
+    { name: 'Sophia', age: 23, image: "/assets/premium-vip-call-girl-udaipur.jpg", description: "Sophia is an elite VIP call girl in Udaipur, known for her sophistication, beauty, and engaging personality." },
+    { name: 'Chloe', age: 28, image: "/assets/vip-call-girl-service-udaipur.jpg", description: "Chloe provides an exclusive VIP escort experience in Udaipur, perfect for high-profile events and private meetings." },
   ];
 
   const schemaData = {
@@ -62,7 +62,7 @@ const VipEscortsPage = ({ siteUrl }) => {
       />
       <section 
         className="relative py-20 md:py-32 bg-cover bg-center"
-        style={{ backgroundImage: "url('/assets/837d685b3920ff9f05e118439810a423.webp')" }}
+        style={{ backgroundImage: "url('/assets/luxury-escort-service-udaipur.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
@@ -168,7 +168,7 @@ const VipEscortsPage = ({ siteUrl }) => {
           </div>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <OptimizedImage src="/assets/8f28a59cf2927c79dd898aa450b07891.webp" alt="Luxurious VIP escort setting in Udaipur" className="rounded-2xl shadow-xl w-full h-auto object-cover aspect-video" />
+              <OptimizedImage src="/assets/rich-luxury-escort-udaipur.jpg" alt="Luxurious VIP escort setting in Udaipur" className="rounded-2xl shadow-xl w-full h-auto object-cover aspect-video" />
             </div>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">

@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, CheckCircle, Phone, MessageCircle, Star, Shield, Users, Heart } from 'lucide-react';
 
 const HomeContentSection = () => {
-  const whatsappNumber = "+919549032117";
+  const whatsappNumber = "+918000253680";
   const whatsappMessage = "Hello, this message is from escortserviceudaipur.com";
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
   const callLink = `tel:${whatsappNumber}`;
@@ -14,7 +14,7 @@ const HomeContentSection = () => {
   const contentData = {
     hero: {
       title: "Premium Escort Services in Udaipur | Call Girls Available from ₹2999",
-      text: "Welcome to the premier <strong>Escort Service in Udaipur</strong> offering verified <strong>Call Girls Udaipur</strong> starting at just ₹2999. We connect discerning clients with professional <strong>Udaipur Escorts</strong> including <strong>Independent Call Girls</strong>, premium <strong>VIP Escorts</strong>, exotic <strong>Russian Escorts</strong>, charming <strong>College Girls</strong>, and mature <strong>Housewife Escorts</strong>. Enjoy convenient <strong>Cash on Delivery</strong> payment, <strong>24x7 Service</strong> availability, and instant <strong>WhatsApp Booking</strong> at +91-9549032117. Our hand-picked escorts provide genuinely professional, captivating companionship with absolute discretion guaranteed. Whether seeking pleasure, companionship, or an exciting escape, experience unparalleled service where every desire is met with class and confidentiality.",
+      text: "Welcome to the premier <strong>Escort Service in Udaipur</strong> offering verified <strong>Call Girls Udaipur</strong> starting at just ₹2999. We connect discerning clients with professional <strong>Udaipur Escorts</strong> including <strong>Independent Call Girls</strong>, premium <strong>VIP Escorts</strong>, exotic <strong>Russian Escorts</strong>, charming <strong>College Girls</strong>, and mature <strong>Housewife Escorts</strong>. Enjoy convenient <strong>Cash on Delivery</strong> payment, <strong>24x7 Service</strong> availability, and instant <strong>WhatsApp Booking</strong> at +91-8000253680. Our hand-picked escorts provide professional companionship with absolute discretion and clear booking support.",
       image: "/assets/premium-escort-service-udaipur.jpg",
       alt: "Premium Call Girls Udaipur - Escort Service in Udaipur from ₹2999"
     },

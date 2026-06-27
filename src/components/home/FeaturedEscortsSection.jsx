@@ -6,7 +6,7 @@ import { ArrowRight, Star, Award, Phone, MessageCircle, Eye } from 'lucide-react
 import OptimizedImage from '@/components/ui/OptimizedImage.jsx';
 
 const FeaturedEscortsSection = () => {
-  const whatsappNumber = "+919549032117";
+  const whatsappNumber = "+918000253680";
   const whatsappMessage = "Hello, this message is from escortserviceudaipur.com";
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
   const callLink = `tel:${whatsappNumber}`;

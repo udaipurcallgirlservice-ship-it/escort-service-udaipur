@@ -14,7 +14,7 @@ const EnhancementsPage = ({ siteUrl }) => {
   const pageTitle = "Enhanced Escort Experience | VIP Service in Udaipur";
   const pageDescription = "Discover the enhanced experience at Escort Service Udaipur. We offer VIP treatment, 24/7 availability, verified profiles, and complete discretion for an unparalleled call girl service.";
   const keywords = "enhanced escort experience, vip escort service, 24/7 call girls, verified escorts, discreet service udaipur";
-  const heroImage = "/assets/b75bae9fc5a7f1fc577aa197d79fd3c5.webp";
+  const heroImage = "/assets/rich-luxury-escort-udaipur.jpg";
 
   const breadcrumbSchema = createBreadcrumbSchema([
     { name: "Home", item: siteUrl },
@@ -28,25 +28,25 @@ const EnhancementsPage = ({ siteUrl }) => {
       icon: Award,
       title: 'VIP Treatment & Exclusivity',
       description: 'Experience the pinnacle of luxury with our VIP escort services. This includes access to our most elite companions, priority booking, and personalized arrangements to cater to your every whim. Perfect for discerning gentlemen who demand the best.',
-      image: '/assets/a6734e0fee785af7b3a7ce543c520d37.webp'
+      image: '/assets/classy-escort-service-udaipur.jpg'
     },
     {
       icon: Users,
       title: '100% Verified & Genuine Profiles',
       description: 'We guarantee that every escort profile in our gallery is 100% genuine and verified. What you see is what you get. We provide real, recent photos and accurate descriptions to ensure transparency and build trust with our clients.',
-      image: '/assets/e3dddcd8688f722667464a77821e16b6.webp'
+      image: '/assets/hot-escort-girls-udaipur.jpg'
     },
     {
       icon: Shield,
       title: 'Unmatched Discretion & Confidentiality',
       description: 'Your privacy is our sacred vow. From the initial contact to the final moment of your engagement, we employ stringent protocols to ensure absolute confidentiality. All communications and booking details are handled with the utmost discretion.',
-      image: '/assets/a98099e2f64a96da870cca70d497e9ef.webp'
+      image: '/assets/top-rated-call-girl-udaipur.jpg'
     },
     {
       icon: Clock,
       title: '24/7 Availability & Instant Booking',
       description: 'Your desires don\'t keep a schedule, and neither do we. Our premium escort services are available 24/7. Our dedicated team is always on standby to facilitate instant bookings, ensuring a companion is available whenever you need one.',
-      image: '/assets/164c8eaf7dd6c47d742e0890b15d1f5e.webp'
+      image: '/assets/professional-udaipur-escorts.jpg'
     }
   ];
 
@@ -150,12 +150,12 @@ const EnhancementsPage = ({ siteUrl }) => {
             Contact us now to book a truly enhanced escort experience in Udaipur. Our team is ready to cater to your every need.
           </p>
           <div className="flex justify-center items-center space-x-4">
-            <a href="tel:+919549032117">
+            <a href="tel:+918000253680">
               <Button size="lg" className="bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 text-white">
                 <Phone className="mr-2" /> Call Now
               </Button>
             </a>
-            <a href={`https://wa.me/919549032117?text=Hello, this message is from escortserviceudaipur.com`} target="_blank" rel="noopener noreferrer">
+            <a href={`https://wa.me/918000253680?text=Hello, this message is from escortserviceudaipur.com`} target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-black">
                 <MessageCircle className="mr-2" /> WhatsApp Us
               </Button>

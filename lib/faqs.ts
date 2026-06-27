@@ -16,11 +16,11 @@ export const homeFAQs: FAQ[] = [
   },
   {
     question: 'Are Udaipur Escorts available 24x7?',
-    answer: 'Yes, our Udaipur Escorts are available 24 hours a day, 7 days a week. You can book anytime through WhatsApp at +91-9549032117 or through our website. We ensure quick response times and flexible scheduling to meet your needs.',
+    answer: 'Yes, our Udaipur Escorts are available 24 hours a day, 7 days a week. You can book anytime through WhatsApp at +91-8000253680 or through our website. We ensure quick response times and flexible scheduling to meet your needs.',
   },
   {
     question: 'How do I book Call Girls in Udaipur?',
-    answer: 'Booking Call Girls Udaipur is easy and discreet. Simply contact us via WhatsApp at +91-9549032117, browse our gallery to select your preferred escort, confirm availability, and complete the booking. We accept cash on delivery and ensure complete privacy.',
+    answer: 'Booking Call Girls Udaipur is easy and discreet. Simply contact us via WhatsApp at +91-8000253680, browse our gallery to select your preferred escort, confirm availability, and complete the booking. We accept cash on delivery and ensure complete privacy.',
   },
   {
     question: 'Are Independent Call Girls in Udaipur verified?',
@@ -130,7 +130,7 @@ export const galleryFAQs: FAQ[] = [
   },
   {
     question: 'How do I know which escort is available right now?',
-    answer: 'Contact us via WhatsApp at +91-9549032117 with your preferred escort name or ID. We will instantly check real-time availability and confirm booking within minutes. Most escorts can be available within 1-2 hours.',
+    answer: 'Contact us via WhatsApp at +91-8000253680 with your preferred escort name or ID. We will instantly check real-time availability and confirm booking within minutes. Most escorts can be available within 1-2 hours.',
   },
   {
     question: 'Can I book an escort directly from the gallery?',
@@ -157,7 +157,7 @@ export const galleryFAQs: FAQ[] = [
 export const contactFAQs: FAQ[] = [
   {
     question: 'What is the best way to contact Escort Service Udaipur?',
-    answer: 'The fastest way to contact us is via WhatsApp at +91-9549032117. You can also call directly or use the contact form on our website. WhatsApp ensures instant responses and secure, encrypted communication.',
+    answer: 'The fastest way to contact us is via WhatsApp at +91-8000253680. You can also call directly or use the contact form on our website. WhatsApp ensures instant responses and secure, encrypted communication.',
   },
   {
     question: 'What are your customer service hours?',

@@ -10,6 +10,8 @@ export default function robots(): MetadataRoute.Robots {
       },
       {
         userAgent: [
+          'Googlebot',
+          'Bingbot',
           'GPTBot',
           'ChatGPT-User',
           'ClaudeBot',
@@ -23,6 +25,5 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: 'https://escortserviceudaipur.com/sitemap.xml',
-    host: 'https://escortserviceudaipur.com',
   };
 }

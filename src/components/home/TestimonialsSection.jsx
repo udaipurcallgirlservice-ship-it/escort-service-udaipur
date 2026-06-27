@@ -9,21 +9,21 @@ const TestimonialsSection = () => {
       name: 'Rajesh K.',
       rating: 5,
       text: 'Exceptional service and professionalism. The Udaipur escort I met was wonderful. Highly recommended for anyone seeking premium companionship in Udaipur.',
-      image: '/assets/6fe3d8e95d9010835e25534bc498bedf.webp',
+      image: '/assets/top-rated-call-girl-udaipur.jpg',
       avatarColor: 'bg-pink-500'
     },
     {
       name: 'Amit S.',
       rating: 5,
       text: 'Discreet, elegant, and exactly what I was looking for. The booking process for the call girl was smooth and hassle-free. Best escort service in Udaipur!',
-      image: '/assets/7f7861ea499bff9c6e006a1e31dd7c03.webp',
+      image: '/assets/udaipur-escort-service.jpg',
       avatarColor: 'bg-red-500'
     },
     {
       name: 'Vikram M.',
       rating: 5,
       text: 'Outstanding experience from start to finish. The quality of the escort service exceeded my expectations. The Udaipur call girl was a delight.',
-      image: '/assets/e20b5460434200f0dc3b9ff6ac1abfd6.webp',
+      image: '/assets/elegant-udaipur-escorts.jpg',
       avatarColor: 'bg-purple-500'
     }
   ];
@@ -31,7 +31,7 @@ const TestimonialsSection = () => {
   return (
     <section className="py-20 relative overflow-hidden">
       <OptimizedImage
-        src="/assets/8e3087176fce921df3ad0bee2676c5d2.webp"
+        src="/assets/beautiful-escort-girls-udaipur.jpg"
         alt="Luxurious background for testimonials"
         className="absolute inset-0 w-full h-full object-cover"
       />

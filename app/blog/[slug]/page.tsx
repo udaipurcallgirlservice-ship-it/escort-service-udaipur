@@ -94,7 +94,7 @@ export default async function Page({ params }: PageProps) {
       name: 'Escort Service Udaipur',
       logo: {
         '@type': 'ImageObject',
-        url: `${siteUrl}/logo.webp`,
+        url: `${siteUrl}/logo.svg`,
       },
     },
     datePublished: post.datePublished,

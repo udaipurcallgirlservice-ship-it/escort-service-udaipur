@@ -9,7 +9,7 @@ export const getHomePageSchemas = (siteUrl, pageDescription, keywords, imageUrl)
             keywords, 
             imageUrl, 
             "Udaipur Escort Services",
-            "+919549032117"
+            "+918000253680"
         ),
         createAggregateRatingSchema({
             itemReviewedName: "Udaipur Escort Services",

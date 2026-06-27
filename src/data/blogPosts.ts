@@ -60,7 +60,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2025-06-12",
     category: "companionship-tips",
     tags: ["select escort", "udaipur call girl", "escort booking", "companionship guide", "elite escorts", "call girl experience"],
-    image: "/assets/3b3abdbaea31f920296dbda63e7cf4ed.webp",
+    image: "/assets/udaipur-escort-companion.jpg",
     readingTime: 6,
     rating: { value: 4.9, count: 128 },
     faqs: [
@@ -94,7 +94,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2025-06-08",
     category: "service-explained",
     tags: ["incall escort", "outcall escort", "udaipur call girl", "escort service types", "call girl options"],
-    image: "/assets/a6734e0fee785af7b3a7ce543c520d37.webp",
+    image: "/assets/classy-escort-service-udaipur.jpg",
     readingTime: 5,
     rating: { value: 4.8, count: 95 },
     faqs: [
@@ -121,7 +121,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2025-06-02",
     category: "luxury-lifestyle",
     tags: ["escort etiquette", "call girl communication", "udaipur escort tips", "luxury companionship", "respectful escort experience"],
-    image: "/assets/b75bae9fc5a7f1fc577aa197d79fd3c5.webp",
+    image: "/assets/rich-luxury-escort-udaipur.jpg",
     readingTime: 7,
     rating: { value: 4.9, count: 110 },
     faqs: [
@@ -143,7 +143,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2026-06-25",
     category: "service-explained",
     tags: ["escort service", "VIP companion", "Udaipur adult services"],
-    image: "/assets/0c75ce28964755affc6ce60a0e2de02c.webp",
+    image: "/assets/russian-escort-in-udaipur.jpg",
     readingTime: 5,
     rating: { value: 4.9, count: 145 },
     faqs: [
@@ -165,7 +165,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2026-06-26",
     category: "companionship-tips",
     tags: ["Udaipur call girls", "safety tips", "booking guide"],
-    image: "/assets/020e470be4ba0020d6c2eaee843d5e2b.webp",
+    image: "/assets/hotel-escort-service-udaipur.jpg",
     readingTime: 6,
     rating: { value: 4.8, count: 112 },
     faqs: [
@@ -187,7 +187,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2026-06-27",
     category: "luxury-lifestyle",
     tags: ["independent escorts", "Udaipur companionship", "personalized dates"],
-    image: "/assets/050c75844030c77778d1e279506c1d13.webp",
+    image: "/assets/private-call-girls-udaipur.jpg",
     readingTime: 6,
     rating: { value: 5.0, count: 87 },
     faqs: [
@@ -209,7 +209,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2026-06-28",
     category: "luxury-lifestyle",
     tags: ["VIP escort", "luxury travel", "lakeside dining"],
-    image: "/assets/070d0fd04d47fb001ee593c07df7bb3b.webp",
+    image: "/assets/luxury-escort-service-udaipur.jpg",
     readingTime: 5,
     rating: { value: 4.9, count: 156 },
     faqs: [
@@ -231,7 +231,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2026-06-29",
     category: "service-explained",
     tags: ["privacy", "discretion", "confidentiality"],
-    image: "/assets/07ac9b2fc66d0ea6601d9cb9ff3c41a1.webp",
+    image: "/assets/vip-escort-in-udaipur.jpg",
     readingTime: 4,
     rating: { value: 4.9, count: 134 },
     faqs: [
@@ -253,7 +253,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2026-06-30",
     category: "luxury-lifestyle",
     tags: ["dining companion", "Rajasthani hospitality", "escort date"],
-    image: "/assets/0a9b8c7d6e5f4g3h2i1j.webp",
+    image: "/assets/private-call-girls-udaipur.jpg",
     readingTime: 6,
     rating: { value: 4.8, count: 98 },
     faqs: [
@@ -275,7 +275,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2026-07-01",
     category: "service-explained",
     tags: ["incall", "outcall", "escort options"],
-    image: "/assets/0j9i8h7g6f5e4d3c2b1a.webp",
+    image: "/assets/private-escort-meet-udaipur.jpg",
     readingTime: 5,
     rating: { value: 4.7, count: 119 },
     faqs: [
@@ -297,7 +297,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2026-07-02",
     category: "companionship-tips",
     tags: ["dating etiquette", "first time client", "escort guidelines"],
-    image: "/assets/142e391bf63ee9d51f4d9b5d11f72f1b.webp",
+    image: "/assets/top-escorts-in-udaipur.jpg",
     readingTime: 6,
     rating: { value: 4.9, count: 165 },
     faqs: [
@@ -319,7 +319,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2026-07-03",
     category: "luxury-lifestyle",
     tags: ["Russian escorts", "foreign companion", "Udaipur models"],
-    image: "/assets/164c8eaf7dd6c47d742e0890b15d1f5e.webp",
+    image: "/assets/professional-udaipur-escorts.jpg",
     readingTime: 5,
     rating: { value: 5.0, count: 184 },
     faqs: [
@@ -341,7 +341,7 @@ export const blogPosts: BlogPost[] = [
     dateModified: "2026-07-04",
     category: "luxury-lifestyle",
     tags: ["housewife escorts", "mature companion", "discreet dating"],
-    image: "/assets/1a2b3c4d5e6f7g8h9i0.webp",
+    image: "/assets/indian-escort-girls-udaipur.jpg",
     readingTime: 6,
     rating: { value: 4.9, count: 142 },
     faqs: [

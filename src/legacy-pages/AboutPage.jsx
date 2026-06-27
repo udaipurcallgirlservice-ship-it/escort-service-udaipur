@@ -13,7 +13,7 @@ const AboutPage = ({ siteUrl }) => {
   const pageTitle = "About Our Udaipur Escort Agency | Trusted & Elite Escorts";
   const pageDescription = "Learn about Udaipur's top escort agency. We offer verified, high-profile call girls for luxury, passion, and complete discretion. Your trusted choice.";
   const keywords = "Udaipur escort agency, trusted escorts Udaipur, verified call girls, high-profile escorts, luxury escorts Udaipur, Escort Service Udaipur, call girl, escort";
-  const heroImage = "/assets/b472ad1f73438be3ebb980c06efeebfe.webp";
+  const heroImage = "/assets/professional-udaipur-escorts.jpg";
 
   const organizationSchema = createOrganizationSchema(siteUrl, pageDescription);
   const aboutPageSchema = createAboutPageSchema(pageUrl, pageTitle, pageDescription, organizationSchema);
@@ -24,7 +24,7 @@ const AboutPage = ({ siteUrl }) => {
 
   return (
     <div className="pt-16 lg:pt-20">
-      <MetaUpdater 
+      <MetaUpdater
         title={pageTitle}
         description={pageDescription}
         keywords={keywords}
@@ -32,7 +32,7 @@ const AboutPage = ({ siteUrl }) => {
         schema={[aboutPageSchema, organizationSchema, breadcrumbSchema]}
         imageUrl={heroImage}
       />
-      <PageHero 
+      <PageHero
         title={<>About <span className="gradient-text">Escort Service Udaipur</span></>}
         subtitle="Your premier destination for sophisticated escort services and elite call girls in the City of Lakes. Setting the standard for luxury companionship since 2020."
         imageSrc={heroImage}
@@ -48,7 +48,7 @@ const AboutPage = ({ siteUrl }) => {
               Established as Udaipur's most trusted and professional escort agency, we have been providing exceptional companionship services to discerning clients for over four years. Our commitment to excellence, discretion, and client satisfaction has made us the preferred choice for those seeking premium escort services in the City of Lakes. We specialize in connecting sophisticated gentlemen with beautiful, intelligent, and cultured call girls who embody elegance and charm.
             </p>
           </div>
-          
+
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <h2 className="text-2xl font-semibold text-gray-900 mb-6">Our Professional Standards</h2>
@@ -78,9 +78,9 @@ const AboutPage = ({ siteUrl }) => {
               </div>
             </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
-              <OptimizedImage 
-                src="/assets/7f7861ea499bff9c6e006a1e31dd7c03.webp" 
-                alt="Professional escort service team in Udaipur" 
+              <OptimizedImage
+                src="/assets/udaipur-escort-service.jpg"
+                alt="Professional escort service team in Udaipur"
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -121,8 +121,8 @@ const AboutPage = ({ siteUrl }) => {
                 Our <span className="gradient-text">Story</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Founded in Udaipur, Escort Service Udaipur began with a mission: to provide discerning 
-                clients with access to the most sophisticated and elegant escorts and call girls in Rajasthan. 
+                Founded in Udaipur, Escort Service Udaipur began with a mission: to provide discerning
+                clients with access to the most sophisticated and elegant escorts and call girls in Rajasthan.
                 Our journey is built on excellence, discretion, and genuine care for our clients' experiences.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
@@ -130,7 +130,7 @@ const AboutPage = ({ siteUrl }) => {
                 companions represent the finest in beauty, intelligence, and sophistication, ensuring every encounter exceeds expectations.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Today, we continue to innovate, maintaining our core values of discretion, quality, and exceptional escort service 
+                Today, we continue to innovate, maintaining our core values of discretion, quality, and exceptional escort service
                 that have made us the preferred choice for discerning clients.
               </p>
             </motion.div>
@@ -141,9 +141,9 @@ const AboutPage = ({ siteUrl }) => {
               className="relative"
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <OptimizedImage  
-                  className="w-full h-96 object-cover" 
-                  alt="Elegant escort in Udaipur overlooking Lake Pichola" src="/assets/9129f3d63b2949746750be20ebf51262.webp" />
+                <OptimizedImage
+                  className="w-full h-96 object-cover"
+                  alt="Elegant escort in Udaipur overlooking Lake Pichola" src="/assets/exclusive-escort-service-udaipur.jpg" />
               </div>
               <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-r from-pink-500 to-red-500 rounded-full opacity-20 animate-pulse"></div>
               <div className="absolute -top-6 -left-6 w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full opacity-20 animate-pulse" style={{ animationDelay: '1s' }}></div>
@@ -296,9 +296,9 @@ const AboutPage = ({ siteUrl }) => {
               className="relative"
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <OptimizedImage  
-                  className="w-full h-96 object-cover" 
-                  alt="Beautiful escort in a luxurious Udaipur hotel room" src="/assets/eb90df07579e0f07108d25f5d70afb19.webp" />
+                <OptimizedImage
+                  className="w-full h-96 object-cover"
+                  alt="Beautiful escort in a luxurious Udaipur hotel room" src="/assets/russian-escort-in-udaipur.jpg" />
               </div>
               <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full opacity-20 animate-pulse"></div>
               <div className="absolute -top-6 -right-6 w-16 h-16 bg-gradient-to-r from-pink-500 to-red-500 rounded-full opacity-20 animate-pulse" style={{ animationDelay: '1s' }}></div>
@@ -317,7 +317,7 @@ const AboutPage = ({ siteUrl }) => {
                 while maintaining the highest standards of discretion, professionalism, and customer service for an unmatched escort experience.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                We believe every client deserves an exceptional escort experience. Our mission is to create meaningful connections and unforgettable 
+                We believe every client deserves an exceptional escort experience. Our mission is to create meaningful connections and unforgettable
                 moments that enrich our clients' lives.
               </p>
               <div className="space-y-4">

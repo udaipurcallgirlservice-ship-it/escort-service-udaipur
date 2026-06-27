@@ -5,7 +5,7 @@ import { Phone, MessageCircle } from 'lucide-react';
 import OptimizedImage from '@/components/ui/OptimizedImage';
 
 const HeroSection = () => {
-  const whatsappNumber = "+919549032117";
+  const whatsappNumber = "+918000253680";
   const whatsappMessage = "Hello, this message is from escortserviceudaipur.com";
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
   const callLink = `tel:${whatsappNumber}`;
@@ -37,7 +37,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            Premium Udaipur Escorts | VIP Call Girls & Elite Escort Service in Udaipur
+            Premium Escort Services in Udaipur | Call Girls Available from ₹2999
           </motion.h1>
           
           <motion.p 
@@ -46,7 +46,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Experience the finest Udaipur Escort Services with 100% COD. We provide reliable, high-profile independent escorts, Russian models, and VIP call girls in Udaipur for a safe, private, and unforgettable companionship.
+            Book Call Girls Udaipur through our trusted Escort Service in Udaipur, with verified Udaipur Escorts including Independent Call Girls, VIP Escorts, Russian Escorts, College Girls and Housewife Escorts from ₹2999, plus Cash on Delivery, 24x7 Service and fast WhatsApp Booking.
           </motion.p>
 
           <motion.div 

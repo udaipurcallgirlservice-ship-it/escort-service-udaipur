@@ -8,7 +8,7 @@ export const createProfessionalServiceSchema = (siteUrl, pageDescription, keywor
   "image": [
     imageUrl,
     "/logo.svg",
-    "/assets/6b3e692b9069eeafd99d41bd8406c705.webp"
+    "/assets/udaipur-escort-service.jpg"
   ],
   "logo": {
     "@type": "ImageObject",
@@ -18,8 +18,8 @@ export const createProfessionalServiceSchema = (siteUrl, pageDescription, keywor
   },
   "@id": siteUrl,
   "url": siteUrl,
-  "telephone": "+919549032117",
-  "email": "escortserviceudaipur141@gmail.com",
+  "telephone": "+918000253680",
+  "email": "Royalkingclub007@gmail.com",
   "priceRange": "₹2500 - ₹60000",
   "currenciesAccepted": "INR",
   "paymentAccepted": ["Cash", "Cash on Delivery", "Online Payment", "UPI", "PayTM", "Google Pay"],
@@ -136,7 +136,7 @@ export const createProfessionalServiceSchema = (siteUrl, pageDescription, keywor
       "@type": "ReserveAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://wa.me/919549032117?text=Hello%2C%20I'm%20interested%20in%20your%20escort%20services.",
+        "urlTemplate": "https://wa.me/918000253680?text=Hello%2C%20I'm%20interested%20in%20your%20escort%20services.",
         "actionPlatform": [
           "https://schema.org/DesktopWebPlatform",
           "https://schema.org/IOSPlatform",
@@ -149,7 +149,7 @@ export const createProfessionalServiceSchema = (siteUrl, pageDescription, keywor
       "@type": "CommunicateAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "tel:+919549032117",
+        "urlTemplate": "tel:+918000253680",
         "actionPlatform": [
           "https://schema.org/DesktopWebPlatform",
           "https://schema.org/IOSPlatform",

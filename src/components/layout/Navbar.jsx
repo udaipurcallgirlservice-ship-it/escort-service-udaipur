@@ -8,7 +8,7 @@ import React, { useState, useEffect } from 'react';
       const [isOpen, setIsOpen] = useState(false);
       const [scrolled, setScrolled] = useState(false);
       const location = useLocation();
-      const whatsappNumber = "+919549032117";
+      const whatsappNumber = "+918000253680";
       const whatsappMessage = "Hello, this message is from escortserviceudaipur.com";
       const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
 

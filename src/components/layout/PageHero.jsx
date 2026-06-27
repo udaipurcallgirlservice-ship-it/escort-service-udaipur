@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import OptimizedImage from '@/components/ui/OptimizedImage';
 
 const PageHero = ({ title, subtitle, imageSrc, breadcrumbs }) => {
-  const defaultImage = "/assets/f8441e649912a570483966ddd70b37de.webp";
+  const defaultImage = "/assets/udaipur-escort-service.jpg";
 
   return (
     <section 

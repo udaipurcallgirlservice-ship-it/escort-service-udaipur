@@ -2,9 +2,9 @@ import { pageMetadata } from '../lib/seo';
 
 export const seoPages = {
   home: pageMetadata({
-    title: 'Premium Escort Services in Udaipur | Call Girls Udaipur Available Just ₹2999',
+    title: 'Premium Escort Services Udaipur | Call Girls Udaipur ₹2999',
     description:
-      'Call Girls Udaipur from ₹2999 | 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking. Premium Udaipur Escorts, VIP, Russian, Independent Call Girls Available Now.',
+      'Book Call Girls Udaipur & Udaipur Escorts from ₹2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.',
     path: '/',
     keywords: [
       'call girls udaipur',
@@ -62,9 +62,9 @@ export const seoPages = {
     ],
   }),
   contact: pageMetadata({
-    title: 'Contact Escort Service Udaipur | WhatsApp Booking +91-9549032117',
+    title: 'Contact Escort Service Udaipur | WhatsApp Booking +91-8000253680',
     description:
-      'Contact Escort Service Udaipur via WhatsApp +91-9549032117 for instant booking. 24x7 Support, Cash on Delivery, Discreet booking for VIP & Premium Call Girls.',
+      'Contact Escort Service Udaipur via WhatsApp +91-8000253680 for instant booking. 24x7 Support, Cash on Delivery, Discreet booking for VIP & Premium Call Girls.',
     path: '/contact',
     keywords: [
       'contact escort service udaipur',

@@ -12,18 +12,18 @@ const RussianEscortsPage = ({ siteUrl }) => {
   const pageTitle = "Exotic Russian Escorts in Udaipur | Elite Russian Call Girls";
   const pageDescription = "Experience exotic companionship with elite Russian escorts in Udaipur. Our captivating Russian call girls offer beauty, passion & sophistication. Book now for an unforgettable encounter.";
   const keywords = "russian escorts udaipur, udaipur russian call girls, russian call girl, elite russian escorts, premium russian escorts, udaipur escorts, call girls udaipur, Escort Service Udaipur";
-  const heroImage = "/assets/eb90df07579e0f07108d25f5d70afb19.webp";
+  const heroImage = "/assets/russian-escort-in-udaipur.jpg";
   
   const siteName = "Escort Service Udaipur";
-  const whatsappNumber = "+919549032117";
+  const whatsappNumber = "+918000253680";
   const whatsappMessage = `Hello ${siteName}, I'm interested in your Russian escorts in Udaipur.`;
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
   const callLink = `tel:${whatsappNumber}`;
 
   const escortsData = [
-    { name: 'Alina', age: 24, image: "/assets/eb90df07579e0f07108d25f5d70afb19.webp", description: "Alina, an exotic Russian call girl, offers passionate escort services in Udaipur. Perfect for an adventurous night." },
-    { name: 'Katya', age: 22, image: "/assets/4f312bb5388d30cb6c447e63eb1561ec.webp", description: "Katya brings her Russian charm to Udaipur. This escort guarantees an unforgettable and sensual experience." },
-    { name: 'Svetlana', age: 25, image: "/assets/0c75ce28964755affc6ce60a0e2de02c.webp", description: "Svetlana is a sophisticated Russian escort in Udaipur, known for her elegance and captivating companionship." },
+    { name: 'Alina', age: 24, image: "/assets/russian-escort-in-udaipur.jpg", description: "Alina, an exotic Russian call girl, offers passionate escort services in Udaipur. Perfect for an adventurous night." },
+    { name: 'Katya', age: 22, image: "/assets/hot-udaipur-call-girl.jpg", description: "Katya brings her Russian charm to Udaipur. This escort guarantees an unforgettable and sensual experience." },
+    { name: 'Svetlana', age: 25, image: "/assets/russian-escort-in-udaipur.jpg", description: "Svetlana is a sophisticated Russian escort in Udaipur, known for her elegance and captivating companionship." },
   ];
 
   const schemaData = {
@@ -62,7 +62,7 @@ const RussianEscortsPage = ({ siteUrl }) => {
       />
       <section 
         className="relative py-20 md:py-32 bg-cover bg-center"
-        style={{ backgroundImage: "url('/assets/837d685b3920ff9f05e118439810a423.webp')" }}
+        style={{ backgroundImage: "url('/assets/luxury-escort-service-udaipur.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
@@ -168,7 +168,7 @@ const RussianEscortsPage = ({ siteUrl }) => {
           </div>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <OptimizedImage src="/assets/1d2c3b4a5e6f7g8h9i0j.webp" alt="Elegant Russian escort in Udaipur" className="rounded-2xl shadow-xl w-full h-auto object-cover aspect-video" />
+              <OptimizedImage src="/assets/elite-call-girl-service-udaipur.jpg" alt="Elegant Russian escort in Udaipur" className="rounded-2xl shadow-xl w-full h-auto object-cover aspect-video" />
             </div>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">

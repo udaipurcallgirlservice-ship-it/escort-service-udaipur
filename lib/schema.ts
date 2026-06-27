@@ -10,7 +10,7 @@ export const organizationSchema = {
   sameAs: ['https://facebook.com/escortserviceudaipur', 'https://instagram.com/escortserviceudaipur'],
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '+91-9549032117',
+    telephone: '+91-8000253680',
     contactType: 'customer service',
     availableLanguage: ['English', 'Hindi'],
   },
@@ -34,7 +34,7 @@ export const localBusinessSchema = {
   name: 'Escort Service Udaipur',
   image: logoUrl,
   url: siteUrl,
-  telephone: '+91-9549032117',
+  telephone: '+91-8000253680',
   priceRange: '$$$',
   address: {
     '@type': 'PostalAddress',

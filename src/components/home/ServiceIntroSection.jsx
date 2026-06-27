@@ -16,16 +16,16 @@ const ServiceIntroSection = () => {
         </div>
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="rounded-lg overflow-hidden shadow-xl">
-            <OptimizedImage 
-              src="/assets/6b3e692b9069eeafd99d41bd8406c705.webp" 
-              alt="Beautiful Udaipur escort ready for an encounter" 
+            <OptimizedImage
+              src="/assets/udaipur-escort-service.jpg"
+              alt="Beautiful Udaipur escort ready for an encounter"
               className="w-full h-auto object-cover"
             />
           </div>
           <div className="rounded-lg overflow-hidden shadow-xl">
-            <OptimizedImage 
-              src="/assets/d4f2714ce771733034a260fd645270c9.webp" 
-              alt="Elegant call girl in Udaipur" 
+            <OptimizedImage
+              src="/assets/exclusive-escort-service-udaipur.jpg"
+              alt="Elegant call girl in Udaipur"
               className="w-full h-auto object-cover"
             />
           </div>

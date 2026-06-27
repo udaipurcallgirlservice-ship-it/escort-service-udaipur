@@ -3,7 +3,7 @@ export const createOrganizationSchema = (siteUrl, pageDescription) => ({
     "@type": "Organization",
     "name": "Escort Service Udaipur",
     "url": siteUrl,
-    "logo": `${siteUrl}/logo.webp`,
+    "logo": `${siteUrl}/logo.svg`,
     "description": pageDescription,
     "address": {
       "@type": "PostalAddress",
@@ -15,7 +15,7 @@ export const createOrganizationSchema = (siteUrl, pageDescription) => ({
     },
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+919549032117",
+      "telephone": "+918000253680",
       "contactType": "Customer Service",
       "areaServed": "IN",
       "availableLanguage": "en"

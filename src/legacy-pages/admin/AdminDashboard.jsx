@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { 
-  LayoutDashboard, 
-  Users, 
-  FileText, 
-  MessageSquare, 
-  Settings, 
+import {
+  LayoutDashboard,
+  Users,
+  FileText,
+  MessageSquare,
+  Settings,
   LogOut,
   Menu,
   X,
@@ -56,9 +56,9 @@ const AdminDashboard = () => {
       }`}>
         <div className="flex items-center justify-between h-16 px-6 border-b border-gray-200 lg:h-20">
           <div className="flex items-center space-x-3">
-            <img 
-              src="/assets/bc9934476a091e4e30b0a0219690642a.webp" 
-              alt="Admin Logo" 
+            <img
+              src="/logo.svg"
+              alt="Admin Logo"
               className="h-8 w-8 rounded-full"
             />
             <span className="text-lg font-semibold text-gray-900">Admin Panel</span>

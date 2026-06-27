@@ -71,7 +71,7 @@ export default function ClientShell({ page }) {
         <Toaster />
         {!isAdmin && (
           <WhatsAppStickyButton
-            phoneNumber="+919549032117"
+            phoneNumber="+918000253680"
             message="Hello, this message is from escortserviceudaipur.com"
           />
         )}

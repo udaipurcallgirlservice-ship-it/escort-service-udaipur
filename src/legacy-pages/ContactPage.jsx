@@ -16,7 +16,7 @@ const ContactPage = ({ siteUrl }) => {
   const pageTitle = "Contact Us | Book Udaipur Escorts & Call Girls 24/7";
   const pageDescription = "Ready to book an elite escort in Udaipur? Contact us 24/7 via Call or WhatsApp for fast, confidential booking of our verified, high-class call girls.";
   const keywords = "contact Udaipur escorts, hire call girls Udaipur, book escort Udaipur, WhatsApp escorts Udaipur, 24/7 escort booking, Escort Service Udaipur, call girl, escort";
-  const heroImage = "/assets/4f312bb5388d30cb6c447e63eb1561ec.webp";
+  const heroImage = "/assets/hot-udaipur-call-girl.jpg";
 
   const breadcrumbSchema = createBreadcrumbSchema([
     { name: "Home", item: siteUrl },
@@ -32,7 +32,7 @@ const ContactPage = ({ siteUrl }) => {
 
   const faqPageSchema = createFaqPageSchema(faqData);
 
-  const contactPageSchema = createContactPageSchema(pageUrl, pageTitle, pageDescription, "+919549032117");
+  const contactPageSchema = createContactPageSchema(pageUrl, pageTitle, pageDescription, "+918000253680");
 
   return (
     <div className="pt-16 lg:pt-20">

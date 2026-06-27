@@ -5,7 +5,7 @@ import React from 'react';
     import { Helmet } from 'react-helmet-async';
 
     const Footer = () => {
-      const whatsappNumber = "+919549032117";
+      const whatsappNumber = "+918000253680";
       const whatsappMessage = "Hello, this message is from escortserviceudaipur.com";
       const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
 
@@ -189,9 +189,9 @@ import React from 'react';
                       <MessageCircle className="w-4 h-4 text-pink-400 flex-shrink-0 group-hover:animate-bounce" />
                       <span>WhatsApp for Call Girl</span>
                     </a>
-                    <a href="mailto:escortserviceudaipur141@gmail.com" className="flex items-center space-x-3 text-gray-300 hover:text-pink-400 transition-colors duration-300 group">
+                    <a href="mailto:Royalkingclub007@gmail.com" className="flex items-center space-x-3 text-gray-300 hover:text-pink-400 transition-colors duration-300 group">
                       <Mail className="w-4 h-4 text-pink-400 flex-shrink-0" />
-                      <span>escortserviceudaipur141@gmail.com</span>
+                      <span>Royalkingclub007@gmail.com</span>
                     </a>
                   </div>
                 </motion.div>

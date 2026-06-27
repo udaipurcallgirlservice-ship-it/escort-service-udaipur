@@ -90,7 +90,7 @@ const RatesTableSection = () => {
                     <td className="px-6 py-6 text-gray-600 max-w-xs md:max-w-sm text-sm">{rate.features}</td>
                     <td className="px-6 py-6 text-center">
                       <a
-                        href={`https://wa.me/919549032117?text=Hello%2C%20I%20am%20interested%20in%20booking%20${encodeURIComponent(rate.category)}.%20Please%20share%20details.`}
+                        href={`https://wa.me/918000253680?text=Hello%2C%20I%20am%20interested%20in%20booking%20${encodeURIComponent(rate.category)}.%20Please%20share%20details.`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block"

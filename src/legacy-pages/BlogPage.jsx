@@ -16,7 +16,7 @@ const BlogPage = ({ siteUrl }) => {
   const pageTitle = "Udaipur Escort & Call Girl Blog | Service Tips & News";
   const pageDescription = "Our Udaipur escort blog offers expert advice, news, and tips. Elevate your adult entertainment experience with insights on our premium call girl services.";
   const keywords = "escort service blog, Udaipur escorts tips, call girl news, adult entertainment news, escort insights, premium escort advice, Escort Service Udaipur, call girl, escort";
-  const heroImage = "/assets/0c75ce28964755affc6ce60a0e2de02c.webp";
+  const heroImage = "/assets/russian-escort-in-udaipur.jpg";
 
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -66,7 +66,7 @@ const BlogPage = ({ siteUrl }) => {
       "name": "Escort Service Udaipur",
       "logo": {
         "@type": "ImageObject",
-        "url": `${siteUrl}/logo.webp`
+        "url": `${siteUrl}/logo.svg`
       }
     },
     "blogPost": initialBlogPosts.map(post => ({
@@ -84,7 +84,7 @@ const BlogPage = ({ siteUrl }) => {
          "name": "Escort Service Udaipur",
          "logo": {
            "@type": "ImageObject",
-           "url": `${siteUrl}/logo.webp`
+           "url": `${siteUrl}/logo.svg`
          }
       }
     }))

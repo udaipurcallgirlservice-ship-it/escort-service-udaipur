@@ -24,10 +24,10 @@ import KeywordTagsSection from '@/components/home/KeywordTagsSection';
 
 const HomePage = ({ siteUrl }) => {
   const location = useLocation();
-  const pageTitle = "Udaipur Escort Services | 100% COD Luxury Escort service in Udaipur";
-  const pageDescription = "Enjoy Udaipur Escort Services with 100% COD. Reliable escort service in Udaipur for safe, private, and memorable companionship.";
+  const pageTitle = "Premium Escort Services Udaipur | Call Girls Udaipur ₹2999";
+  const pageDescription = "Book Call Girls Udaipur & Udaipur Escorts from ₹2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.";
   const keywords = "udaipur escort services, escort services in udaipur, udaipur escorts, call girls in udaipur, genuine escorts udaipur, high profile escorts udaipur, vip escorts udaipur, discreet escort service udaipur";
-  const imageUrl = "/assets/f043e3b400596ff61ff6607eae19097f.webp";
+  const imageUrl = "/assets/premium-escort-service-udaipur.jpg";
 
   const faqSchema = createFaqPageSchema(faqsData);
   const schemas = [...getHomePageSchemas(siteUrl, pageDescription, keywords, imageUrl), faqSchema];

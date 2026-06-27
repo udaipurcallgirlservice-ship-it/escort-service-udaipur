@@ -7,13 +7,13 @@ const ContactInfo = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+91 98765 43210', '+91 87654 32109'],
+      details: ['+91 8000253680'],
       description: '24/7 Available'
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@udaipurescorthub.com', 'booking@udaipurescorthub.com'],
+      details: ['Royalkingclub007@gmail.com'],
       description: 'Quick Response'
     },
     {

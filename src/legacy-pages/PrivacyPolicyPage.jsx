@@ -23,7 +23,7 @@ import React from 'react';
           <PageHero
             title={<>Privacy <span className="gradient-text">Policy</span></>}
             subtitle="Your privacy and confidentiality are our highest priorities."
-            imageSrc="/assets/a98099e2f64a96da870cca70d497e9ef.webp"
+            imageSrc="/assets/top-rated-call-girl-udaipur.jpg"
           />
 
           <section className="py-16 bg-white">
