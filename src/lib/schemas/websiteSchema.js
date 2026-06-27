@@ -11,14 +11,6 @@ export const createWebsiteSchema = (siteUrl, pageDescription) => ({
     "@type": "Organization",
     "name": "Escort Service Udaipur"
   },
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": `${siteUrl}/search?q={search_term_string}`
-    },
-    "query-input": "required name=search_term_string"
-  },
   "publisher": {
     "@type": "Organization",
     "name": "Escort Service Udaipur",

@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { DM_Sans, Playfair_Display } from 'next/font/google';
 import './globals.css';
 import JsonLd from '../components/seo/JsonLd';
-import { localBusinessSchema, organizationSchema, websiteSchema } from '../lib/schema';
+import { organizationSchema } from '../lib/schema';
 
 const dmSans = DM_Sans({
   subsets: ['latin'],
@@ -68,9 +68,6 @@ export const metadata: Metadata = {
     images: ['/logo.svg'],
     creator: '@escortudaipur',
   },
-  verification: {
-    google: 'GOOGLE_SEARCH_CONSOLE_CODE',
-  },
   robots: {
     index: true,
     follow: true,
@@ -117,7 +114,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="format-detection" content="telephone=yes" />
       </head>
       <body>
-        <JsonLd data={[organizationSchema, websiteSchema, localBusinessSchema]} />
+        <JsonLd data={organizationSchema} />
         {children}
       </body>
     </html>

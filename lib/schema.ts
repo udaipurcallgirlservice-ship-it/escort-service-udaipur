@@ -1,4 +1,4 @@
-const siteUrl = 'https://escortserviceudaipur.com';
+export const siteUrl = 'https://escortserviceudaipur.com';
 const logoUrl = `${siteUrl}/logo.svg`;
 
 export const organizationSchema = {
@@ -19,18 +19,15 @@ export const organizationSchema = {
 export const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
+  '@id': `${siteUrl}/#website`,
   name: 'Escort Service Udaipur',
   url: siteUrl,
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: { '@type': 'EntryPoint', urlTemplate: `${siteUrl}/search?q={search_term_string}` },
-    'query-input': 'required name=search_term_string',
-  },
 };
 
 export const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
+  '@id': `${siteUrl}/#localbusiness`,
   name: 'Escort Service Udaipur',
   image: logoUrl,
   url: siteUrl,
@@ -57,6 +54,14 @@ export const localBusinessSchema = {
       closes: '23:59',
     },
   ],
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    bestRating: '5',
+    worstRating: '1',
+    ratingCount: '258',
+    reviewCount: '192',
+  },
 };
 
 export function articleSchema(post: {
