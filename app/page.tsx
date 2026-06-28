@@ -13,7 +13,7 @@ export default function Page() {
       '@type': 'WebPage',
       '@id': `${siteUrl}/#webpage`,
       url: siteUrl,
-      name: 'Premium Escort Services Udaipur | Call Girls Udaipur ₹2999',
+      name: 'Premium Escort Services in Udaipur - Call Girls Udaipur ₹2999',
       description:
         'Book Call Girls Udaipur & Udaipur Escorts from ₹2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.',
       isPartOf: { '@id': `${siteUrl}/#website` },

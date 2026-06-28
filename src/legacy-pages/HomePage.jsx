@@ -24,7 +24,7 @@ import KeywordTagsSection from '@/components/home/KeywordTagsSection';
 
 const HomePage = ({ siteUrl }) => {
   const location = useLocation();
-  const pageTitle = "Premium Escort Services Udaipur | Call Girls Udaipur ₹2999";
+  const pageTitle = "Premium Escort Services in Udaipur - Call Girls Udaipur ₹2999";
   const pageDescription = "Book Call Girls Udaipur & Udaipur Escorts from ₹2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.";
   const keywords = "udaipur escort services, escort services in udaipur, udaipur escorts, call girls in udaipur, genuine escorts udaipur, high profile escorts udaipur, vip escorts udaipur, discreet escort service udaipur";
   const imageUrl = "/assets/premium-escort-service-udaipur.jpg";

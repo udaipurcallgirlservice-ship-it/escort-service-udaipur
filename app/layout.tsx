@@ -21,8 +21,8 @@ const siteUrl = 'https://escortserviceudaipur.com';
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Premium Escort Services Udaipur | Call Girls Udaipur ₹2999',
-    template: '%s | Escort Service Udaipur',
+    default: 'Premium Escort Services in Udaipur - Call Girls Udaipur ₹2999',
+    template: '%s - Escort Service Udaipur',
   },
   description:
     'Book Call Girls Udaipur & Udaipur Escorts from ₹2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.',
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: siteUrl,
     siteName: 'Escort Service Udaipur',
-    title: 'Premium Escort Services Udaipur | Call Girls Udaipur ₹2999',
+    title: 'Premium Escort Services in Udaipur - Call Girls Udaipur ₹2999',
     description:
       'Book Call Girls Udaipur & Udaipur Escorts from ₹2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.',
     images: [
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Premium Escort Services Udaipur | Call Girls Udaipur ₹2999',
+    title: 'Premium Escort Services in Udaipur - Call Girls Udaipur ₹2999',
     description: 'Book Call Girls Udaipur and Udaipur Escorts from ₹2999 with 24x7 Cash on Delivery and WhatsApp Booking.',
     images: ['/logo.svg'],
     creator: '@escortudaipur',

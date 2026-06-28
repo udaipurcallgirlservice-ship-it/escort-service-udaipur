@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const post = await getBlogPost(slug);
 
   if (!post) {
-    const title = 'Blog Post Not Found | Escort Service Udaipur';
+    const title = 'Blog Post Not Found - Escort Service Udaipur';
     return {
       title,
       description: 'The requested escort service blog article was not found.',

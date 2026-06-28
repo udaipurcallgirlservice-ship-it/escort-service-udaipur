@@ -1,7 +1,7 @@
 import ClientShell from '../../../src/next/ClientShell';
 
 export const metadata = {
-  title: 'Admin Dashboard | Escort Service Udaipur',
+  title: 'Admin Dashboard - Escort Service Udaipur',
   robots: { index: false, follow: false },
 };
 
