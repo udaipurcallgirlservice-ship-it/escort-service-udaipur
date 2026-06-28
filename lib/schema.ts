@@ -117,7 +117,6 @@ export function serviceSchema(service: {
     name: service.name,
     description: service.description,
     provider: {
-      '@type': 'LocalBusiness',
       '@id': `${siteUrl}/#localbusiness`,
     },
     url: service.url,
