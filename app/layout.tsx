@@ -1,8 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import { DM_Sans, Playfair_Display } from 'next/font/google';
 import './globals.css';
-import JsonLd from '../components/seo/JsonLd';
-import { organizationSchema } from '../lib/schema';
+
 
 const dmSans = DM_Sans({
   subsets: ['latin'],
@@ -114,7 +113,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="format-detection" content="telephone=yes" />
       </head>
       <body>
-        <JsonLd data={organizationSchema} />
+
         {children}
       </body>
     </html>

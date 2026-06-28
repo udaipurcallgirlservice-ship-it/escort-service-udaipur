@@ -1,7 +1,8 @@
 import ClientShell from '../src/next/ClientShell';
 import { seoPages } from './seoPages';
 import JsonLd from '../components/seo/JsonLd';
-import { breadcrumbSchema, faqSchema, localBusinessSchema, serviceSchema, siteUrl, websiteSchema } from '../lib/schema';
+import FAQJsonLd from '../components/seo/FAQJsonLd';
+import { breadcrumbSchema, localBusinessSchema, serviceSchema, siteUrl, websiteSchema } from '../lib/schema';
 import { homeFaqs } from '../lib/homeFaqs';
 
 export const metadata = seoPages.home;
@@ -33,12 +34,12 @@ export default function Page() {
       price: '2999',
     }),
     breadcrumbSchema([{ name: 'Home', url: siteUrl }]),
-    faqSchema(homeFaqs),
   ];
 
   return (
     <>
       <JsonLd data={schemas} />
+      <FAQJsonLd faqs={homeFaqs} />
       <ClientShell page="home" />
     </>
   );
