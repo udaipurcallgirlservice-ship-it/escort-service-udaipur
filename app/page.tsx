@@ -2,7 +2,7 @@ import ClientShell from '../src/next/ClientShell';
 import { seoPages } from './seoPages';
 import JsonLd from '../components/seo/JsonLd';
 import FAQJsonLd from '../components/seo/FAQJsonLd';
-import { breadcrumbSchema, localBusinessSchema, serviceSchema, siteUrl, websiteSchema } from '../lib/schema';
+import { breadcrumbSchema, localBusinessSchema, siteUrl, websiteSchema } from '../lib/schema';
 import { homeFaqs } from '../lib/homeFaqs';
 
 export const metadata = seoPages.home;
@@ -26,13 +26,6 @@ export default function Page() {
     },
     websiteSchema,
     localBusinessSchema,
-    serviceSchema({
-      name: 'Premium Escort Service in Udaipur',
-      description:
-        'Premium Escort Service in Udaipur with Call Girls Udaipur, Udaipur Escorts, VIP Escorts, Russian Escorts, Independent Call Girls and WhatsApp Booking.',
-      url: siteUrl,
-      price: '2999',
-    }),
     breadcrumbSchema([{ name: 'Home', url: siteUrl }]),
   ];
 
