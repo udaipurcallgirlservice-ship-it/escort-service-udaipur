@@ -117,9 +117,8 @@ export function serviceSchema(service: {
     name: service.name,
     description: service.description,
     provider: {
-      '@type': 'Organization',
-      name: 'Escort Service Udaipur',
-      url: siteUrl,
+      '@type': 'LocalBusiness',
+      '@id': `${siteUrl}/#localbusiness`,
     },
     url: service.url,
     areaServed: {
