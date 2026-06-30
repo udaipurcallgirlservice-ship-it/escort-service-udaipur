@@ -13,10 +13,10 @@ export default function Page() {
       '@context': 'https://schema.org',
       '@type': 'WebPage',
       '@id': `${siteUrl}/#webpage`,
-      url: siteUrl,
-      name: 'Premium Escort Services in Udaipur - Call Girls Udaipur ₹2999',
+      url: `${siteUrl}/`,
+      name: 'Escort Service Udaipur | Call Girls from Rs.2999',
       description:
-        'Book Call Girls Udaipur & Udaipur Escorts from ₹2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.',
+        'Book Call Girls Udaipur & Udaipur Escorts from Rs.2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.',
       isPartOf: { '@id': `${siteUrl}/#website` },
       about: { '@id': `${siteUrl}/#localbusiness` },
       primaryImageOfPage: {
@@ -26,7 +26,7 @@ export default function Page() {
     },
     websiteSchema,
     localBusinessSchema,
-    breadcrumbSchema([{ name: 'Home', url: siteUrl }]),
+    breadcrumbSchema([{ name: 'Home', url: `${siteUrl}/` }]),
   ];
 
   return (

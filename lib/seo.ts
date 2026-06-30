@@ -4,7 +4,7 @@ import type { BlogPost } from './blog';
 export const siteUrl = 'https://escortserviceudaipur.com';
 
 export function absoluteUrl(path = '/') {
-  return `${siteUrl}${path === '/' ? '' : path}`;
+  return path === '/' ? `${siteUrl}/` : `${siteUrl}${path}`;
 }
 
 export function pageMetadata({
@@ -22,7 +22,7 @@ export function pageMetadata({
 }): Metadata {
   const url = absoluteUrl(path);
   return {
-    title,
+    title: { absolute: title },
     description,
     keywords,
     alternates: { canonical: url },

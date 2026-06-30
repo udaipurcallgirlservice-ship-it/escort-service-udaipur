@@ -55,9 +55,9 @@ const EscortServiceInUdaipurPage = ({ siteUrl }) => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h1 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
               Udaipur's Most Trusted <span className="gradient-text">Local Escort Agency</span>
-            </h1>
+            </h2>
             <p className="text-lg text-gray-600 mt-4 max-w-4xl mx-auto leading-relaxed">
               Welcome to the ultimate resource for elite escort services in Udaipur. We are not just an agency; we are local experts in providing unparalleled companionship. Our deep understanding of the city, combined with a roster of exceptional call girls, ensures that your experience is seamless, safe, and supremely satisfying, whether you're in the historic heart of the city or its modern extensions.
             </p>

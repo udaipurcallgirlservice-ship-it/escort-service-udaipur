@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from 'next';
 import { DM_Sans, Playfair_Display } from 'next/font/google';
 import './globals.css';
 
-
 const dmSans = DM_Sans({
   subsets: ['latin'],
   display: 'swap',
@@ -20,11 +19,11 @@ const siteUrl = 'https://escortserviceudaipur.com';
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Premium Escort Services in Udaipur - Call Girls Udaipur ₹2999',
+    default: 'Escort Service Udaipur | Call Girls from Rs.2999',
     template: '%s - Escort Service Udaipur',
   },
   description:
-    'Book Call Girls Udaipur & Udaipur Escorts from ₹2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.',
+    'Book Call Girls Udaipur & Udaipur Escorts from Rs.2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.',
   keywords: [
     'call girls udaipur',
     'escort service in udaipur',
@@ -42,28 +41,28 @@ export const metadata: Metadata = {
   creator: 'Escort Service Udaipur',
   publisher: 'Escort Service Udaipur',
   category: 'Adult Entertainment Services',
-  alternates: { canonical: siteUrl },
+  alternates: { canonical: `${siteUrl}/` },
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: siteUrl,
+    url: `${siteUrl}/`,
     siteName: 'Escort Service Udaipur',
-    title: 'Premium Escort Services in Udaipur - Call Girls Udaipur ₹2999',
+    title: 'Escort Service Udaipur | Call Girls from Rs.2999',
     description:
-      'Book Call Girls Udaipur & Udaipur Escorts from ₹2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.',
+      'Book Call Girls Udaipur & Udaipur Escorts from Rs.2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.',
     images: [
       {
         url: '/logo.svg',
         width: 1200,
         height: 630,
-        alt: 'Escort Service Udaipur - Premium Call Girls from ₹2999',
+        alt: 'Escort Service Udaipur - Premium Call Girls from Rs.2999',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Premium Escort Services in Udaipur - Call Girls Udaipur ₹2999',
-    description: 'Book Call Girls Udaipur and Udaipur Escorts from ₹2999 with 24x7 Cash on Delivery and WhatsApp Booking.',
+    title: 'Escort Service Udaipur | Call Girls from Rs.2999',
+    description: 'Book Call Girls Udaipur and Udaipur Escorts from Rs.2999 with 24x7 Cash on Delivery and WhatsApp Booking.',
     images: ['/logo.svg'],
     creator: '@escortudaipur',
   },
@@ -83,9 +82,7 @@ export const metadata: Metadata = {
       { url: '/favicon.svg', type: 'image/svg+xml' },
       { url: '/logo.svg', sizes: '192x192', type: 'image/svg+xml' },
     ],
-    apple: [
-      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
-    ],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
     shortcut: '/favicon.svg',
   },
 };
@@ -112,10 +109,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="format-detection" content="telephone=yes" />
       </head>
-      <body>
-
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

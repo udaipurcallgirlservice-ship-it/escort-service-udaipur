@@ -1,8 +1,7 @@
 import React from 'react';
     import { Link } from 'react-router-dom';
     import { motion } from 'framer-motion';
-    import { Heart, Shield, Phone, Mail, MapPin, Facebook, Instagram, MessageCircle, Star } from 'lucide-react';
-    import { Helmet } from 'react-helmet-async';
+    import { Heart, Shield, Phone, Mail, MapPin, MessageCircle, Star } from 'lucide-react';
 
     const Footer = () => {
       const whatsappNumber = "+918000253680";
@@ -32,16 +31,8 @@ import React from 'react';
         { name: 'Terms of Service', path: '/terms-of-service' },
       ];
 
-      const socialLinks = [
-        { icon: Facebook, href: 'https://facebook.com', label: 'Facebook' },
-        { icon: Instagram, href: 'https://instagram.com', label: 'Instagram' },
-      ];
-
       return (
         <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white relative overflow-hidden">
-          <Helmet>
-            <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
-          </Helmet>
           <div className="absolute inset-0 bg-pattern opacity-10"></div>
           
           <div className="relative z-10">
@@ -67,25 +58,6 @@ import React from 'react';
                   <p className="text-gray-300 leading-relaxed text-sm">
                     <Link to="/escort-service-in-udaipur" className="hover:underline hover:text-pink-400 font-semibold">Escort Service Udaipur</Link> offers top-tier companionship with professional call girls. We ensure 100% discretion, safety, and satisfaction for all our clients seeking elite escort services in Udaipur.
                   </p>
-                  <div className="flex space-x-3">
-                    {socialLinks.map((social, index) => {
-                      const Icon = social.icon;
-                      return (
-                        <motion.a
-                          key={index}
-                          href={social.href}
-                          target="_blank"
-                          rel="nofollow noopener noreferrer"
-                          whileHover={{ scale: 1.1, y: -2 }}
-                          whileTap={{ scale: 0.95 }}
-                          className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-pink-500/80 transition-all duration-300 group"
-                          aria-label={social.label}
-                        >
-                          <Icon className="w-5 h-5 text-pink-400 group-hover:text-white transition-colors" />
-                        </motion.a>
-                      );
-                    })}
-                  </div>
                 </motion.div>
 
                 <motion.div
@@ -207,11 +179,6 @@ import React from 'react';
                       <Link to="/privacy-policy" className="hover:text-pink-400 transition-colors">Privacy Policy</Link> | 
                       <Link to="/terms-of-service" className="hover:text-pink-400 transition-colors"> Terms of Service</Link>
                     </p>
-                    <div className="mt-4 flex justify-center md:justify-start">
-                      <a href="https://www.dmca.com/Protection/Status.aspx?ID=09e0b491-e5cc-4c6e-a0b3-ad020e5bed4b" title="DMCA.com Protection Status" className="dmca-badge" rel="nofollow noopener noreferrer" target="_blank">
-                        <img src="https://images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=09e0b491-e5cc-4c6e-a0b3-ad020e5bed4b" alt="DMCA.com Protection Status" width={135} height={28} />
-                      </a>
-                    </div>
                   </div>
                   <div className="flex items-center space-x-4 text-xs text-gray-400">
                     <span className="flex items-center">

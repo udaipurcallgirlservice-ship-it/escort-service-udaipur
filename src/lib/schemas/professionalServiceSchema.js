@@ -159,10 +159,6 @@ export const createProfessionalServiceSchema = (siteUrl, pageDescription, keywor
       "name": "Call for Escort Service"
     }
   ],
-  "sameAs": [
-    "https://facebook.com/escortserviceudaipur",
-    "https://instagram.com/escortserviceudaipur"
-  ],
   "founder": {
     "@type": "Person",
     "name": "Escort Service Udaipur Team"

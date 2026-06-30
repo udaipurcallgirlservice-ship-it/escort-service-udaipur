@@ -5,9 +5,8 @@ export const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'Escort Service Udaipur',
-  url: siteUrl,
+  url: `${siteUrl}/`,
   logo: logoUrl,
-  sameAs: ['https://facebook.com/escortserviceudaipur', 'https://instagram.com/escortserviceudaipur'],
   contactPoint: {
     '@type': 'ContactPoint',
     telephone: '+91-8000253680',
@@ -21,7 +20,7 @@ export const websiteSchema = {
   '@type': 'WebSite',
   '@id': `${siteUrl}/#website`,
   name: 'Escort Service Udaipur',
-  url: siteUrl,
+  url: `${siteUrl}/`,
 };
 
 export const localBusinessSchema = {
@@ -30,7 +29,7 @@ export const localBusinessSchema = {
   '@id': `${siteUrl}/#localbusiness`,
   name: 'Escort Service Udaipur',
   image: logoUrl,
-  url: siteUrl,
+  url: `${siteUrl}/`,
   telephone: '+91-8000253680',
   priceRange: '$$$',
   address: {

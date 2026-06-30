@@ -4,7 +4,7 @@ import { getAllBlogPosts } from '../lib/blog';
 const baseUrl = 'https://escortserviceudaipur.com';
 
 const staticPaths = [
-  ['', 'weekly', 1.0, ['/assets/udaipur-escort-service.jpg', '/assets/premium-escort-service-udaipur.jpg']],
+  ['/', 'weekly', 1.0, ['/assets/udaipur-escort-service.jpg', '/assets/premium-escort-service-udaipur.jpg']],
   ['/about', 'monthly', 0.8, ['/assets/professional-udaipur-escorts.jpg']],
   ['/services', 'weekly', 0.9, ['/assets/exclusive-escort-service-udaipur.jpg']],
   ['/enhancements', 'monthly', 0.7, ['/assets/luxury-escort-service-udaipur.jpg']],
@@ -26,7 +26,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
 
   const staticPages = staticPaths.map(([path, changeFrequency, priority, images]) => ({
-    url: `${baseUrl}${path}`,
+    url: path === '/' ? `${baseUrl}/` : `${baseUrl}${path}`,
     lastModified: now,
     changeFrequency,
     priority,
