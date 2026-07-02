@@ -42,7 +42,7 @@ const AboutPage = ({ siteUrl }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-display font-normal text-gray-900">
-              About <span className="gradient-text">Udaipur's Premier Escort Service</span>
+              Udaipur Escort Service | <span className="gradient-text">Trusted Local Companions</span>
             </h2>
             <p className="text-lg text-gray-600 mt-4 max-w-4xl mx-auto leading-relaxed">
               Welcome to Udaipur's premier <strong>escort service in Udaipur</strong>. As a trusted local agency, we connect you with verified <strong>Udaipur call girl</strong> partners and premium <strong>call girl in Udaipur near me</strong> companions. Our professional <strong>Udaipur call girl service</strong> is built on trust, providing unmatched <strong>private call girl Udaipur</strong> and <strong>independent call girl Udaipur</strong> profiles with 100% Cash on Delivery support. Contact us at +91-8000253680 for booking.

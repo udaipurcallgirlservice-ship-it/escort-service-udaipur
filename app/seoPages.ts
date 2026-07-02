@@ -42,7 +42,7 @@ export const seoPages = {
     keywords: ['about escort service udaipur', 'trusted escort agency udaipur'],
   }),
   services: pageMetadata({
-    title: 'VIP Escort Services Udaipur | Call Girls from ₹2999',
+    title: 'Udaipur Escort Services | Call Girls from ₹2999',
     description:
       'Book premium escort services in Udaipur. Elite VIP models, Russian call girls, housewives & independent companions from Rs.2999. COD and 24/7 support.',
     path: '/services',
@@ -126,7 +126,7 @@ export const seoPages = {
     keywords: ['escort service udaipur terms'],
   }),
   russian: pageMetadata({
-    title: 'Russian Escorts Udaipur | Breathtaking Call Girls',
+    title: 'Russian Escorts Udaipur | Hot Escort in Udaipur from ₹15000',
     description:
       'Exotic Russian escorts in Udaipur offering sophisticated companionship from Rs.15000. Verified Russian call girls available 24x7. Book now.',
     path: '/escorts/russian',
@@ -138,7 +138,7 @@ export const seoPages = {
     ],
   }),
   vip: pageMetadata({
-    title: '#1 VIP Escorts Udaipur | Luxury Call Girls',
+    title: 'VIP Escorts Udaipur | Elite Udaipur Escort from ₹10000',
     description:
       'VIP Escorts Udaipur provide high-class luxury companionship from Rs.10000. Elite VIP call girls for corporate dinners, travel & private meets.',
     path: '/escorts/vip',
@@ -181,9 +181,9 @@ export const seoPages = {
     ],
   }),
   udaipurLocation: pageMetadata({
-    title: 'Escort Service in Udaipur | Verified Call Girls 24x7',
+    title: 'Udaipur Escort Service | Premium Udaipur Escorts 24x7',
     description:
-      'Local escort service in Udaipur connecting you with call girls from Rs.2999. Premium, VIP, Russian & independent escorts in all lake zones.',
+      'Udaipur Escort Service: Book verified Udaipur escorts & call girls from ₹2999. Elite VIP companions, 24x7 outcalls, and COD. WhatsApp +918000253680.',
     path: '/escort-service-in-udaipur',
     keywords: [
       'escort service in udaipur',

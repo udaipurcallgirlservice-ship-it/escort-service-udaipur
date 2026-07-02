@@ -30,7 +30,7 @@ const HomeContentSection = () => {
               Premium Companionship
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-normal text-gray-900 leading-tight">
-              The Ultimate Hub for <span className="gradient-text">Call Girl Udaipur</span> Services
+              Udaipur Escort Service | Premium <span className="gradient-text">Call Girl Udaipur</span> Agency
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               Welcome to the leading agency for high-end adult entertainment, where booking a gorgeous <strong>call girl Udaipur</strong> is an effortless, secure, and delightful experience. We pride ourselves on providing the finest <strong>Udaipur call girl</strong> database in Rajasthan. Our platform connects refined gentlemen with verified, polite, and captivating <strong>Udaipur escorts</strong> who are ready to make your visits to the City of Lakes truly memorable.
