@@ -58,7 +58,7 @@ const RatesTableSection = () => {
             Udaipur Escort & Call Girl <span className="gradient-text">Tariff Rates</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Get premium companionship services at competitive rates. 100% genuine profiles, cash on delivery (COD) payment, and complete discretion.
+            Check the tariff for our elite <strong>Udaipur call girl service</strong> starting from ₹2999. Book our <strong>VIP call girl Udaipur</strong>, <strong>model call girl in Udaipur</strong>, or <strong>independent call girl Udaipur</strong> profiles with transparent rates and 100% Cash on Delivery. Reach out to our <strong>escort service Udaipur contact</strong> number +91-8000253680 for instant bookings.
           </p>
         </motion.div>
 

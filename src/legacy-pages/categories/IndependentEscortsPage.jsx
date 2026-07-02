@@ -80,7 +80,7 @@ const IndependentEscortsPage = ({ siteUrl }) => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-gray-200 leading-relaxed mb-8"
           >
-            Discover verified and professional independent call girls in Udaipur. Our independent escorts offer a personalized, flexible, and genuine companionship experience.
+            Discover verified and professional independent call girls. Book a premium <strong>independent call girl Udaipur</strong> companion through our trusted <strong>escort service Udaipur</strong> today.
           </motion.p>
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
@@ -172,15 +172,15 @@ const IndependentEscortsPage = ({ siteUrl }) => {
             </div>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Our independent escorts in Udaipur, featured by {siteName}, offer a distinct and personalized approach to companionship. These call girls are self-managed but verified by our agency, ensuring you receive a professional, flexible, and genuine service. They are perfect for those who value authenticity and a direct connection.
+                Our independent escorts featured by our agency offer a distinct and personalized approach to companionship. Selecting a verified <strong>independent call girl Udaipur</strong> partner ensures a professional, flexible, and genuine service for your hotel stay.
               </p>
               <ul className="space-y-3">
-                <li className="flex items-center text-gray-700"><Shield className="w-5 h-5 mr-3 text-pink-500" />Discreet and Secure Escort Bookings</li>
+                <li className="flex items-center text-gray-700"><Shield className="w-5 h-5 mr-3 text-pink-500" />Discreet and Secure Escort Bookings via official <strong>escort service Udaipur contact</strong></li>
                 <li className="flex items-center text-gray-700"><UserCheck className="w-5 h-5 mr-3 text-pink-500" />Verified and Professional Independent Call Girls</li>
                 <li className="flex items-center text-gray-700"><Sparkles className="w-5 h-5 mr-3 text-pink-500" />Personalized and Flexible Escort Experiences</li>
               </ul>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Connect with an authentic independent escort in Udaipur. Check out our <Link to="/gallery" className="text-pink-600 hover:underline">gallery</Link> or <Link to="/contact" className="text-pink-600 hover:underline">get in touch</Link> for assistance.
+                Connect with an authentic companion from our <strong>Udaipur call girl service</strong> database today. Check out our verified <Link to="/gallery" className="text-pink-600 hover:underline">gallery</Link> or submit a <strong>Udaipur call girl enquiry</strong> for fast booking details.
               </p>
             </div>
           </div>

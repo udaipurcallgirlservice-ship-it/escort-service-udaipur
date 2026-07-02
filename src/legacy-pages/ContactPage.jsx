@@ -15,7 +15,7 @@ const ContactPage = ({ siteUrl }) => {
   const pageUrl = `${siteUrl}${location.pathname}`;
   const pageTitle = "Contact Us | Book Udaipur Escorts & Call Girls 24/7";
   const pageDescription = "Ready to book an elite escort in Udaipur? Contact us 24/7 via Call or WhatsApp for fast, confidential booking of our verified, high-class call girls.";
-  const keywords = "contact Udaipur escorts, hire call girls Udaipur, book escort Udaipur, WhatsApp escorts Udaipur, 24/7 escort booking, Escort Service Udaipur, call girl, escort";
+  const keywords = "contact Udaipur escorts, hire call girls Udaipur, book escort Udaipur, WhatsApp escorts Udaipur, 24/7 escort booking, Escort Service Udaipur, call girl, escort, call girl Udaipur, Udaipur call girl, call girl Udaipur contact number, Udaipur call girl with number, call girl in Udaipur near me, escort service Udaipur contact, Udaipur call girl service, call girl Udaipur booking, Udaipur call girl enquiry, escort service Udaipur support, call girl in Udaipur contact";
   const heroImage = "/assets/hot-udaipur-call-girl.jpg";
 
   const breadcrumbSchema = createBreadcrumbSchema([
@@ -57,7 +57,7 @@ const ContactPage = ({ siteUrl }) => {
               Contact <span className="gradient-text">Udaipur's Premier Escort Service</span>
             </h2>
             <p className="text-lg text-gray-600 mt-4 max-w-4xl mx-auto leading-relaxed">
-              We're available 24/7 to assist you with booking the perfect escort companion in Udaipur. Our professional team is dedicated to providing exceptional customer service and ensuring your complete satisfaction. Whether you have questions about our services, need assistance with booking, or require special arrangements, we're here to help make your experience unforgettable.
+              We're available 24/7 to assist you in finding a verified <strong>call girl Udaipur</strong> companion. Contact our active <strong>escort service Udaipur support</strong> team via call or WhatsApp. If you are seeking a quick <strong>call girl in Udaipur contact</strong> or want to submit a <strong>Udaipur call girl enquiry</strong>, our managers are online to help you coordinate. Use our official <strong>Udaipur call girl contact number</strong> +91-8000253680 for safe, direct bookings with Cash on Delivery.
             </p>
           </div>
 

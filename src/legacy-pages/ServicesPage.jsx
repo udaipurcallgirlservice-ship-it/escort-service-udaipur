@@ -14,7 +14,7 @@ const ServicesPage = ({ siteUrl }) => {
   const pageUrl = `${siteUrl}${location.pathname}`;
   const pageTitle = "Udaipur Escort Services | Premium Call Girl Experiences";
   const pageDescription = "Explore our premium escort services in Udaipur. From dinner dates to travel companions, our elite call girls provide unforgettable experiences. Book today.";
-  const keywords = "Udaipur escort services list, call girl services, dinner date escorts, travel companions Udaipur, event escorts Udaipur, premium escort packages, Escort Service Udaipur, call girl, escort";
+  const keywords = "Udaipur escort services list, call girl services, dinner date escorts, travel companions Udaipur, event escorts Udaipur, premium escort packages, Escort Service Udaipur, call girl, escort, call girl Udaipur, Udaipur call girl, VIP call girl Udaipur, model call girl in Udaipur, premium escort service Udaipur";
   const heroImage = "/assets/exclusive-escort-service-udaipur.jpg";
 
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -90,7 +90,7 @@ const ServicesPage = ({ siteUrl }) => {
       />
       <PageHero 
         title={<>Our Premium <span className="gradient-text">Services</span></>}
-        subtitle="Discover our carefully curated selection of premium escort services, each designed to provide you with an unforgettable experience."
+        subtitle="Discover our verified Udaipur call girl service and premium escort service Udaipur packages, designed to provide elite companionship for all budgets."
         imageSrc={heroImage}
       />
 

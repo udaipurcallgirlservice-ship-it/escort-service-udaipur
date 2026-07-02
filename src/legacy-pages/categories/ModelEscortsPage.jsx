@@ -81,7 +81,7 @@ const ModelEscortsPage = ({ siteUrl }) => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-gray-200 leading-relaxed mb-8"
           >
-            Step into a world of glamour with our stunning model call girls in Udaipur. Our elite model escorts offer beauty, sophistication, and charisma for an unforgettable experience.
+            Step into a world of glamour with our stunning <strong>model call girl in Udaipur</strong> profiles. Our elite companions offer high-class beauty, elegance, and professional <strong>escort service Udaipur</strong> support.
           </motion.p>
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
@@ -173,15 +173,15 @@ const ModelEscortsPage = ({ siteUrl }) => {
             </div>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                At {siteName}, our model escorts in Udaipur represent the epitome of beauty, style, and sophistication. These call girls are not just visually stunning; they are also intelligent, articulate, and possess an undeniable charisma that lights up any room. Perfect for high-profile social gatherings, corporate events, or an exclusive private rendezvous.
+                At {siteName}, our model companions represent the peak of beauty, style, and sophistication. Booking a verified <strong>model call girl in Udaipur</strong> or a <strong>high profile Udaipur call girl</strong> ensures a truly glamorous companion who can accompany you to social heritage dinners.
               </p>
               <ul className="space-y-3">
-                <li className="flex items-center text-gray-700"><Shield className="w-5 h-5 mr-3 text-pink-500" />Strict Confidentiality and Discretion</li>
+                <li className="flex items-center text-gray-700"><Shield className="w-5 h-5 mr-3 text-pink-500" />Strict Confidentiality via official <strong>escort service Udaipur contact</strong></li>
                 <li className="flex items-center text-gray-700"><Camera className="w-5 h-5 mr-3 text-pink-500" />Photogenic and Verified Model Call Girls</li>
                 <li className="flex items-center text-gray-700"><Gem className="w-5 h-5 mr-3 text-pink-500" />Unforgettable Glamorous Escort Experiences</li>
               </ul>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Make a statement by choosing a model escort in Udaipur. Visit our <Link to="/gallery" className="text-pink-600 hover:underline">gallery</Link> for more or <Link to="/contact" className="text-pink-600 hover:underline">contact us</Link> to book.
+                Choose a stunning model companion from our <strong>Udaipur call girl service</strong> database today. Visit our verified <Link to="/gallery" className="text-pink-600 hover:underline">gallery</Link> or submit a quick <strong>Udaipur call girl enquiry</strong> to get active profiles.
               </p>
             </div>
           </div>

@@ -80,7 +80,7 @@ const RussianEscortsPage = ({ siteUrl }) => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-gray-200 leading-relaxed mb-8"
           >
-            Discover the allure of our elite Russian call girls in Udaipur. Experience unparalleled passion, beauty, and sophistication with our handpicked Russian escorts. Book your unforgettable encounter today.
+            Discover the allure of our elite Russian call girls, offering the finest <strong>escort service in Udaipur</strong>. Experience unparalleled beauty with our premium <strong>VIP call girl Udaipur</strong> and Russian companions.
           </motion.p>
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
@@ -172,15 +172,15 @@ const RussianEscortsPage = ({ siteUrl }) => {
             </div>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                At {siteName}, we pride ourselves on offering an exclusive selection of genuine Russian escorts in Udaipur. Our Russian call girls are known for their breathtaking beauty, charming personalities, and an innate ability to make you feel special. They are perfect companions for any occasion, whether it's an intimate evening or a high-profile social event.
+                At {siteName}, we pride ourselves on offering an exclusive selection of genuine Russian companions. Our <strong>Udaipur call girl service</strong> ensures that you can find a stunning <strong>premium call girl in Udaipur</strong> for any occasion, whether you need a lakeside date or a private hotel outcall.
               </p>
               <ul className="space-y-3">
-                <li className="flex items-center text-gray-700"><Shield className="w-5 h-5 mr-3 text-pink-500" />Absolute Discretion & Privacy Assured</li>
-                <li className="flex items-center text-gray-700"><Star className="w-5 h-5 mr-3 text-pink-500" />Verified, High-Class Russian Call Girls</li>
-                <li className="flex items-center text-gray-700"><Heart className="w-5 h-5 mr-3 text-pink-500" />Passionate and Unforgettable Experiences</li>
+                <li className="flex items-center text-gray-700"><Shield className="w-5 h-5 mr-3 text-pink-500" />Absolute Discretion via official <strong>escort service Udaipur contact</strong></li>
+                <li className="flex items-center text-gray-700"><Star className="w-5 h-5 mr-3 text-pink-500" />Verified, High-Class VIP and Russian Call Girls</li>
+                <li className="flex items-center text-gray-700"><Heart className="w-5 h-5 mr-3 text-pink-500" />Passionate Independent and Model Escorts</li>
               </ul>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Booking a Russian escort through our Udaipur service means choosing quality, reliability, and an enchanting experience. Explore our <Link to="/gallery" className="text-pink-600 hover:underline">gallery</Link> or <Link to="/contact" className="text-pink-600 hover:underline">contact us</Link> today.
+                Booking a companion through our <strong>escort service Udaipur</strong> means choosing quality, reliability, and security. Explore our <Link to="/gallery" className="text-pink-600 hover:underline">gallery</Link> or initiate a <strong>Udaipur call girl enquiry</strong> today.
               </p>
             </div>
           </div>

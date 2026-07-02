@@ -2,7 +2,7 @@ import ClientShell from '../src/next/ClientShell';
 import { seoPages } from './seoPages';
 import JsonLd from '../components/seo/JsonLd';
 import FAQJsonLd from '../components/seo/FAQJsonLd';
-import { breadcrumbSchema, localBusinessSchema, siteUrl, websiteSchema } from '../lib/schema';
+import { breadcrumbSchema, localBusinessSchema, siteUrl, websiteSchema, organizationSchema, ratingSchema } from '../lib/schema';
 import { homeFaqs } from '../lib/homeFaqs';
 
 export const metadata = seoPages.home;
@@ -26,6 +26,13 @@ export default function Page() {
     },
     websiteSchema,
     localBusinessSchema,
+    organizationSchema,
+    ratingSchema({
+      itemName: 'Udaipur Escort Services',
+      ratingValue: 4.9,
+      bestRating: 5,
+      ratingCount: 258,
+    }),
     breadcrumbSchema([{ name: 'Home', url: `${siteUrl}/` }]),
   ];
 

@@ -18,10 +18,7 @@ const siteUrl = 'https://escortserviceudaipur.com';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: {
-    default: 'Escort Service Udaipur | Call Girls from Rs.2999',
-    template: '%s - Escort Service Udaipur',
-  },
+  title: 'Escort Service Udaipur | Call Girls from Rs.2999',
   description:
     'Book Call Girls Udaipur & Udaipur Escorts from Rs.2999. Premium Escort Services, 24x7 Escort Service in Udaipur with Cash on Delivery, WhatsApp Booking.',
   keywords: [

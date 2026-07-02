@@ -80,7 +80,7 @@ const VipEscortsPage = ({ siteUrl }) => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-gray-200 leading-relaxed mb-8"
           >
-            Indulge in the pinnacle of luxury companionship with our elite VIP call girls in Udaipur. Experience sophistication, beauty, and unparalleled service with our exclusive VIP escorts.
+            Indulge in the pinnacle of luxury companionship with our elite <strong>VIP call girl Udaipur</strong> profiles. Experience premium beauty, discretion, and unparalleled service with our high-class <strong>Udaipur call girl</strong> partners.
           </motion.p>
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
@@ -172,15 +172,15 @@ const VipEscortsPage = ({ siteUrl }) => {
             </div>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Choosing a VIP escort from {siteName} in Udaipur means opting for an unparalleled level of luxury, discretion, and personalized service. Our VIP call girls are more than just beautiful; they are intelligent, articulate, and possess the poise to accompany you to any high-class event or provide engaging private companionship.
+                Choosing a companion from our premium <strong>escort service Udaipur</strong> agency means opting for the highest level of luxury, discretion, and personalized support. Our verified <strong>VIP call girl Udaipur</strong> partners are well-educated, well-spoken, and possess the elegance to accompany you to lakeside hotels or high-end dining ghats.
               </p>
               <ul className="space-y-3">
-                <li className="flex items-center text-gray-700"><Shield className="w-5 h-5 mr-3 text-pink-500" />Absolute Confidentiality for VIP Clients</li>
-                <li className="flex items-center text-gray-700"><Star className="w-5 h-5 mr-3 text-pink-500" />Handpicked, Verified Elite Call Girls</li>
-                <li className="flex items-center text-gray-700"><Crown className="w-5 h-5 mr-3 text-pink-500" />Tailored Experiences for Discerning Tastes</li>
+                <li className="flex items-center text-gray-700"><Shield className="w-5 h-5 mr-3 text-pink-500" />Absolute Secrecy via official <strong>escort service Udaipur contact</strong></li>
+                <li className="flex items-center text-gray-700"><Star className="w-5 h-5 mr-3 text-pink-500" />Handpicked, Verified <strong>Udaipur call girl service</strong> profiles</li>
+                <li className="flex items-center text-gray-700"><Crown className="w-5 h-5 mr-3 text-pink-500" />Tailored Girlfriend Experiences across luxury properties</li>
               </ul>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Elevate your experience with a VIP escort in Udaipur. Explore our exclusive <Link to="/gallery" className="text-pink-600 hover:underline">gallery</Link> or <Link to="/contact" className="text-pink-600 hover:underline">contact us</Link> for a bespoke booking.
+                Elevate your travel experience with a verified <strong>premium call girl in Udaipur</strong>. Explore our complete <Link to="/gallery" className="text-pink-600 hover:underline">gallery</Link> or submit a <strong>Udaipur call girl enquiry</strong> today.
               </p>
             </div>
           </div>

@@ -12,7 +12,7 @@ const AboutPage = ({ siteUrl }) => {
   const pageUrl = `${siteUrl}${location.pathname}`;
   const pageTitle = "About Our Udaipur Escort Agency | Trusted & Elite Escorts";
   const pageDescription = "Learn about Udaipur's top escort agency. We offer verified, high-profile call girls for luxury, passion, and complete discretion. Your trusted choice.";
-  const keywords = "Udaipur escort agency, trusted escorts Udaipur, verified call girls, high-profile escorts, luxury escorts Udaipur, Escort Service Udaipur, call girl, escort";
+  const keywords = "Udaipur escort agency, trusted escorts Udaipur, verified call girls, high-profile escorts, luxury escorts Udaipur, Escort Service Udaipur, call girl, escort, call girl Udaipur, Udaipur call girl, escort service Udaipur, premium call girl in Udaipur, private call girl Udaipur, independent call girl Udaipur";
   const heroImage = "/assets/professional-udaipur-escorts.jpg";
 
   const organizationSchema = createOrganizationSchema(siteUrl, pageDescription);
@@ -45,7 +45,7 @@ const AboutPage = ({ siteUrl }) => {
               About <span className="gradient-text">Udaipur's Premier Escort Service</span>
             </h2>
             <p className="text-lg text-gray-600 mt-4 max-w-4xl mx-auto leading-relaxed">
-              Established as Udaipur's most trusted and professional escort agency, we have been providing exceptional companionship services to discerning clients for over four years. Our commitment to excellence, discretion, and client satisfaction has made us the preferred choice for those seeking premium escort services in the City of Lakes. We specialize in connecting sophisticated gentlemen with beautiful, intelligent, and cultured call girls who embody elegance and charm.
+              Welcome to Udaipur's premier <strong>escort service in Udaipur</strong>. As a trusted local agency, we connect you with verified <strong>Udaipur call girl</strong> partners and premium <strong>call girl in Udaipur near me</strong> companions. Our professional <strong>Udaipur call girl service</strong> is built on trust, providing unmatched <strong>private call girl Udaipur</strong> and <strong>independent call girl Udaipur</strong> profiles with 100% Cash on Delivery support. Contact us at +91-8000253680 for booking.
             </p>
           </div>
 

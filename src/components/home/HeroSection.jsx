@@ -37,7 +37,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            Premium Escort Services in Udaipur | Call Girls Available from ₹2999
+            Udaipur Call Girl & Premium Escort Service Udaipur
           </motion.h1>
           
           <motion.p 
@@ -46,7 +46,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Book Call Girls Udaipur through our trusted Escort Service in Udaipur, with verified Udaipur Escorts including Independent Call Girls, VIP Escorts, Russian Escorts, College Girls and Housewife Escorts from ₹2999, plus Cash on Delivery, 24x7 Service and fast WhatsApp Booking.
+            Welcome to the premier Udaipur call girl service offering elite companionship and genuine escort service in Udaipur from ₹2999. Book verified VIP call girl Udaipur, model call girl in Udaipur, or independent call girl Udaipur partners with 100% Cash on Delivery. Contact us at our Udaipur call girl contact number +91-8000253680 for booking.
           </motion.p>
 
           <motion.div 
