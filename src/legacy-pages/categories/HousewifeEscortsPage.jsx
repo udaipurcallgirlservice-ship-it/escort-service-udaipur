@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import OptimizedImage from '@/components/ui/OptimizedImage.jsx';
 import MetaUpdater from '@/components/seo/MetaUpdater';
 import { Phone, MessageCircle, ArrowRight, Users, Shield, Heart } from 'lucide-react';
+import { createBreadcrumbSchema } from '@/lib/schemas';
 
 const HousewifeEscortsPage = ({ siteUrl }) => {
   const location = useLocation();
@@ -19,6 +20,11 @@ const HousewifeEscortsPage = ({ siteUrl }) => {
   const whatsappMessage = `Hello ${siteName}, I'm interested in your housewife escorts in Udaipur.`;
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
   const callLink = `tel:${whatsappNumber}`;
+
+  const breadcrumbSchema = createBreadcrumbSchema([
+    { name: "Home", item: siteUrl },
+    { name: "Housewife Escorts", item: pageUrl }
+  ]);
 
   const escortsData = [
     { name: 'Sunita', age: 32, image: "/assets/private-call-girls-udaipur.jpg", description: "Sunita, a mature and caring housewife escort in Udaipur, offers a warm and genuine companionship experience." },
@@ -57,7 +63,7 @@ const HousewifeEscortsPage = ({ siteUrl }) => {
         description={pageDescription}
         keywords={keywords}
         path={pageUrl}
-        schema={[schemaData]}
+        schema={[schemaData, breadcrumbSchema]}
         imageUrl={heroImage}
       />
       <section 

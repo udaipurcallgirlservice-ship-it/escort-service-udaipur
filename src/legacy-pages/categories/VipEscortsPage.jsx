@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import OptimizedImage from '@/components/ui/OptimizedImage.jsx';
 import MetaUpdater from '@/components/seo/MetaUpdater';
 import { Phone, MessageCircle, ArrowRight, Star, Shield, Crown } from 'lucide-react';
+import { createBreadcrumbSchema } from '@/lib/schemas';
 
 const VipEscortsPage = ({ siteUrl }) => {
   const location = useLocation();
@@ -19,6 +20,11 @@ const VipEscortsPage = ({ siteUrl }) => {
   const whatsappMessage = `Hello ${siteName}, I'm interested in your VIP escorts in Udaipur.`;
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
   const callLink = `tel:${whatsappNumber}`;
+
+  const breadcrumbSchema = createBreadcrumbSchema([
+    { name: "Home", item: siteUrl },
+    { name: "VIP Escorts", item: pageUrl }
+  ]);
 
   const escortsData = [
     { name: 'Isabelle', age: 26, image: "/assets/vip-escort-in-udaipur.jpg", description: "Isabelle, a top-tier VIP escort in Udaipur, offers luxury companionship for discerning gentlemen." },
@@ -57,7 +63,7 @@ const VipEscortsPage = ({ siteUrl }) => {
         description={pageDescription}
         keywords={keywords}
         path={pageUrl}
-        schema={[schemaData]}
+        schema={[schemaData, breadcrumbSchema]}
         imageUrl={heroImage}
       />
       <section 

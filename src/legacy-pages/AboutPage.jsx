@@ -34,14 +34,14 @@ const AboutPage = ({ siteUrl }) => {
       />
       <PageHero
         title={<>About <span className="gradient-text">Escort Service Udaipur</span></>}
-        subtitle="Your premier destination for sophisticated escort services and elite call girls in the City of Lakes. Setting the standard for luxury companionship since 2020."
+        subtitle="Your best choice for friendly companions and elite call girls in the City of Lakes. Providing luxury companionship since 2020."
         imageSrc={heroImage}
       />
 
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-display font-normal text-gray-900">
               About <span className="gradient-text">Udaipur's Premier Escort Service</span>
             </h2>
             <p className="text-lg text-gray-600 mt-4 max-w-4xl mx-auto leading-relaxed">
@@ -51,17 +51,17 @@ const AboutPage = ({ siteUrl }) => {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-6">Our Professional Standards</h2>
+              <h2 className="text-2xl font-normal text-gray-900 mb-6">Our Professional Standards</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                At Escort Service Udaipur, we maintain the highest professional standards in the adult entertainment industry. Every escort in our portfolio undergoes a comprehensive selection process that evaluates not only physical beauty but also intelligence, personality, and professionalism. We believe that true companionship extends beyond physical attraction to include meaningful conversation, cultural awareness, and emotional intelligence.
+                At Escort Service Udaipur, we maintain the highest quality standards in the adult entertainment industry. Every companion in our portfolio undergoes a thorough verification process that check physical beauty, intelligence, and politeness. We believe that true companionship extends beyond physical attraction to include clean conversations and friendly interactions.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Our escorts are educated, well-traveled, and capable of adapting to any social situation, whether it's a business dinner, cultural event, or private gathering. This versatility makes our call girls ideal companions for both local and international clients who expect nothing less than perfection in their escort experience.
+                Our escorts are polite, friendly, and capable of adapting to any social situation, whether it's a business dinner, cultural event, or private gathering. This versatility makes our call girls ideal partners for both local and international visitors who expect the best experience.
               </p>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-pink-500 rounded-full"></div>
-                  <span className="text-gray-700">Rigorous selection and verification process</span>
+                  <span className="text-gray-700">Thorough selection and profile verification</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-pink-500 rounded-full"></div>
@@ -87,18 +87,18 @@ const AboutPage = ({ siteUrl }) => {
           </div>
 
           <div className="bg-gradient-to-r from-pink-50 to-red-50 rounded-2xl p-8 lg:p-12 mb-16">
-            <h2 className="text-2xl lg:text-3xl font-display font-bold text-gray-900 mb-6 text-center">
+            <h2 className="text-2xl lg:text-3xl font-display font-normal text-gray-900 mb-6 text-center">
               Our Service Philosophy
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Client-Centric Approach</h3>
-                <p className="text-gray-600 mb-4 leading-relaxed">
-                  We understand that every client has unique preferences and requirements. Our personalized approach ensures that each escort experience is tailored to meet individual needs, whether you're seeking intellectual companionship, social partnership, or intimate connection. Our team takes time to understand your preferences and matches you with the most suitable call girl from our diverse portfolio.
-                </p>
+                  <h3 className="text-xl font-normal text-gray-900 mb-4">Client-Centric Approach</h3>
+                  <p className="text-gray-600 mb-4 leading-relaxed">
+                    We understand that every client has unique preferences. Our personalized approach ensures that each escort experience is tailored to meet individual needs, whether you're seeking social companionship or private meetings. Our team takes time to understand your choices and matches you with the most suitable call girl from our diverse database.
+                  </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Discretion and Privacy</h3>
+                <h3 className="text-xl font-normal text-gray-900 mb-4">Discretion and Privacy</h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">
                   Privacy and discretion form the cornerstone of our service philosophy. We implement strict confidentiality protocols to protect our clients' identities and personal information. All communications are handled through secure channels, and our escorts are trained to maintain the highest levels of discretion in all interactions, ensuring your privacy is never compromised.
                 </p>
@@ -117,7 +117,7 @@ const AboutPage = ({ siteUrl }) => {
               transition={{ duration: 0.8 }}
               className="space-y-6"
             >
-              <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
+              <h2 className="text-3xl md:text-4xl font-display font-normal text-gray-900">
                 Our <span className="gradient-text">Story</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
@@ -160,7 +160,7 @@ const AboutPage = ({ siteUrl }) => {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-4xl font-display font-normal text-gray-900 mb-6">
               Our <span className="gradient-text">Core Values</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -187,7 +187,7 @@ const AboutPage = ({ siteUrl }) => {
                   <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                     <Icon className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">{value.title}</h3>
+                  <h3 className="text-xl font-normal text-gray-900 mb-4">{value.title}</h3>
                   <p className="text-gray-600 leading-relaxed">{value.description}</p>
                 </motion.div>
               );
@@ -204,7 +204,7 @@ const AboutPage = ({ siteUrl }) => {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-4xl font-display font-normal text-gray-900 mb-6">
               Our <span className="gradient-text">Journey</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -231,7 +231,7 @@ const AboutPage = ({ siteUrl }) => {
                   <div className={`w-1/2 ${index % 2 === 0 ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
                     <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 card-hover">
                       <div className="text-2xl font-bold gradient-text mb-2">{item.year}</div>
-                      <h3 className="text-xl font-semibold text-gray-900 mb-3">{item.title}</h3>
+                      <h3 className="text-xl font-normal text-gray-900 mb-3">{item.title}</h3>
                       <p className="text-gray-600 leading-relaxed">{item.description}</p>
                     </div>
                   </div>
@@ -252,7 +252,7 @@ const AboutPage = ({ siteUrl }) => {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl font-display font-normal mb-6">
               Our Achievements in Escort Services
             </h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
@@ -309,7 +309,7 @@ const AboutPage = ({ siteUrl }) => {
               transition={{ duration: 0.8 }}
               className="space-y-6"
             >
-              <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
+              <h2 className="text-3xl md:text-4xl font-display font-normal text-gray-900">
                 Our <span className="gradient-text">Mission</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">

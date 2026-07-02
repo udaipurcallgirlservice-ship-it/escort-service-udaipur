@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import OptimizedImage from '@/components/ui/OptimizedImage.jsx';
 import MetaUpdater from '@/components/seo/MetaUpdater';
 import { Phone, MessageCircle, ArrowRight, UserCheck, Shield, Sparkles } from 'lucide-react';
+import { createBreadcrumbSchema } from '@/lib/schemas';
 
 const IndependentEscortsPage = ({ siteUrl }) => {
   const location = useLocation();
@@ -19,6 +20,11 @@ const IndependentEscortsPage = ({ siteUrl }) => {
   const whatsappMessage = `Hello ${siteName}, I'm interested in your independent escorts in Udaipur.`;
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
   const callLink = `tel:${whatsappNumber}`;
+
+  const breadcrumbSchema = createBreadcrumbSchema([
+    { name: "Home", item: siteUrl },
+    { name: "Independent Escorts", item: pageUrl }
+  ]);
 
   const escortsData = [
     { name: 'Meera', age: 27, image: "/assets/independent-call-girls-udaipur.jpg", description: "Meera is a charming independent escort in Udaipur, offering a personalized and genuine call girl experience." },
@@ -57,7 +63,7 @@ const IndependentEscortsPage = ({ siteUrl }) => {
         description={pageDescription}
         keywords={keywords}
         path={pageUrl}
-        schema={[schemaData]}
+        schema={[schemaData, breadcrumbSchema]}
         imageUrl={heroImage}
       />
       <section 

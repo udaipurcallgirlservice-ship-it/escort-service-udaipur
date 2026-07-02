@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import OptimizedImage from '@/components/ui/OptimizedImage.jsx';
 import MetaUpdater from '@/components/seo/MetaUpdater';
 import { Phone, MessageCircle, ArrowRight, Camera, Shield, Gem } from 'lucide-react';
+import { createBreadcrumbSchema } from '@/lib/schemas';
 
 const ModelEscortsPage = ({ siteUrl }) => {
   const location = useLocation();
@@ -19,6 +20,11 @@ const ModelEscortsPage = ({ siteUrl }) => {
   const whatsappMessage = `Hello ${siteName}, I'm interested in your model escorts in Udaipur.`;
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
   const callLink = `tel:${whatsappNumber}`;
+
+  const breadcrumbSchema = createBreadcrumbSchema([
+    { name: "Home", item: siteUrl },
+    { name: "Model Escorts", item: pageUrl }
+  ]);
 
   const escortsData = [
     { name: 'Ananya', age: 22, image: "/assets/model-escorts-in-udaipur.jpg", description: "Ananya, a stunning model escort in Udaipur, brings glamour and sophistication to every encounter." },
@@ -58,7 +64,7 @@ const ModelEscortsPage = ({ siteUrl }) => {
         description={pageDescription}
         keywords={keywords}
         path={pageUrl}
-        schema={[schemaData]}
+        schema={[schemaData, breadcrumbSchema]}
         imageUrl={heroImage}
       />
       <section 

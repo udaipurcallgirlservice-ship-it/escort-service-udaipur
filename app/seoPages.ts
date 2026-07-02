@@ -2,9 +2,9 @@ import { pageMetadata } from '../lib/seo';
 
 export const seoPages = {
   home: pageMetadata({
-    title: 'Escort Service Udaipur | Call Girls from Rs.2999',
+    title: '#1 Escort Service Udaipur | Call Girls from ₹2999',
     description:
-      'Book verified Udaipur call girl & premium escort service in Udaipur from Rs.2999. VIP models, Russian call girls & COD payment. WhatsApp +918000253680.',
+      'Book verified Udaipur call girl & premium escort service in Udaipur from ₹2999. VIP models, Russian call girls & COD. WhatsApp +918000253680.',
     path: '/',
     keywords: [
       'call girl Udaipur',
@@ -35,14 +35,14 @@ export const seoPages = {
     ],
   }),
   about: pageMetadata({
-    title: 'About Our Udaipur Escort Agency | Trusted Companions',
+    title: '#1 Udaipur Escort Agency | Verified Companions',
     description:
       'Learn about Udaipur\'s top adult companion agency. Verified premium call girls, strict privacy protocols, and 24/7 localized booking support.',
     path: '/about',
     keywords: ['about escort service udaipur', 'trusted escort agency udaipur'],
   }),
   services: pageMetadata({
-    title: 'Escort Services Udaipur | VIP & Model Call Girls',
+    title: 'VIP Escort Services Udaipur | Call Girls from ₹2999',
     description:
       'Book premium escort services in Udaipur. Elite VIP models, Russian call girls, housewives & independent companions from Rs.2999. COD and 24/7 support.',
     path: '/services',
@@ -55,7 +55,7 @@ export const seoPages = {
     ],
   }),
   enhancements: pageMetadata({
-    title: 'Premium Escort Enhancements in Udaipur | Customize Date',
+    title: 'Premium Escort Enhancements in Udaipur | 24x7 VIP',
     description:
       'Enhance your Udaipur escort experience with premium couples companionship, travel partners, and party escorts. Book custom adult experiences.',
     path: '/enhancements',
@@ -67,7 +67,7 @@ export const seoPages = {
     ],
   }),
   gallery: pageMetadata({
-    title: 'Udaipur Escorts Gallery | Verified Profiles & Real Photos',
+    title: 'Udaipur Escorts Gallery | 100% Verified Photos',
     description:
       'Browse our Udaipur escorts gallery featuring verified call girls profiles with real photos. VIP, Russian, and model companions available 24/7.',
     path: '/gallery',
@@ -91,7 +91,7 @@ export const seoPages = {
     ],
   }),
   blog: pageMetadata({
-    title: 'Escort Service Udaipur Blog | Booking & Discretion Tips',
+    title: 'Udaipur Escorts Blog | Booking Tips & Safety',
     description:
       'Read articles about booking verified companion profiles in Udaipur, safety advice, travel dating etiquette, and client confidentiality rules.',
     path: '/blog',
@@ -126,7 +126,7 @@ export const seoPages = {
     keywords: ['escort service udaipur terms'],
   }),
   russian: pageMetadata({
-    title: 'Russian Escorts Udaipur | Premium Russian Call Girls',
+    title: 'Russian Escorts Udaipur | Breathtaking Call Girls',
     description:
       'Exotic Russian escorts in Udaipur offering sophisticated companionship from Rs.15000. Verified Russian call girls available 24x7. Book now.',
     path: '/escorts/russian',
@@ -138,14 +138,14 @@ export const seoPages = {
     ],
   }),
   vip: pageMetadata({
-    title: 'VIP Escorts Udaipur | High-Class Luxury Companions',
+    title: '#1 VIP Escorts Udaipur | Luxury Call Girls',
     description:
       'VIP Escorts Udaipur provide high-class luxury companionship from Rs.10000. Elite VIP call girls for corporate dinners, travel & private meets.',
     path: '/escorts/vip',
     keywords: ['vip escorts udaipur', 'luxury escorts udaipur', 'high class call girls udaipur', 'elite escorts'],
   }),
   model: pageMetadata({
-    title: 'Model Escorts Udaipur | Pageant & Model Call Girls',
+    title: 'Model Escorts Udaipur | Elite Call Girls from ₹8000',
     description:
       'Model Escorts in Udaipur featuring fashion models & beauty winners from Rs.8000. Professional model call girls for events & dates. Book 24x7.',
     path: '/escorts/model',
@@ -157,7 +157,7 @@ export const seoPages = {
     ],
   }),
   housewife: pageMetadata({
-    title: 'Housewife Escorts Udaipur | Mature Discreet Call Girls',
+    title: 'Housewife Escorts Udaipur | Discreet Call Girls ₹4000',
     description:
       'Housewife escorts in Udaipur offer mature, discreet companionship from Rs.4000. Verified local housewife call girls for genuine private meets.',
     path: '/escorts/housewife',
@@ -169,7 +169,7 @@ export const seoPages = {
     ],
   }),
   independent: pageMetadata({
-    title: 'Independent Escorts Udaipur | Direct Booking Companions',
+    title: 'Independent Escorts Udaipur | Direct Bookings ₹3000',
     description:
       'Independent escorts in Udaipur offering direct call girl bookings from Rs.3000. Verified independent companions with flexible outcall options.',
     path: '/escorts/independent',
@@ -181,7 +181,7 @@ export const seoPages = {
     ],
   }),
   udaipurLocation: pageMetadata({
-    title: 'Escort Service in Udaipur | Verified Local Call Girls 24x7',
+    title: 'Escort Service in Udaipur | Verified Call Girls 24x7',
     description:
       'Local escort service in Udaipur connecting you with call girls from Rs.2999. Premium, VIP, Russian & independent escorts in all lake zones.',
     path: '/escort-service-in-udaipur',
