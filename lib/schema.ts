@@ -1,5 +1,5 @@
 export const siteUrl = 'https://escortserviceudaipur.com';
-const logoUrl = `${siteUrl}/logo.svg`;
+const logoUrl = `${siteUrl}/logo-192.png`;
 
 export const organizationSchema = {
   '@context': 'https://schema.org',
