@@ -29,7 +29,7 @@ const HomeContentSection = () => {
             <span className="text-pink-600 font-bold tracking-wider uppercase text-sm bg-pink-50 px-4 py-1.5 rounded-full inline-block">
               Premium Companionship
             </span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-gray-900 leading-tight">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-normal text-gray-900 leading-tight">
               The Ultimate Hub for <span className="gradient-text">Call Girl Udaipur</span> Services
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -78,7 +78,7 @@ const HomeContentSection = () => {
             <span className="text-pink-600 font-bold tracking-wider uppercase text-sm bg-pink-50 px-4 py-1.5 rounded-full inline-block">
               Why We Are #1
             </span>
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-display font-normal text-gray-900 leading-tight">
               Unmatched Elite <span className="gradient-text">Udaipur Call Girl Service</span> Standards
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -131,7 +131,7 @@ const HomeContentSection = () => {
             <span className="text-pink-600 font-bold tracking-wider uppercase text-sm bg-pink-50 px-4 py-1.5 rounded-full inline-block">
               Explore Roster
             </span>
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
+            <h2 className="text-3xl md:text-4xl font-display font-normal text-gray-900">
               Choose Your Dream <span className="gradient-text">Udaipur Escort Category</span>
             </h2>
             <p className="text-lg text-gray-600">
@@ -149,7 +149,7 @@ const HomeContentSection = () => {
                 <div className="w-12 h-12 bg-pink-100 rounded-2xl flex items-center justify-center text-pink-500">
                   <Star className="w-6 h-6" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">VIP Call Girls</h3>
+                <h3 className="text-2xl font-normal text-gray-900">VIP Call Girls</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   Book an elite <strong>VIP call girl Udaipur</strong> companion for high-profile meetings or private events. These companions are elegant, speak fluent English, and offer top-notch social conversations. They are the ideal choice for business travelers who want class and beauty.
                 </p>
@@ -168,7 +168,7 @@ const HomeContentSection = () => {
                 <div className="w-12 h-12 bg-pink-100 rounded-2xl flex items-center justify-center text-pink-500">
                   <Sparkles className="w-6 h-6" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Model Companions</h3>
+                <h3 className="text-2xl font-normal text-gray-900">Model Companions</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   Hire a stunning <strong>model call girl in Udaipur</strong> or choose a <strong>high profile Udaipur call girl</strong>. These companions represent the pinnacle of physical perfection and charm, coming from modeling, media, or fashion backgrounds to make your private party truly extraordinary.
                 </p>
@@ -187,7 +187,7 @@ const HomeContentSection = () => {
                 <div className="w-12 h-12 bg-pink-100 rounded-2xl flex items-center justify-center text-pink-500">
                   <Heart className="w-6 h-6" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Premium Escorts</h3>
+                <h3 className="text-2xl font-normal text-gray-900">Premium Escorts</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   Experience a customized date night with our top-tier <strong>premium escort service Udaipur</strong> package. Our beautiful companions offer deep connections, romantic dates at lake view cafes, and discrete companionship throughout your stay.
                 </p>
@@ -210,7 +210,7 @@ const HomeContentSection = () => {
             <span className="text-pink-600 font-bold tracking-wider uppercase text-sm bg-pink-50 px-4 py-1.5 rounded-full inline-block">
               Flexible Services
             </span>
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-display font-normal text-gray-900 leading-tight">
               Incall and Outcall <span className="gradient-text">Escort Service in Udaipur</span>
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -222,7 +222,7 @@ const HomeContentSection = () => {
             <div className="p-6 bg-pink-50/50 rounded-2xl border border-pink-100 flex items-start gap-4">
               <ShieldCheck className="w-8 h-8 text-pink-500 flex-shrink-0 mt-1" />
               <div>
-                <h4 className="font-bold text-gray-900 mb-1">Guaranteed Safety & Discretion</h4>
+                <h4 className="font-normal text-gray-900 mb-1">Guaranteed Safety & Discretion</h4>
                 <p className="text-sm text-gray-600">We implement strict confidentiality policies. No information regarding your booking, call details, or messages is shared or stored in any database.</p>
               </div>
             </div>
@@ -252,7 +252,7 @@ const HomeContentSection = () => {
             <span className="text-pink-600 font-bold tracking-wider uppercase text-sm bg-pink-50 px-4 py-1.5 rounded-full inline-block">
               Easy Booking
             </span>
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-display font-normal text-gray-900 leading-tight">
               Steps for <span className="gradient-text">Udaipur Call Girl Enquiry</span> & Booking
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -262,28 +262,28 @@ const HomeContentSection = () => {
               <li className="flex items-start">
                 <span className="w-7 h-7 bg-pink-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3 mt-0.5 flex-shrink-0">1</span>
                 <div>
-                  <h4 className="font-bold text-gray-900">Initiate a Call or Message</h4>
+                  <h4 className="font-normal text-gray-900">Initiate a Call or Message</h4>
                   <p className="text-sm text-gray-600">Connect with us using our official <strong>call girl Udaipur contact number</strong> or send a message to our <strong>escort service Udaipur contact</strong> desk via WhatsApp.</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="w-7 h-7 bg-pink-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3 mt-0.5 flex-shrink-0">2</span>
                 <div>
-                  <h4 className="font-bold text-gray-900">Make an Enquiry & Pick Profiles</h4>
+                  <h4 className="font-normal text-gray-900">Make an Enquiry & Pick Profiles</h4>
                   <p className="text-sm text-gray-600">Make a quick <strong>Udaipur call girl enquiry</strong>. Our booking managers will share real, uncensored profile photos of active companions matching your choices.</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="w-7 h-7 bg-pink-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3 mt-0.5 flex-shrink-0">3</span>
                 <div>
-                  <h4 className="font-bold text-gray-900">Confirm Your Booking Details</h4>
+                  <h4 className="font-normal text-gray-900">Confirm Your Booking Details</h4>
                   <p className="text-sm text-gray-600">Finalize your <strong>call girl Udaipur booking</strong> details, including date, time, duration, and hotel name or outcall coordinates with our team.</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="w-7 h-7 bg-pink-500 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3 mt-0.5 flex-shrink-0">4</span>
                 <div>
-                  <h4 className="font-bold text-gray-900">Enjoy Cash on Delivery Payment</h4>
+                  <h4 className="font-normal text-gray-900">Enjoy Cash on Delivery Payment</h4>
                   <p className="text-sm text-gray-600">Our companion arrives at your hotel room. Verify her and pay directly in cash. Our reliable <strong>escort service Udaipur support</strong> team is always online to help.</p>
                 </div>
               </li>
@@ -313,7 +313,7 @@ const HomeContentSection = () => {
           <div className="absolute inset-0 bg-pink-500/10 opacity-30 pointer-events-none"></div>
           <UserCheck className="w-16 h-16 text-pink-400 mx-auto" />
           <div className="space-y-4 max-w-3xl mx-auto">
-            <h3 className="text-3xl font-display font-bold">
+            <h3 className="text-3xl font-display font-normal">
               Looking for a Trusted <span className="text-pink-400">Call Girl in Udaipur Contact</span>?
             </h3>
             <p className="text-gray-300 leading-relaxed text-lg">

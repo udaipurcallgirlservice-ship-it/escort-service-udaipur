@@ -32,7 +32,7 @@ const HeroSection = () => {
           className="space-y-8"
         >
           <motion.h1 
-            className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white text-shadow"
+            className="text-4xl md:text-6xl lg:text-7xl font-display font-normal text-white text-shadow"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.2 }}

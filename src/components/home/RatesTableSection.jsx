@@ -54,7 +54,7 @@ const RatesTableSection = () => {
           <span className="text-pink-600 font-bold tracking-wider uppercase text-sm bg-pink-50 px-4 py-1.5 rounded-full inline-block mb-4">
             Transparent Pricing
           </span>
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-display font-normal text-gray-900 mb-6">
             Udaipur Escort & Call Girl <span className="gradient-text">Tariff Rates</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -112,7 +112,7 @@ const RatesTableSection = () => {
           <div className="flex items-start space-x-4 p-6 bg-pink-50/20 rounded-2xl border border-pink-100/50">
             <ShieldCheck className="w-8 h-8 text-pink-500 flex-shrink-0" />
             <div>
-              <h4 className="font-semibold text-gray-900 mb-1">100% Cash On Delivery</h4>
+              <h4 className="font-normal text-gray-900 mb-1">100% Cash On Delivery</h4>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Pay your companion directly in cash or online transfer at the start of your booking. No deposit traps.
               </p>
@@ -121,7 +121,7 @@ const RatesTableSection = () => {
           <div className="flex items-start space-x-4 p-6 bg-pink-50/20 rounded-2xl border border-pink-100/50">
             <MessageCircle className="w-8 h-8 text-pink-500 flex-shrink-0" />
             <div>
-              <h4 className="font-semibold text-gray-900 mb-1">WhatsApp Booking</h4>
+              <h4 className="font-normal text-gray-900 mb-1">WhatsApp Booking</h4>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Send us a direct message on WhatsApp with your favorite companion profile to get fast booking details.
               </p>
@@ -130,7 +130,7 @@ const RatesTableSection = () => {
           <div className="flex items-start space-x-4 p-6 bg-pink-50/20 rounded-2xl border border-pink-100/50">
             <Phone className="w-8 h-8 text-pink-500 flex-shrink-0" />
             <div>
-              <h4 className="font-semibold text-gray-900 mb-1">Discreet & Private</h4>
+              <h4 className="font-normal text-gray-900 mb-1">Discreet & Private</h4>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Your private information and dating itineraries are completely safe. We guarantee absolute discretion.
               </p>

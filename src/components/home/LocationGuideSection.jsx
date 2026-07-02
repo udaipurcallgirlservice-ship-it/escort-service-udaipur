@@ -47,7 +47,7 @@ const LocationGuideSection = () => {
           <span className="text-pink-600 font-bold tracking-wider uppercase text-sm bg-pink-50 px-4 py-1.5 rounded-full inline-block mb-4">
             Local Tourism Guide
           </span>
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-display font-normal text-gray-900 mb-6">
             Explore Udaipur with a <span className="gradient-text">Premium Companion</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -80,7 +80,7 @@ const LocationGuideSection = () => {
                     <MapPin className="w-4 h-4 mr-1.5" />
                     <span>{location.name}</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 group-hover:text-pink-600 transition-colors duration-300">
+                  <h3 className="text-2xl font-normal text-gray-900 group-hover:text-pink-600 transition-colors duration-300">
                     {location.name}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -106,7 +106,7 @@ const LocationGuideSection = () => {
               <Shield className="w-6 h-6" />
             </div>
             <div>
-              <h4 className="font-bold text-gray-900">Are you staying at a premium hotel or resort?</h4>
+              <h4 className="font-normal text-gray-900">Are you staying at a premium hotel or resort?</h4>
               <p className="text-sm text-gray-500">We offer swift and completely confidential hotel delivery to all areas of Udaipur.</p>
             </div>
           </div>

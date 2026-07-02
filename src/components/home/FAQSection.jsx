@@ -22,7 +22,7 @@ const FAQSection = () => {
           className="text-center mb-16"
         >
           <HelpCircle className="w-16 h-16 text-pink-500 mx-auto mb-4" />
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-display font-normal text-gray-900 mb-6">
             Frequently Asked Questions about <span className="gradient-text">Udaipur Escorts & Call Girls</span>
           </h2>
           <p className="text-xl text-gray-600">
@@ -43,7 +43,7 @@ const FAQSection = () => {
                 onClick={() => toggleFAQ(index)}
                 className="w-full flex justify-between items-center p-6 text-left focus:outline-none"
               >
-                <span className="text-lg font-semibold text-gray-800">{faq.question}</span>
+                <span className="text-lg font-normal text-gray-800">{faq.question}</span>
                 <ChevronDown
                   className={`w-6 h-6 text-pink-500 transition-transform duration-300 ${
                     openIndex === index ? 'transform rotate-180' : ''
