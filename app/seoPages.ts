@@ -2,9 +2,9 @@ import { pageMetadata } from '../lib/seo';
 
 export const seoPages = {
   home: pageMetadata({
-    title: '#1 Udaipur Call Girl | Escort Service from ₹2999',
+    title: '#1 Udaipur Call Girl | Escort Service Udaipur from ₹2999',
     description:
-      'Book verified Udaipur Call Girl & premium escort service in Udaipur from ₹2999. VIP models, Russian companions & COD. WhatsApp +918000253680.',
+      'Udaipur Call Girl | Escort Service Udaipur: Book verified premium companions in Udaipur from ₹2999. VIP models, Russian girls & COD. WhatsApp +918000253680.',
     path: '/',
     keywords: [
       'call girl Udaipur',
